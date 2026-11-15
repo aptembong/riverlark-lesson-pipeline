@@ -1,0 +1,37 @@
+{
+  "title": "Summer Storm",
+  "passage_text": "The afternoon sky is a bruise of purple and gray,\nand the heat sits on the city like a heavy wool blanket.\nThe trees hold their breath and wait.\n\nThen the wind arrives, a runner late for a race,\nrushing down the street and rattling every window.\nThunder grumbles low, like a grandfather clearing his throat\nbefore he tells his longest story.\n\nThe first drops tap the porch roof one by one,\nas careful as fingers on a piano.\nSoon the rain is a marching band,\ndrumming on cars and splashing in the gutters,\nplaying its loud song for anyone who will listen.\n\nI press my nose against the cool glass\nand count the seconds between flash and boom.\nMy little brother hides under a quilt,\na turtle tucked inside its shell.\n\nWhen the storm finally tiptoes away,\nthe street shines like a fresh new penny.\nThe trees shake out their wet green hair\nand the whole world smells like clean stone.\nThe sun peeks out from behind a cloud,\nshy as a kitten, and the birds begin to sing.",
+  "skill_instances": [
+    {
+      "quote": "The afternoon sky is a bruise of purple and gray",
+      "explanation": "Metaphor: the sky is compared to a bruise without like or as."
+    },
+    {
+      "quote": "the heat sits on the city like a heavy wool blanket",
+      "explanation": "Simile: heat is compared to a blanket using like."
+    },
+    {
+      "quote": "Thunder grumbles low, like a grandfather clearing his throat",
+      "explanation": "Personification and simile: thunder acts like a person."
+    },
+    {
+      "quote": "Soon the rain is a marching band",
+      "explanation": "Metaphor: the rain is called a marching band."
+    },
+    {
+      "quote": "The trees shake out their wet green hair",
+      "explanation": "Personification: trees act like people drying their hair."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "child speaker watching a storm with a younger brother"
+  },
+  "setting": "a city home during a summer storm",
+  "lesson_hooks": {
+    "hook_question": "What does a thunderstorm sound like to you?",
+    "i_do": "Model the simile about the heat and the blanket.",
+    "we_do": "Find a line where something that isn't human acts like a person.",
+    "you_do_question": "What is the rain compared to in stanza three?"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Thunderstorm Over the Plains",
+  "passage_text": "The sky is a gray blanket pulled over the town.\nThe wind whistles through the fence like a tired train.\nOur old oak tree shakes its arms and groans.\nEven the grass bends low to hide.\n\nThen thunder is a drum the clouds are playing.\nBoom, it rolls across the wide, flat fields.\nLightning dances on the edge of the world,\nquick as a cat that jumps and is gone.\n\nRain comes running down the street.\nIt taps on every window, asking to come in.\nThe gutters gulp and gurgle,\nhungry mouths that cannot drink enough.\n\nMy little brother hides under a quilt,\na turtle in a soft, warm shell.\nI sit by the window with my cocoa\nand count the seconds between flash and boom.\n\nAt last the storm grows sleepy.\nIt yawns one long, low rumble\nand tiptoes off toward Oklahoma.\nThe sun peeks out like a shy friend,\nand the puddles shine like coins.\n\nI step outside in my boots.\nThe air smells clean and new,\nlike the whole world just took a bath,\nand the oak tree stands up tall again.\nTomorrow the fields will be greener than green.",
+  "skill_instances": [
+    {
+      "quote": "The sky is a gray blanket pulled over the town.",
+      "explanation": "Metaphor: the sky is compared to a blanket without using like or as."
+    },
+    {
+      "quote": "The wind whistles through the fence like a tired train.",
+      "explanation": "Simile: the wind's sound is compared to a train using like."
+    },
+    {
+      "quote": "Our old oak tree shakes its arms and groans.",
+      "explanation": "Personification: the tree has arms and groans like a person."
+    },
+    {
+      "quote": "It taps on every window, asking to come in.",
+      "explanation": "Personification: the rain asks to come in like a visitor."
+    },
+    {
+      "quote": "The sun peeks out like a shy friend",
+      "explanation": "Simile: the sun is compared to a shy friend using like."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "child speaker watching a storm with a younger brother"
+  },
+  "setting": "a small town on the Texas plains",
+  "lesson_hooks": {
+    "hook_question": "What does a storm sound like to you?",
+    "i_do": "Model the metaphor 'The sky is a gray blanket' because it is the first image in the poem.",
+    "we_do": "Students explain the personification in 'Our old oak tree shakes its arms and groans.'",
+    "you_do_question": "In 'The sun peeks out like a shy friend,' what is the sun compared to?"
+  }
+}

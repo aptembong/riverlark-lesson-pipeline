@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riverlark Prompt Change Process</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Riverlark enablement pages: same tokens as the case study, Studio and video stage. One page per audience; a sub-nav joins the four. */
+
+:root{--river:#0E4D64;--sky:#5CC6D8;--coral:#F2765A;--mist:#F4F8FA;--ink:#12313D;--muted:#4E6873;--line:#D5E3E9;--card:#fff;
+--sky-soft:#E3F5F8;--coral-soft:#FDECE7;--green:#2E7D4F;--green-soft:#E3F2E8;--yellow:#9A6B00;--yellow-soft:#FBF1D6;--red:#B3261E;--red-soft:#FBE4E2;
+--font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--mist);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.55}
+a{color:var(--river)}
+h1,h2,h3,h4{margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(1.9rem,4vw,2.6rem);font-weight:800;letter-spacing:-.02em;color:var(--river)}
+h2{font-size:1.5rem;font-weight:800;color:var(--river)}
+h3{font-size:1.08rem;font-weight:700}
+h4{font-size:.98rem;font-weight:700}
+p{margin:0}
+:focus-visible{outline:3px solid var(--coral);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{background:var(--river);color:#fff}
+.bar{display:flex;align-items:center;gap:14px;padding:14px 0 8px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.brand svg{width:36px;height:36px}
+.wordmark{font-weight:700;font-size:1.05rem}.wordmark span{font-weight:500;opacity:.85}
+.tool{font-weight:700;padding-left:14px;border-left:1px solid rgba(255,255,255,.35)}
+.back{margin-left:auto;color:#fff;font-weight:600;font-size:.9rem}
+nav.sub{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:4px}
+nav.sub::-webkit-scrollbar{display:none}
+nav.sub a{color:#D6EEF3;text-decoration:none;font-weight:600;font-size:.9rem;padding:9px 14px;border-radius:10px 10px 0 0;white-space:nowrap}
+nav.sub a:hover{color:#fff;background:rgba(255,255,255,.08)}
+nav.sub a[aria-current="page"]{background:var(--mist);color:var(--river)}
+main.wrap{padding:34px 20px 64px}
+section.blk{margin-top:44px;display:flex;flex-direction:column;gap:16px}
+.hero{display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:1.08rem;max-width:72ch}
+.muted{color:var(--muted)}.small{font-size:.86rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.stack{display:flex;flex-direction:column;gap:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.pill.green{background:var(--green-soft);color:var(--green)}.pill.yellow{background:var(--yellow-soft);color:var(--yellow)}.pill.red{background:var(--red-soft);color:var(--red)}
+.pill.info{background:var(--sky-soft);color:var(--river)}.pill.real{background:var(--coral-soft);color:#9C3A21}.pill.illus{background:#EEF1F3;color:#4E5A61}
+.dot{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.stack>.pill,.lane>.pill,.st>.pill{align-self:flex-start}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.grid3,.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.grid2,.grid3,.grid4{grid-template-columns:1fr}}
+.lane{border-radius:16px;padding:18px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;gap:8px;border-top:6px solid var(--line)}
+.lane.green{border-top-color:var(--green)}.lane.yellow{border-top-color:#D9A400}.lane.red{border-top-color:var(--red)}.lane.info{border-top-color:var(--sky)}
+.lane .time{font-size:.84rem;font-weight:700;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:16px}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:#FAFCFD}
+tr:last-child td{border-bottom:0}
+td b{white-space:nowrap}
+ul.plain,ol.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.95rem;padding:10px 20px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;font-family:var(--font);background:none}
+.btn.primary{background:var(--coral);color:var(--ink)}.btn.ghost{color:var(--river);border-color:var(--river)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.callout{border-left:4px solid var(--sky);background:var(--sky-soft);border-radius:0 12px 12px 0;padding:14px 16px}
+.callout.coral{border-left-color:var(--coral);background:var(--coral-soft)}
+.example{background:#FAFCFD;border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:.94rem}
+.example b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-weight:600;font-size:.88rem}
+input[type=text],input[type=number],input[type=date],select,textarea{font:inherit;font-size:.94rem;padding:9px 12px;border:1px solid #B9CCD4;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+textarea{min-height:76px;resize:vertical}
+pre{margin:0;background:#0F2E3A;color:#DDEFF4;border-radius:14px;padding:16px;overflow:auto;font-size:.8rem;line-height:1.5;max-height:480px;white-space:pre-wrap}
+code{font-size:.88em;background:#EAF2F5;padding:1px 5px;border-radius:5px}
+pre code{background:none;padding:0}
+.view{display:none}.view.active{display:block}
+.viewtabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.viewtabs a{font-weight:700;font-size:.92rem;padding:8px 16px;border-radius:999px;text-decoration:none;border:2px solid var(--river);color:var(--river)}
+.viewtabs a[aria-current="page"]{background:var(--river);color:#fff}
+.num{font-variant-numeric:tabular-nums}
+footer.pg{border-top:1px solid var(--line);margin-top:56px;padding-top:22px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.next-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%}
+@media (max-width:760px){.next-grid{grid-template-columns:1fr}}
+.next-grid a{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.next-grid a span{display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.next-grid a b{color:var(--river)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+
+.steps4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.steps4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.steps4{grid-template-columns:1fr}}
+.st{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:8px;border-top:6px solid var(--sky)}
+.st .n{width:30px;height:30px;border-radius:50%;background:var(--river);color:#fff;font-weight:800;display:grid;place-items:center}
+.st dl{margin:0;display:grid;gap:4px;font-size:.88rem}.st dt{font-weight:700}.st dd{margin:0 0 4px;color:var(--muted)}
+.form{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+@media (max-width:900px){.form{grid-template-columns:1fr}}
+.fgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:560px){.fgrid{grid-template-columns:1fr}}
+.fgrid .wide{grid-column:1/-1}
+.barrow{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) 36px;gap:8px;align-items:center}
+.barrow button{font:inherit;border:1px solid var(--line);background:#fff;border-radius:8px;height:38px;cursor:pointer;color:var(--muted)}
+.sticky{position:sticky;top:12px;display:flex;flex-direction:column;gap:10px}
+.met{color:var(--green);font-weight:700}
+
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="bar">
+    <a class="brand" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1" aria-label="Riverlark case study"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#FFFFFF"/><path d="M9 34c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#5CC6D8" stroke-width="3" stroke-linecap="round"/><path d="M9 40c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#0E4D64" stroke-width="3" stroke-linecap="round"/><path d="M12 21c5-1 9 1 12 4 2-5 6-9 13-10-3 2-4 4-5 7 3 0 5 1 6 2-3 0-6 1-8 3-4 4-11 5-18-6z" fill="#0E4D64"/><circle cx="33.6" cy="18.6" r="1.1" fill="#FFFFFF"/><path d="M36.8 17.5l4-1.2-3.6 2.4z" fill="#F2765A"/></svg><span class="wordmark">riverlark <span>learning</span></span></a>
+    <span class="tool">Enablement</span>
+    <a class="back" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">← Back to case study</a>
+  </div>
+  <nav class="sub" aria-label="Enablement pages"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi">Reviewer guide</a><a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw">Onboarding + practice</a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV">Rollout plan</a><a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc" aria-current="page">Prompt change process</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="eyebrow">Enablement · For everyone who changes prompts</span>
+    <h1>Prompt change process</h1>
+    <p class="lede">No prompt reaches production without a written proposal, a test on the sample set, a recorded decision and a way back. The same steps apply to validator rules. Used once so far, for PR-2026-11-01.</p>
+    <div class="pills"><span class="pill green">Process in use</span><span class="pill real">Worked example is the real v2.0 → v2.1 change</span></div>
+  </div>
+  
+  <section class="blk" aria-labelledby="h-when" style="margin-top:28px">
+    <h2 id="h-when">When to open a change</h2>
+    <div class="grid2">
+      <div class="card stack"><span class="pill info">Open a change request</span>
+        <ul class="plain"><li>Fewer than 90% of reviewed passages in a batch are approved. Generation pauses until a change is approved.</li><li>The same send-back reason shows up three or more times in a week.</li><li>A band's first-pass green rate falls below its bar for a batch.</li><li>The monthly readability audit shows drift in a band.</li><li>A new grade band, state or subject is added.</li><li>The model version changes. A new model is a prompt change too.</li><li>A wrong-lane pattern points to a validator rule. Rule changes follow the same steps.</li></ul></div>
+      <div class="card stack"><span class="pill illus">Not a change request</span>
+        <ul class="plain"><li>One weak passage. Regenerate it with a note.</li><li>A one-off fix an editor can make with Approve with notes.</li><li>Anything that would change a rule to pass a batch already scored.</li></ul>
+        <p class="small muted">Anyone can ask for a change: writers, editors, the consultant or the Managing Editor. AI Workflow writes it up and runs the test.</p></div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-steps">
+    <h2 id="h-steps">Four steps</h2>
+    <div class="steps4">
+      <div class="st"><span class="n">1</span><h3>Propose</h3><dl><dt>Who</dt><dd>AI Workflow writes it, from anyone's request</dd><dt>Write down</dt><dd>What the last run showed, the likely cause, the exact change, what stays the same, and the approval bar</dd><dt>Done when</dt><dd>The bar is written before any test runs</dd></dl></div>
+      <div class="st"><span class="n">2</span><h3>Test</h3><dl><dt>Who</dt><dd>AI Workflow</dd><dt>How</dt><dd>Same sample briefs, same validator, fresh first drafts saved before scoring</dd><dt>Done when</dt><dd>A comparison report shows every check, old version against new, with no edits after scoring</dd></dl></div>
+      <div class="st"><span class="n">3</span><h3>Approve</h3><dl><dt>Who</dt><dd>Managing Editor, ELA</dd><dt>Choices</dt><dd>Approve, approve with conditions, or reject, judged against the bar from step 1</dd><dt>Done when</dt><dd>The decision, its date and any conditions are in the change log</dd></dl></div>
+      <div class="st"><span class="n">4</span><h3>Roll back</h3><dl><dt>Who</dt><dd>AI Workflow, on the Managing Editor's call</dd><dt>When</dt><dd>A production batch falls below the bar the change was approved on</dd><dt>How</dt><dd>Point the renderer at the old version. It never leaves the repo.</dd></dl></div>
+    </div>
+    <div class="card stack"><h3>Rules that keep the test honest</h3>
+      <div class="grid3">
+        <p class="muted"><b style="color:var(--ink)">The bar comes first.</b> It's written before the run, so a result can't move the goalposts.</p>
+        <p class="muted"><b style="color:var(--ink)">One change at a time.</b> A prompt and a validator rule never change in the same request, or you can't tell which one worked.</p>
+        <p class="muted"><b style="color:var(--ink)">Then fresh briefs.</b> A change designed from the sample set is confirmed on holdout briefs before production.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-form">
+    <h2 id="h-form">Change request form</h2>
+    <p class="lede">Fill this in and copy the entry into <code>prompts/passage_generation/CHANGELOG.md</code>. The preview updates as you type. Load the real example to see a finished one.</p>
+    <div class="form">
+      <div class="card stack">
+        <div class="btnrow"><button class="btn ghost" type="button" id="f-load">Load PR-2026-11-01 as an example</button><button class="btn ghost" type="button" id="f-clear">Clear</button></div>
+        <div class="fgrid">
+          <div class="field"><label for="f-id">Change ID</label><input id="f-id" type="text" placeholder="PR-YYYY-MM-NN"></div>
+          <div class="field"><label for="f-title">Short title</label><input id="f-title" type="text" placeholder="What the change does"></div>
+          <div class="field"><label for="f-by">Requested by</label><input id="f-by" type="text" placeholder="Name and role"></div>
+          <div class="field"><label for="f-date">Date</label><input id="f-date" type="date"></div>
+          <div class="field"><label for="f-from">Current version</label><input id="f-from" type="text" placeholder="v2.1"></div>
+          <div class="field"><label for="f-to">Proposed version</label><input id="f-to" type="text" placeholder="v2.2"></div>
+          <div class="field wide"><label for="f-saw">What the last run showed</label><textarea id="f-saw" placeholder="Numbers from the validator report, and where the misses cluster"></textarea></div>
+          <div class="field wide"><label for="f-cause">Likely cause</label><textarea id="f-cause" placeholder="What in the prompt (or rule) produces the miss"></textarea></div>
+          <div class="field wide"><label for="f-change">The exact change</label><textarea id="f-change" placeholder="One line per change"></textarea></div>
+          <div class="field wide"><label for="f-same">What stays the same</label><textarea id="f-same" placeholder="Schema, rules, representation guidance, validator..."></textarea></div>
+          <div class="field wide"><label for="f-test">Test set</label><input id="f-test" type="text" placeholder="Which briefs, which validator, how drafts are saved"></div>
+          <div class="field wide"><label>Approval bar, set before the run</label><div id="f-bars" class="stack" style="gap:8px"></div><div><button class="btn ghost" type="button" id="f-addbar" style="padding:6px 14px;font-size:.86rem">+ Add a bar</button></div></div>
+          <div class="field wide"><label for="f-rollback">Roll-back plan</label><input id="f-rollback" type="text" placeholder="Which version to point back to"></div>
+        </div>
+      </div>
+      <div class="sticky">
+        <pre id="f-out" tabindex="0" aria-label="Change log entry preview" aria-live="polite" style="max-height:640px"></pre>
+        <div class="btnrow"><button class="btn primary" type="button" id="f-copy">Copy change log entry</button><span class="small muted" id="f-msg"></span></div>
+        <p class="small muted">Steps 2 to 4 are added to the same entry after the test: the result against each bar, the decision and its date.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-ex">
+    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><h2 id="h-ex">Worked example: PR-2026-11-01</h2><span class="pill real">Real change, run Nov 2026</span></div>
+    <div class="grid2">
+      <div class="card stack"><h3>Proposal · v2.0 → v2.1</h3>
+        <p><b>What the last run showed.</b> <span class="muted">v2.0 on the 20 sample briefs: 8 green, 12 yellow, 0 red. Every yellow came from fit checks, not content or safety: 5 passages under the word range, 6 with sentences too long, 7 reading too hard and 1 too easy.</span></p>
+        <p><b>Likely cause.</b> <span class="muted">The prompt gave a range and nothing else, so drafts aimed at the bottom of it. It gave an average sentence length with no cap. A Lexile number alone doesn't tell the writer what to change.</span></p>
+        <div><b>The change.</b><ol class="plain muted" style="margin-top:4px"><li>A target word count and a paragraph plan, in place of a bare range.</li><li>A per-sentence cap (top of the range plus 8 words), with an instruction to split long sentences.</li><li>Vocabulary guidance by grade band, in place of a bare Lexile number.</li><li>A self-check on counts before returning.</li></ol></div>
+        <p><b>What stays the same.</b> <span class="muted">Output schema, content rules, representation guidance and the validator. No other file changes.</span></p></div>
+      <div class="stack">
+        <div class="tablewrap"><table><thead><tr><th scope="col">Bar, set before the run</th><th scope="col">Bar</th><th scope="col">Result</th></tr></thead><tbody><tr><td><b>Green lessons</b></td><td>At least 14 of 20</td><td class='met'>18 of 20 · met</td></tr><tr><td><b>Red lessons and representation flags</b></td><td>Stay at 0</td><td class='met'>0 and 0 · met</td></tr><tr><td><b>Schema and skill evidence</b></td><td>Stay at 20/20</td><td class='met'>20/20 and 20/20 · met</td></tr><tr><td><b>No regressions</b></td><td>None of the 8 v2.0 greens drops</td><td class='met'>All 8 stayed green · met</td></tr></tbody></table></div>
+        <div class="callout"><b>Decision, Nov 15, 2026: approved with conditions.</b> Approved for the next pilot batch. First, run v2.1 on fresh briefs it wasn't designed from. Second, open the next change to center readability, because v2.1 overcorrected and now reads slightly easy.</div>
+        <p class="small muted">The full before-and-after scores are on the case study's <a href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#evidence">Evidence</a> tab.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-log">
+    <h2 id="h-log">Change log</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col">ID</th><th scope="col">Change</th><th scope="col">Status</th><th scope="col">Date</th></tr></thead>
+      <tbody>
+        <tr><td><b>PR-2026-11-01</b></td><td>v2.0 → v2.1 · grade fit for grades 3-12</td><td><span class="pill green">Approved with conditions</span></td><td>Nov 15, 2026</td></tr>
+        <tr><td><b>Next</b></td><td>v2.1 → v2.2 · center readability, after the holdout run</td><td><span class="pill illus">Planned, not yet proposed</span></td><td>Dec 2026</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <footer class="pg">
+  <div class="next-grid"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi"><span>Enablement</span><b>Reviewer guide →</b></a><a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw"><span>Enablement</span><b>Onboarding + practice →</b></a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV"><span>Enablement</span><b>Rollout plan →</b></a></div>
+  <div class="btnrow" style="width:100%">
+    <a class="btn primary" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">Back to the case study</a>
+    <a class="btn ghost" href="https://claude.ai/artifact/7xML8iRSihrrK4vWzbYCqT">Open Lesson Studio</a>
+    <span class="muted small">Riverlark Learning is a fictional publisher. Texas, TEKS and STAAR are real. People and decisions marked illustrative are written to show how the process works.</span>
+  </div>
+</footer>
+
+</main>
+<script>
+/* hash views: show the view named in location.hash, else the first */
+(function(){
+  const views=[...document.querySelectorAll('.view')], tabs=[...document.querySelectorAll('.viewtabs a')];
+  if(!views.length) return;
+  function show(){
+    const h=(location.hash||'').slice(1); const v=views.find(x=>x.id===h)||views[0];
+    views.forEach(x=>x.classList.toggle('active',x===v));
+    tabs.forEach(a=>{ if(a.getAttribute('href')==='#'+v.id) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  }
+  window.addEventListener('hashchange',()=>{show();window.scrollTo(0,0)}); show();
+})();
+async function copyText(text, msgEl){
+  try{ await navigator.clipboard.writeText(text); if(msgEl) msgEl.textContent='Copied.'; }
+  catch(e){ if(msgEl) msgEl.textContent='Your browser blocked copying. Select the text in the box and copy it.'; }
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+const EX={"id": "PR-2026-11-01", "title": "Grade fit for grades 3-12", "by": "AI Workflow & Automation", "date": "2026-11-15", "from": "v2.0", "to": "v2.1", "saw": "v2.0 on the 20 sample briefs: 8 green, 12 yellow, 0 red. Every yellow came from fit checks, not content or safety: 5 passages under the word range, 6 with sentences too long, 7 reading too hard and 1 too easy.", "cause": "The prompt gave a range and nothing else, so drafts aimed at the bottom of it. It gave an average sentence length with no cap. A Lexile number alone doesn't tell the writer what to change.", "change": "1. A target word count and a paragraph plan, in place of a bare range.\n2. A per-sentence cap, with an instruction to split long sentences.\n3. Vocabulary guidance by grade band, in place of a bare Lexile number.\n4. A self-check on counts before returning.", "same": "Output schema, content rules, representation guidance and the validator. No other file changes.", "test": "The same 20 sample briefs, the same validate.py, fresh first drafts saved before scoring. No edits after scoring.", "bars": [["Green lessons", "At least 14 of 20"], ["Red lessons and representation flags", "Stay at 0"], ["Schema and skill evidence", "Stay at 20/20"], ["No regressions", "None of the 8 v2.0 greens drops"]], "rollback": "v2.0.md stays in the repo. Rolling back means pointing the renderer at v2.0. No other file changes."};
+
+const F=id=>document.getElementById('f-'+id);
+const FIELDS=['id','title','by','date','from','to','saw','cause','change','same','test','rollback'];
+let bars=[["",""]];
+function renderBars(){
+  F('bars').innerHTML=bars.map((b,i)=>`<div class="barrow"><input type="text" aria-label="Measure ${i+1}" data-bar="${i}" data-k="0" value="${esc(b[0])}" placeholder="Measure"><input type="text" aria-label="Bar ${i+1}" data-bar="${i}" data-k="1" value="${esc(b[1])}" placeholder="Bar"><button type="button" aria-label="Remove bar ${i+1}" data-rm="${i}">×</button></div>`).join('');
+}
+function v(k){return F(k).value.trim()}
+function entry(){
+  const ph=(s,p)=>s||`[${p}]`;
+  const change=v('change')?v('change').split('\n').map(l=>l.trim()).filter(Boolean).map(l=>/^(\d+\.|-)\s/.test(l)?l:'- '+l).join('\n'):'- [the exact change]';
+  const b=bars.filter(x=>x[0]||x[1]);
+  const table=b.length?b.map(x=>`| ${ph(x[0],'measure')} | ${ph(x[1],'bar')} | _pending_ |`).join('\n'):'| [measure] | [bar] | _pending_ |';
+  return `## ${ph(v('id'),'PR-YYYY-MM-NN')} · ${ph(v('from'),'current')} → ${ph(v('to'),'proposed')} · ${ph(v('title'),'short title')}
+
+**Requested by:** ${ph(v('by'),'name and role')} · **Date:** ${ph(v('date'),'YYYY-MM-DD')} · **Status:** Proposed
+
+### 1. Propose
+**What the last run showed.** ${ph(v('saw'),'numbers from the validator report')}
+
+**Likely cause.** ${ph(v('cause'),'what produces the miss')}
+
+**The change.**
+${change}
+
+**What stays the same.** ${ph(v('same'),'everything else')}
+
+**Approval bar (set before the run):**
+
+| Measure | Bar | Result |
+|---|---|---|
+${table}
+
+### 2. Test
+${ph(v('test'),'test set')}
+
+### 3. Approve
+_Decision, date and any conditions, by the Managing Editor, ELA._
+
+### 4. Roll back
+${ph(v('rollback'),'roll-back plan')}
+`;
+}
+function render(){F('out').textContent=entry();}
+document.querySelector('.form').addEventListener('input',e=>{
+  const t=e.target; if(t.dataset.bar!=null){bars[+t.dataset.bar][+t.dataset.k]=t.value;} render();
+});
+F('bars').addEventListener('click',e=>{const r=e.target.closest('[data-rm]'); if(!r) return; bars.splice(+r.dataset.rm,1); if(!bars.length) bars=[["",""]]; renderBars(); render();});
+F('addbar').addEventListener('click',()=>{bars.push(["",""]); renderBars(); render();});
+F('load').addEventListener('click',()=>{FIELDS.forEach(k=>F(k).value=EX[k==='from'?'from':k==='to'?'to':k]||''); bars=EX.bars.map(x=>x.slice()); renderBars(); render();});
+F('clear').addEventListener('click',()=>{FIELDS.forEach(k=>F(k).value=''); bars=[["",""]]; renderBars(); render();});
+F('copy').addEventListener('click',()=>copyText(entry(),F('msg')));
+renderBars(); render();
+</script>
+</body>
+</html>

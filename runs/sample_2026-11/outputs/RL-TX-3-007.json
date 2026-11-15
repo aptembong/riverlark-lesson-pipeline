@@ -1,0 +1,37 @@
+{
+  "title": "The Kite Contest",
+  "passage_text": "Mateo had waited all month for the neighborhood kite contest at Cedar Park. On Saturday morning, he carried his blue kite to the big field with his older sister, Lina.\n\nMateo ran as fast as he could, but the kite bumped along the grass. It would not rise. Other kites danced high above the trees, and Mateo felt his face grow hot. The contest would start in ten minutes, and his kite was still on the ground.\n\nLina pointed to the trees. \"Look at the leaves,\" she said. \"Which way is the wind blowing?\" Mateo watched the branches sway toward the pond. He turned around so the wind hit his back.\n\nThis time, Mateo let out the string slowly. A strong gust lifted the kite, and it climbed higher and higher. When the judges walked by, his blue kite was flying above the tallest oak.\n\nMateo did not win first place, but he earned a ribbon for the best launch. He decided to always check the wind first.",
+  "skill_instances": [
+    {
+      "quote": "Mateo had waited all month for the neighborhood kite contest at Cedar Park.",
+      "explanation": "The beginning sets up the event."
+    },
+    {
+      "quote": "It would not rise.",
+      "explanation": "This is the conflict: the kite won't fly."
+    },
+    {
+      "quote": "He turned around so the wind hit his back.",
+      "explanation": "Mateo tries a new plan, the turning point."
+    },
+    {
+      "quote": "A strong gust lifted the kite, and it climbed higher and higher.",
+      "explanation": "The plan works as events build."
+    },
+    {
+      "quote": "Mateo did not win first place, but he earned a ribbon for the best launch.",
+      "explanation": "This is the resolution."
+    }
+  ],
+  "protagonist": {
+    "name": "Mateo",
+    "notes": "third grader who solves his own problem after a hint"
+  },
+  "setting": "a city park on a windy Saturday",
+  "lesson_hooks": {
+    "hook_question": "Have you ever tried to fly a kite?",
+    "i_do": "Model the conflict: 'It would not rise.'",
+    "we_do": "Find the sentence where Mateo tries something new.",
+    "you_do_question": "How does the story end for Mateo?"
+  }
+}

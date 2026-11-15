@@ -1,0 +1,29 @@
+{
+  "title": "Mia's Kite",
+  "passage_text": "Mia has a kite. It is blue and yellow. The wind blows hard. The kite gets stuck in a tree! She cannot reach it. Mia is sad.\n\nMia thinks. She tugs the string slowly. Tug, tug, tug. The kite wiggles free. Down it floats into her hands. She smiles big. Mia runs to the hill. Her kite flies high again.",
+  "skill_instances": [
+    {
+      "quote": "The kite gets stuck in a tree!",
+      "explanation": "This is the problem. Mia's kite is stuck."
+    },
+    {
+      "quote": "She tugs the string slowly.",
+      "explanation": "Mia starts to fix the problem."
+    },
+    {
+      "quote": "The kite wiggles free.",
+      "explanation": "This is how the problem is solved."
+    }
+  ],
+  "protagonist": {
+    "name": "Mia",
+    "notes": "young girl flying a kite"
+  },
+  "setting": "a park with a hill",
+  "lesson_hooks": {
+    "hook_question": "What would you do if your toy got stuck?",
+    "i_do": "Model the problem first: 'The kite gets stuck in a tree!' It is where the trouble starts.",
+    "we_do": "Students find the sentence where Mia starts to fix it: 'She tugs the string slowly.'",
+    "you_do_question": "How does Mia get her kite back?"
+  }
+}

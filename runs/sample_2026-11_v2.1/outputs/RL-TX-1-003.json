@@ -1,0 +1,37 @@
+{
+  "title": "From Egg to Frog",
+  "passage_text": "A frog starts life as a tiny egg. First, a mother frog lays eggs in a pond. The eggs look like clear jelly with black dots.\n\nNext, a tadpole hatches from each egg. A tadpole has a long tail. It swims and eats small plants.\n\nThen the tadpole grows two back legs. After that, two front legs grow too. The tail gets shorter and shorter.\n\nLast, the young frog hops out of the water. Now it can live on land. Someday it will lay eggs too.",
+  "skill_instances": [
+    {
+      "quote": "First, a mother frog lays eggs in a pond.",
+      "explanation": "First tells us the first step."
+    },
+    {
+      "quote": "Next, a tadpole hatches from each egg.",
+      "explanation": "Next tells us what happens second."
+    },
+    {
+      "quote": "Then the tadpole grows two back legs.",
+      "explanation": "Then shows the next step in order."
+    },
+    {
+      "quote": "After that, two front legs grow too.",
+      "explanation": "After that moves us forward in time."
+    },
+    {
+      "quote": "Last, the young frog hops out of the water.",
+      "explanation": "Last tells us the final step."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "a pond",
+  "lesson_hooks": {
+    "hook_question": "How does a tiny egg become a frog?",
+    "i_do": "Model the signal word First, because it starts the order.",
+    "we_do": "Students find the word that comes after Next.",
+    "you_do_question": "What happens last in the frog's life cycle?"
+  }
+}

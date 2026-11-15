@@ -1,0 +1,37 @@
+{
+  "title": "Drip, Drop, the Garden Wakes",
+  "passage_text": "Drip, drop, the garden wakes.\nDrip, drop, the green grass grows.\nBees buzz by the big blue pot.\nDrip, drop, the garden wakes.\n\nSam and I dig in the dirt.\nWe plant six small seeds in a row.\nWorms wiggle, wiggle, wiggle down.\nDrip, drop, the garden wakes.\n\nRed roses rise up to the sun.\nTall, tall sunflowers nod hello.\nWe water, wait, and watch them grow.\nDrip, drop, the garden wakes.\n\nNight comes soft and slow.\nThe moon says, \"Rest now, seeds.\"\nTomorrow we will dig some more.\nDrip, drop, the garden wakes.",
+  "skill_instances": [
+    {
+      "quote": "Drip, drop, the garden wakes.",
+      "explanation": "This line repeats at the end of every stanza."
+    },
+    {
+      "quote": "Bees buzz by the big blue pot.",
+      "explanation": "Alliteration: bees, buzz, by, big and blue all start with b."
+    },
+    {
+      "quote": "Worms wiggle, wiggle, wiggle down.",
+      "explanation": "Wiggle repeats, and worms and wiggle both start with w."
+    },
+    {
+      "quote": "Red roses rise",
+      "explanation": "Alliteration: red, roses and rise all start with r."
+    },
+    {
+      "quote": "We water, wait, and watch them grow.",
+      "explanation": "Alliteration: water, wait and watch all start with w."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "child speaker gardening with a friend, Sam"
+  },
+  "setting": "a backyard garden on a rainy spring day",
+  "lesson_hooks": {
+    "hook_question": "What sounds does rain make in a garden?",
+    "i_do": "Model the repeated line 'Drip, drop, the garden wakes.' because it comes back four times.",
+    "we_do": "Students find the b sounds in 'Bees buzz by the big blue pot.'",
+    "you_do_question": "Which line repeats at the end of every stanza?"
+  }
+}

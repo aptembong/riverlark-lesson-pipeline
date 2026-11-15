@@ -1,0 +1,33 @@
+{
+  "title": "Should Our School Start Later?",
+  "passage_text": "Our school day begins at 7:35 in the morning, and many fifth graders arrive feeling tired and grumpy. As a member of the student council, I believe our school board should move the start time to 8:30 so that students can learn at their best.\n\nScientists who study sleep report that children between six and twelve years old need nine to twelve hours of sleep each night. A student who must wake up at 6:15 would need to fall asleep by 8:15 the night before to get even nine hours, which is hard for families with busy evenings.\n\nOur own school survey supports this idea. Last fall, 64 percent of fifth graders said they felt sleepy during their first class, and teachers reported that morning quizzes had lower scores than afternoon quizzes.\n\nSome parents worry that a later start would make it harder to get to work on time. That is a fair concern, so the council suggests opening the cafeteria at 7:30 for students who need to arrive early, with quiet reading and breakfast available.\n\nWhen students sleep enough, they listen better, remember more, and treat one another with more kindness. Please support a later start time at the next school board meeting.",
+  "skill_instances": [
+    {
+      "quote": "children between six and twelve years old need nine to twelve hours of sleep each night",
+      "explanation": "A fact from sleep scientists that supports the argument."
+    },
+    {
+      "quote": "64 percent of fifth graders said they felt sleepy during their first class",
+      "explanation": "A survey fact the writer uses for the argument."
+    },
+    {
+      "quote": "teachers reported that morning quizzes had lower scores than afternoon quizzes",
+      "explanation": "Another fact used to support a later start."
+    },
+    {
+      "quote": "Some parents worry that a later start would make it harder to get to work on time.",
+      "explanation": "A point against the argument that the writer addresses."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "fifth-grade student council member"
+  },
+  "setting": "an elementary school",
+  "lesson_hooks": {
+    "hook_question": "Do you feel ready to learn first thing in the morning?",
+    "i_do": "Model how the sleep fact supports the writer's argument.",
+    "we_do": "Find a fact that comes from the school survey.",
+    "you_do_question": "Which sentence gives a reason against a later start?"
+  }
+}

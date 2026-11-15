@@ -1,0 +1,37 @@
+{
+  "title": "Our School Should Start Composting",
+  "passage_text": "Every day, the cafeteria at Lakeview Middle School throws away bags of fruit peels, half-eaten sandwiches, and soggy salad. Our school should start a composting program, because turning food scraps into soil would cut our trash, save money, and give students a hands-on way to learn science.\n\nThe numbers make a strong case. During a one-week audit last October, our science club weighed the cafeteria trash and found that about 60 percent of it was food waste. According to the Environmental Protection Agency, food scraps that are buried in landfills break down without oxygen and release methane, a gas that traps heat in the atmosphere.\n\nComposting could also save the school money. The district pays a hauling company by the ton, so sending less trash to the landfill would lower that bill. A middle school in a nearby district reported cutting its trash pickups from five days a week to three after starting its own program.\n\nTeachers support the idea as well. Ms. Alvarez, who teaches seventh-grade science, told the club that a compost bin would let students measure temperature, track decomposition, and test soil in the school garden instead of just reading about these processes in a textbook.\n\nSome people suggest a simpler alternative: asking students to take less food so there is less to throw away. Reducing waste is a worthy goal, but students cannot control the portions that are served, and even careful eaters leave peels and cores behind. Others worry that compost bins will smell or attract pests. Well-managed bins with lids and the right mix of dry leaves rarely cause either problem.\n\nA composting program asks little of us and gives back a great deal. The school board should approve a one-semester pilot this spring.",
+  "skill_instances": [
+    {
+      "quote": "found that about 60 percent of it was food waste",
+      "explanation": "Statistical evidence from the club's own audit."
+    },
+    {
+      "quote": "According to the Environmental Protection Agency, food scraps that are buried in landfills break down without oxygen and release methane",
+      "explanation": "Evidence from an expert source."
+    },
+    {
+      "quote": "A middle school in a nearby district reported cutting its trash pickups from five days a week to three",
+      "explanation": "An example from another school."
+    },
+    {
+      "quote": "Ms. Alvarez, who teaches seventh-grade science, told the club",
+      "explanation": "Testimony from a teacher."
+    },
+    {
+      "quote": "Some people suggest a simpler alternative: asking students to take less food so there is less to throw away.",
+      "explanation": "The writer considers an alternative and explains why it falls short."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "seventh-grade science club writer"
+  },
+  "setting": "a middle school cafeteria",
+  "lesson_hooks": {
+    "hook_question": "Where does your school's cafeteria trash go?",
+    "i_do": "Model the statistic from the science club audit as one type of evidence.",
+    "we_do": "Find evidence that comes from an expert or official source.",
+    "you_do_question": "What alternative does the writer consider, and why is it rejected?"
+  }
+}

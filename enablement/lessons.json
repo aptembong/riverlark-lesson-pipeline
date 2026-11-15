@@ -1,0 +1,1741 @@
+[
+ {
+  "brief": {
+   "lesson_id": "RL-TX-K-001",
+   "grade": "K",
+   "band": "K-2",
+   "teks_code": "ELA.K.7.C",
+   "standard": "Describe the elements of plot development, including the main events, the problem, and the resolution for texts read aloud with adult assistance.",
+   "skill": "Problem and resolution",
+   "text_type": "narrative",
+   "lexile_min": "0",
+   "lexile_max": "200",
+   "words_min": "50",
+   "words_max": "75",
+   "sentence_len_min": "4",
+   "sentence_len_max": "6",
+   "instances_min": "2",
+   "instances_max": "3"
+  },
+  "fk_range": [
+   -3.0,
+   1.5
+  ],
+  "v20": {
+   "title": "The Lost Red Ball",
+   "words": 62,
+   "words_ok": true,
+   "avg_sentence_len": 4.4,
+   "sentence_ok": true,
+   "instances": 3,
+   "instances_ok": true,
+   "fk_grade": -1.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "Mia's Kite",
+   "words": 60,
+   "words_ok": true,
+   "avg_sentence_len": 4.3,
+   "sentence_ok": true,
+   "instances": 3,
+   "instances_ok": true,
+   "fk_grade": -0.9,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Mia's Kite",
+   "passage_text": "Mia has a kite. It is blue and yellow. The wind blows hard. The kite gets stuck in a tree! She cannot reach it. Mia is sad.\n\nMia thinks. She tugs the string slowly. Tug, tug, tug. The kite wiggles free. Down it floats into her hands. She smiles big. Mia runs to the hill. Her kite flies high again.",
+   "skill_instances": [
+    {
+     "quote": "The kite gets stuck in a tree!",
+     "explanation": "This is the problem. Mia's kite is stuck."
+    },
+    {
+     "quote": "She tugs the string slowly.",
+     "explanation": "Mia starts to fix the problem."
+    },
+    {
+     "quote": "The kite wiggles free.",
+     "explanation": "This is how the problem is solved."
+    }
+   ],
+   "protagonist": {
+    "name": "Mia",
+    "notes": "young girl flying a kite"
+   },
+   "setting": "a park with a hill",
+   "lesson_hooks": {
+    "hook_question": "What would you do if your toy got stuck?",
+    "i_do": "Model the problem first: 'The kite gets stuck in a tree!' It is where the trouble starts.",
+    "we_do": "Students find the sentence where Mia starts to fix it: 'She tugs the string slowly.'",
+    "you_do_question": "How does Mia get her kite back?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-1-002",
+   "grade": "1",
+   "band": "K-2",
+   "teks_code": "ELA.1.9.B",
+   "standard": "Discuss rhyme, rhythm, repetition, and alliteration in a variety of poems.",
+   "skill": "Repetition and alliteration",
+   "text_type": "poem",
+   "lexile_min": "0",
+   "lexile_max": "400",
+   "words_min": "75",
+   "words_max": "100",
+   "sentence_len_min": "6",
+   "sentence_len_max": "8",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   -2.0,
+   2.5
+  ],
+  "v20": {
+   "title": "Rain on the Roof",
+   "words": 71,
+   "words_ok": true,
+   "avg_sentence_len": 5.9,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 0.9,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "Drip, Drop, the Garden Wakes",
+   "words": 94,
+   "words_ok": true,
+   "avg_sentence_len": 5.9,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 0.9,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Drip, Drop, the Garden Wakes",
+   "passage_text": "Drip, drop, the garden wakes.\nDrip, drop, the green grass grows.\nBees buzz by the big blue pot.\nDrip, drop, the garden wakes.\n\nSam and I dig in the dirt.\nWe plant six small seeds in a row.\nWorms wiggle, wiggle, wiggle down.\nDrip, drop, the garden wakes.\n\nRed roses rise up to the sun.\nTall, tall sunflowers nod hello.\nWe water, wait, and watch them grow.\nDrip, drop, the garden wakes.\n\nNight comes soft and slow.\nThe moon says, \"Rest now, seeds.\"\nTomorrow we will dig some more.\nDrip, drop, the garden wakes.",
+   "skill_instances": [
+    {
+     "quote": "Drip, drop, the garden wakes.",
+     "explanation": "This line repeats at the end of every stanza."
+    },
+    {
+     "quote": "Bees buzz by the big blue pot.",
+     "explanation": "Alliteration: bees, buzz, by, big and blue all start with b."
+    },
+    {
+     "quote": "Worms wiggle, wiggle, wiggle down.",
+     "explanation": "Wiggle repeats, and worms and wiggle both start with w."
+    },
+    {
+     "quote": "Red roses rise",
+     "explanation": "Alliteration: red, roses and rise all start with r."
+    },
+    {
+     "quote": "We water, wait, and watch them grow.",
+     "explanation": "Alliteration: water, wait and watch all start with w."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "child speaker gardening with a friend, Sam"
+   },
+   "setting": "a backyard garden on a rainy spring day",
+   "lesson_hooks": {
+    "hook_question": "What sounds does rain make in a garden?",
+    "i_do": "Model the repeated line 'Drip, drop, the garden wakes.' because it comes back four times.",
+    "we_do": "Students find the b sounds in 'Bees buzz by the big blue pot.'",
+    "you_do_question": "Which line repeats at the end of every stanza?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-1-003",
+   "grade": "1",
+   "band": "K-2",
+   "teks_code": "ELA.1.9.D.iii",
+   "standard": "Organizational patterns such as chronological order and description with adult assistance.",
+   "skill": "Chronological order",
+   "text_type": "informational",
+   "lexile_min": "0",
+   "lexile_max": "400",
+   "words_min": "75",
+   "words_max": "100",
+   "sentence_len_min": "6",
+   "sentence_len_max": "8",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   -2.0,
+   2.5
+  ],
+  "v20": {
+   "title": "How a Bean Plant Grows",
+   "words": 71,
+   "words_ok": true,
+   "avg_sentence_len": 7.9,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 0.5,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "From Egg to Frog",
+   "words": 86,
+   "words_ok": true,
+   "avg_sentence_len": 7.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 0.2,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "From Egg to Frog",
+   "passage_text": "A frog starts life as a tiny egg. First, a mother frog lays eggs in a pond. The eggs look like clear jelly with black dots.\n\nNext, a tadpole hatches from each egg. A tadpole has a long tail. It swims and eats small plants.\n\nThen the tadpole grows two back legs. After that, two front legs grow too. The tail gets shorter and shorter.\n\nLast, the young frog hops out of the water. Now it can live on land. Someday it will lay eggs too.",
+   "skill_instances": [
+    {
+     "quote": "First, a mother frog lays eggs in a pond.",
+     "explanation": "First tells us the first step."
+    },
+    {
+     "quote": "Next, a tadpole hatches from each egg.",
+     "explanation": "Next tells us what happens second."
+    },
+    {
+     "quote": "Then the tadpole grows two back legs.",
+     "explanation": "Then shows the next step in order."
+    },
+    {
+     "quote": "After that, two front legs grow too.",
+     "explanation": "After that moves us forward in time."
+    },
+    {
+     "quote": "Last, the young frog hops out of the water.",
+     "explanation": "Last tells us the final step."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+   },
+   "setting": "a pond",
+   "lesson_hooks": {
+    "hook_question": "How does a tiny egg become a frog?",
+    "i_do": "Model the signal word First, because it starts the order.",
+    "we_do": "Students find the word that comes after Next.",
+    "you_do_question": "What happens last in the frog's life cycle?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-2-004",
+   "grade": "2",
+   "band": "K-2",
+   "teks_code": "ELA.2.9.D.iii",
+   "standard": "Organizational patterns such as chronological order and cause and effect stated explicitly.",
+   "skill": "Cause and effect (stated explicitly)",
+   "text_type": "informational",
+   "lexile_min": "200",
+   "lexile_max": "450",
+   "words_min": "100",
+   "words_max": "150",
+   "sentence_len_min": "8",
+   "sentence_len_max": "10",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   0.5,
+   3.5
+  ],
+  "v20": {
+   "title": "Why Bluebonnets Bloom in Spring",
+   "words": 104,
+   "words_ok": true,
+   "avg_sentence_len": 11.6,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 3.1,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "Why Puddles Disappear",
+   "words": 122,
+   "words_ok": true,
+   "avg_sentence_len": 8.1,
+   "sentence_ok": true,
+   "instances": 4,
+   "instances_ok": true,
+   "fk_grade": 1.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Why Puddles Disappear",
+   "passage_text": "After a rain, our playground is full of puddles. By lunch, many of them are gone. Where does the water go? It does not just sink into the ground.\n\nThe sun warms the puddle. Because the water gets warm, tiny bits of it rise into the air. This is called evaporation. You cannot see it happen, but it is always going on.\n\nWind helps too. When the wind blows across a puddle, the water dries faster. That is why puddles shrink quickly on windy days.\n\nShade does the opposite. A puddle under a tree stays cool, so it lasts much longer. Next time it rains, watch two puddles. One in the sun and one in the shade will dry at different speeds.",
+   "skill_instances": [
+    {
+     "quote": "Because the water gets warm, tiny bits of it rise into the air.",
+     "explanation": "Because tells the cause: warm water rises into the air."
+    },
+    {
+     "quote": "When the wind blows across a puddle, the water dries faster.",
+     "explanation": "The wind is the cause. Drying faster is the effect."
+    },
+    {
+     "quote": "That is why puddles shrink quickly on windy days.",
+     "explanation": "That is why points to an effect."
+    },
+    {
+     "quote": "A puddle under a tree stays cool, so it lasts much longer.",
+     "explanation": "So tells the effect of staying cool."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+   },
+   "setting": "a school playground after rain",
+   "lesson_hooks": {
+    "hook_question": "Where do puddles go after it rains?",
+    "i_do": "Model the signal word because in the sun sentence, since it names the cause.",
+    "we_do": "Students find the cause and effect in the wind sentence.",
+    "you_do_question": "Why does a puddle in the shade last longer?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-2-005",
+   "grade": "2",
+   "band": "K-2",
+   "teks_code": "ELA.2.9.E.ii",
+   "standard": "Distinguishing facts from opinion.",
+   "skill": "Fact and opinion",
+   "text_type": "persuasive",
+   "lexile_min": "200",
+   "lexile_max": "450",
+   "words_min": "100",
+   "words_max": "150",
+   "sentence_len_min": "8",
+   "sentence_len_max": "10",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   0.5,
+   3.5
+  ],
+  "v20": {
+   "title": "Our School Needs a Reading Garden",
+   "words": 104,
+   "words_ok": true,
+   "avg_sentence_len": 10.4,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 3.8,
+   "readability_ok": false,
+   "issues": [
+    "readability estimate: FK grade 3.8 (expected 0.5 to 3.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Let's Keep Our Class Fish",
+   "words": 122,
+   "words_ok": true,
+   "avg_sentence_len": 7.6,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 1.5,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Let's Keep Our Class Fish",
+   "passage_text": "Our class has a goldfish named Bubbles. Some people want to give him away. I think we should keep him.\n\nHere are some facts. Bubbles lives in a tank by the window. Bubbles is three years old. He eats one pinch of food each morning. Taking care of him takes about five minutes a day. Our class made a chart, and every student gets a turn.\n\nNow here is my opinion. Bubbles is the best part of our room. Watching him swim makes me feel calm. I think caring for him teaches us to be kind and careful.\n\nSome people say a fish is too much work. But the facts show it is only a few minutes. Please vote to keep Bubbles!",
+   "skill_instances": [
+    {
+     "quote": "He eats one pinch of food each morning.",
+     "explanation": "This is a fact. You can check it."
+    },
+    {
+     "quote": "Taking care of him takes about five minutes a day.",
+     "explanation": "This is a fact. You can time it."
+    },
+    {
+     "quote": "Bubbles is the best part of our room.",
+     "explanation": "This is an opinion. Not everyone may agree."
+    },
+    {
+     "quote": "Watching him swim makes me feel calm.",
+     "explanation": "This is an opinion about a feeling."
+    },
+    {
+     "quote": "I think caring for him teaches us to be kind and careful.",
+     "explanation": "I think tells us this is an opinion."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "second-grade student speaker"
+   },
+   "setting": "a second-grade classroom",
+   "lesson_hooks": {
+    "hook_question": "How can you tell a fact from an opinion?",
+    "i_do": "Model a fact first: 'He eats one pinch of food each morning.' It can be checked.",
+    "we_do": "Students sort 'Bubbles is the best part of our room.' as fact or opinion.",
+    "you_do_question": "Which sentence is a fact: 'Bubbles is three years old' or 'Bubbles is the best part of our room'?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-3-006",
+   "grade": "3",
+   "band": "3-5",
+   "teks_code": "ELA.3.9.D.iii",
+   "standard": "Organizational patterns such as cause and effect and problem and solution.",
+   "skill": "Problem and solution",
+   "text_type": "informational",
+   "lexile_min": "420",
+   "lexile_max": "650",
+   "words_min": "150",
+   "words_max": "200",
+   "sentence_len_min": "10",
+   "sentence_len_max": "12",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   1.5,
+   4.5
+  ],
+  "v20": {
+   "title": "Saving Water at Westfield Elementary",
+   "words": 170,
+   "words_ok": true,
+   "avg_sentence_len": 14.2,
+   "sentence_ok": false,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 6.5,
+   "readability_ok": false,
+   "issues": [
+    "sentence length: 14.2 avg (target 10-12 \u00b12)",
+    "readability estimate: FK grade 6.5 (expected 1.5 to 4.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "The Lunchroom Noise Problem",
+   "words": 165,
+   "words_ok": true,
+   "avg_sentence_len": 9.7,
+   "sentence_ok": true,
+   "instances": 4,
+   "instances_ok": true,
+   "fk_grade": 2.2,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "The Lunchroom Noise Problem",
+   "passage_text": "At Pecan Grove Elementary, the lunchroom used to be very loud. Two hundred students ate there at the same time. Kids had to shout to hear their friends. It was hard to think, too. Some students said the noise gave them headaches.\n\nThe fourth graders decided to solve the problem. First, they used a sound meter to measure the noise. A sound meter is a tool that shows how loud a room is. The meter showed that the room was loudest when trays banged on the tables.\n\nThe students came up with three ideas. They put soft felt pads under every tray. They hung cloth banners on the bare walls, because cloth soaks up sound. They also made a hand signal that means \"use quiet voices.\" Each idea cost very little money.\n\nAfter two weeks, they measured again. The room was much quieter. The noise meter showed the sound had dropped by almost half. Now friends can talk without shouting, and lunch feels calm again.",
+   "skill_instances": [
+    {
+     "quote": "Kids had to shout to hear their friends.",
+     "explanation": "This shows the problem: the room was too loud."
+    },
+    {
+     "quote": "They put soft felt pads under every tray.",
+     "explanation": "This is one solution to the banging trays."
+    },
+    {
+     "quote": "They hung cloth banners on the bare walls, because cloth soaks up sound.",
+     "explanation": "This is a second solution, and it tells why it works."
+    },
+    {
+     "quote": "The room was much quieter.",
+     "explanation": "This shows the solutions worked."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "informational text about a group of fourth graders"
+   },
+   "setting": "an elementary school lunchroom in Texas",
+   "lesson_hooks": {
+    "hook_question": "What makes a room too loud?",
+    "i_do": "Model the problem sentence: 'Kids had to shout to hear their friends.'",
+    "we_do": "Students find one solution in the third paragraph.",
+    "you_do_question": "What did the students use to measure the noise?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-3-007",
+   "grade": "3",
+   "band": "3-5",
+   "teks_code": "ELA.3.8.C",
+   "standard": "Analyze plot elements, including the sequence of events, the conflict, and the resolution.",
+   "skill": "Plot: sequence, conflict, resolution",
+   "text_type": "narrative",
+   "lexile_min": "420",
+   "lexile_max": "650",
+   "words_min": "150",
+   "words_max": "200",
+   "sentence_len_min": "10",
+   "sentence_len_max": "12",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   1.5,
+   4.5
+  ],
+  "v20": {
+   "title": "The Kite Contest",
+   "words": 168,
+   "words_ok": true,
+   "avg_sentence_len": 11.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 2.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "The Missing Library Book",
+   "words": 174,
+   "words_ok": true,
+   "avg_sentence_len": 9.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 2.2,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "The Missing Library Book",
+   "passage_text": "On Monday, Rosa checked out a book about sea turtles. It had bright pictures of baby turtles racing to the ocean. She read it every night that week. On Friday, the book was due back at the library.\n\nFriday morning, Rosa looked in her backpack. The book was not there. She checked under her bed and behind the couch. Her heart beat fast. She did not want to tell the librarian that she had lost it.\n\nRosa sat down and thought hard. Where had she read the book last? She remembered reading on the porch swing after dinner, so she ran outside to look.\n\nThere was the book, tucked between two cushions. The cover was a little damp from the morning dew, but it was fine. Rosa let out a long, happy breath. Rosa dried it with a towel and put it in her backpack.\n\nAt school, she told the librarian what had happened. The librarian smiled and said that thinking back was a smart plan. Rosa checked out a new book that day.",
+   "skill_instances": [
+    {
+     "quote": "On Monday, Rosa checked out a book about sea turtles.",
+     "explanation": "This is the first event in the sequence."
+    },
+    {
+     "quote": "The book was not there.",
+     "explanation": "This is the conflict: Rosa's book is missing."
+    },
+    {
+     "quote": "She did not want to tell the librarian that she had lost it.",
+     "explanation": "This shows why the conflict matters to Rosa."
+    },
+    {
+     "quote": "There was the book, tucked between two cushions.",
+     "explanation": "This is the resolution: Rosa finds the book."
+    },
+    {
+     "quote": "At school, she told the librarian what had happened.",
+     "explanation": "This is one of the last events in the sequence."
+    }
+   ],
+   "protagonist": {
+    "name": "Rosa",
+    "notes": "third grader who loves animal books"
+   },
+   "setting": "Rosa's home and school library",
+   "lesson_hooks": {
+    "hook_question": "Have you ever lost something you needed?",
+    "i_do": "Model the conflict: 'The book was not there.' This is where the problem starts.",
+    "we_do": "Students find the sentence where the conflict is resolved.",
+    "you_do_question": "Where does Rosa find the book?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-4-008",
+   "grade": "4",
+   "band": "3-5",
+   "teks_code": "ELA.4.9.B",
+   "standard": "Explain figurative language such as simile, metaphor, and personification that the poet uses to create images.",
+   "skill": "Figurative language (simile, metaphor, personification)",
+   "text_type": "poem",
+   "lexile_min": "600",
+   "lexile_max": "800",
+   "words_min": "175",
+   "words_max": "225",
+   "sentence_len_min": "12",
+   "sentence_len_max": "14",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   2.5,
+   5.5
+  ],
+  "v20": {
+   "title": "Summer Storm",
+   "words": 180,
+   "words_ok": true,
+   "avg_sentence_len": 8.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 5.0,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "Thunderstorm Over the Plains",
+   "words": 193,
+   "words_ok": true,
+   "avg_sentence_len": 7.4,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 2.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Thunderstorm Over the Plains",
+   "passage_text": "The sky is a gray blanket pulled over the town.\nThe wind whistles through the fence like a tired train.\nOur old oak tree shakes its arms and groans.\nEven the grass bends low to hide.\n\nThen thunder is a drum the clouds are playing.\nBoom, it rolls across the wide, flat fields.\nLightning dances on the edge of the world,\nquick as a cat that jumps and is gone.\n\nRain comes running down the street.\nIt taps on every window, asking to come in.\nThe gutters gulp and gurgle,\nhungry mouths that cannot drink enough.\n\nMy little brother hides under a quilt,\na turtle in a soft, warm shell.\nI sit by the window with my cocoa\nand count the seconds between flash and boom.\n\nAt last the storm grows sleepy.\nIt yawns one long, low rumble\nand tiptoes off toward Oklahoma.\nThe sun peeks out like a shy friend,\nand the puddles shine like coins.\n\nI step outside in my boots.\nThe air smells clean and new,\nlike the whole world just took a bath,\nand the oak tree stands up tall again.\nTomorrow the fields will be greener than green.",
+   "skill_instances": [
+    {
+     "quote": "The sky is a gray blanket pulled over the town.",
+     "explanation": "Metaphor: the sky is compared to a blanket without using like or as."
+    },
+    {
+     "quote": "The wind whistles through the fence like a tired train.",
+     "explanation": "Simile: the wind's sound is compared to a train using like."
+    },
+    {
+     "quote": "Our old oak tree shakes its arms and groans.",
+     "explanation": "Personification: the tree has arms and groans like a person."
+    },
+    {
+     "quote": "It taps on every window, asking to come in.",
+     "explanation": "Personification: the rain asks to come in like a visitor."
+    },
+    {
+     "quote": "The sun peeks out like a shy friend",
+     "explanation": "Simile: the sun is compared to a shy friend using like."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "child speaker watching a storm with a younger brother"
+   },
+   "setting": "a small town on the Texas plains",
+   "lesson_hooks": {
+    "hook_question": "What does a storm sound like to you?",
+    "i_do": "Model the metaphor 'The sky is a gray blanket' because it is the first image in the poem.",
+    "we_do": "Students explain the personification in 'Our old oak tree shakes its arms and groans.'",
+    "you_do_question": "In 'The sun peeks out like a shy friend,' what is the sun compared to?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-4-009",
+   "grade": "4",
+   "band": "3-5",
+   "teks_code": "ELA.4.8.D",
+   "standard": "Explain the influence of the setting, including historical and cultural settings, on the plot.",
+   "skill": "Setting's influence on plot",
+   "text_type": "narrative",
+   "lexile_min": "600",
+   "lexile_max": "800",
+   "words_min": "175",
+   "words_max": "225",
+   "sentence_len_min": "12",
+   "sentence_len_max": "14",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   2.5,
+   5.5
+  ],
+  "v20": {
+   "title": "The Day the Bridge Flooded",
+   "words": 190,
+   "words_ok": true,
+   "avg_sentence_len": 15.8,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 4.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "The Ice Storm Project",
+   "words": 188,
+   "words_ok": true,
+   "avg_sentence_len": 11.1,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 4.1,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "The Ice Storm Project",
+   "passage_text": "In February, an ice storm hit our town near Waco. Ice covered every road, and the power lines sagged under the weight. On the second morning, our lights flickered and went dark.\n\nWithout power, our heater stopped working. The house grew colder every hour, and I could see my breath in the kitchen. We wore our coats inside and drank warm soup from a thermos. My plan to finish my science project on the computer was ruined, and it was due on Monday.\n\nI had to think differently. I gathered my notes, a flashlight, and a box of colored pencils. Then I sat near the window, where the gray light was brightest. I drew my diagram of the water cycle by hand instead of printing it. It took me most of Saturday. My little sister held the flashlight when the afternoon got dark.\n\nBy Sunday night, the ice began to melt, and the power came back on. My poster was finished. On Monday, my teacher said the hand-drawn diagram was the clearest one in the class. The storm had changed my plan, but it did not stop me.",
+   "skill_instances": [
+    {
+     "quote": "Ice covered every road, and the power lines sagged under the weight.",
+     "explanation": "The icy setting sets up the problem that comes next."
+    },
+    {
+     "quote": "Without power, our heater stopped working.",
+     "explanation": "The setting causes a new problem in the plot."
+    },
+    {
+     "quote": "My plan to finish my science project on the computer was ruined, and it was due on Monday.",
+     "explanation": "The storm changes the narrator's plan."
+    },
+    {
+     "quote": "Then I sat near the window, where the gray light was brightest.",
+     "explanation": "The narrator acts because of the dark setting."
+    },
+    {
+     "quote": "The storm had changed my plan, but it did not stop me.",
+     "explanation": "The narrator sums up how the setting shaped the story."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "fourth-grade narrator, unnamed, with a little sister"
+   },
+   "setting": "a home near Waco, Texas, during a February ice storm",
+   "lesson_hooks": {
+    "hook_question": "How can the weather change your plans?",
+    "i_do": "Model how 'Without power, our heater stopped working.' links the setting to the plot.",
+    "we_do": "Students explain how the setting changes the science project plan.",
+    "you_do_question": "Why did the narrator draw the diagram by hand?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-5-010",
+   "grade": "5",
+   "band": "3-5",
+   "teks_code": "ELA.5.9.E.ii",
+   "standard": "Explaining how the author has used facts for or against an argument.",
+   "skill": "Facts used for or against an argument",
+   "text_type": "persuasive",
+   "lexile_min": "700",
+   "lexile_max": "850",
+   "words_min": "200",
+   "words_max": "250",
+   "sentence_len_min": "14",
+   "sentence_len_max": "16",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   3.5,
+   6.5
+  ],
+  "v20": {
+   "title": "Should Our School Start Later?",
+   "words": 209,
+   "words_ok": true,
+   "avg_sentence_len": 20.9,
+   "sentence_ok": false,
+   "instances": 4,
+   "instances_ok": true,
+   "fk_grade": 7.7,
+   "readability_ok": false,
+   "issues": [
+    "sentence length: 20.9 avg (target 14-16 \u00b12)",
+    "readability estimate: FK grade 7.7 (expected 3.5 to 6.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Our Town Should Plant More Shade Trees",
+   "words": 225,
+   "words_ok": true,
+   "avg_sentence_len": 14.1,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 4.1,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Our Town Should Plant More Shade Trees",
+   "passage_text": "Summer in our town is hot, and last July the temperature topped 100 degrees on twelve days. Our playground has almost no shade, so recess is often moved inside. I believe our town should plant shade trees at every school.\n\nFacts support this idea, and some of them are easy to measure. On a sunny day, the ground under a tree can be about 20 degrees cooler than bare blacktop. Trees also soak up rain, which helps stop flooding on our street. A city report says one young tree costs about $150 to plant.\n\nSome people argue against the plan because trees need water, and our town has had dry years. That fact is true and important, and I do not want to ignore it. But many native trees, like live oaks and cedar elms, need little water once they grow roots.\n\nOther people say the trees will take years to grow. That is also a fact, and it is a fair point. Still, a tree planted this fall will give shade to students who start kindergarten next year, and waiting will only push that day back.\n\nThe facts on both sides matter, so I tried to weigh them carefully. When I put them side by side, the reasons to plant trees are stronger. Let's ask the school board to plant ten trees this fall.",
+   "skill_instances": [
+    {
+     "quote": "On a sunny day, the ground under a tree can be about 20 degrees cooler than bare blacktop.",
+     "explanation": "The author uses this fact for the argument: trees cool the playground."
+    },
+    {
+     "quote": "Trees also soak up rain, which helps stop flooding on our street.",
+     "explanation": "This fact supports the argument with a second benefit."
+    },
+    {
+     "quote": "Some people argue against the plan because trees need water, and our town has had dry years.",
+     "explanation": "This fact is used against the argument."
+    },
+    {
+     "quote": "Other people say the trees will take years to grow.",
+     "explanation": "This is another fact used against the plan."
+    },
+    {
+     "quote": "A city report says one young tree costs about $150 to plant.",
+     "explanation": "The author gives a cost fact so readers can judge the plan."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "fifth-grade student writer"
+   },
+   "setting": "a hot Texas town and its school playground",
+   "lesson_hooks": {
+    "hook_question": "Why do people use facts when they want to change someone's mind?",
+    "i_do": "Model the fact about the ground being 20 degrees cooler, since it clearly supports the argument.",
+    "we_do": "Students find one fact the author uses against the argument.",
+    "you_do_question": "What fact does the author give about the cost of a tree?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-6-011",
+   "grade": "6",
+   "band": "6-8",
+   "teks_code": "ELA.6.7.D",
+   "standard": "Analyze how the setting, including historical and cultural settings, influences character and plot development.",
+   "skill": "Setting's influence on character and plot",
+   "text_type": "narrative",
+   "lexile_min": "740",
+   "lexile_max": "950",
+   "words_min": "250",
+   "words_max": "350",
+   "sentence_len_min": "14",
+   "sentence_len_max": "16",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   4.5,
+   7.5
+  ],
+  "v20": {
+   "title": "Storm Day at the Harbor Bakery",
+   "words": 263,
+   "words_ok": true,
+   "avg_sentence_len": 21.9,
+   "sentence_ok": false,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 8.3,
+   "readability_ok": false,
+   "issues": [
+    "sentence length: 21.9 avg (target 14-16 \u00b12)",
+    "readability estimate: FK grade 8.3 (expected 4.5 to 7.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Ellie and the Dust",
+   "words": 296,
+   "words_ok": true,
+   "avg_sentence_len": 15.6,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 4.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Ellie and the Dust",
+   "passage_text": "In the spring of 1935, the wind near Dalhart, Texas, seemed to blow every single day. It carried dirt from fields that had once been green with wheat. Twelve-year-old Ellie Brandt kept damp cloths over the windows, but fine brown dust still settled on the table, the beds, and even the water bucket. Her father said the rain would come back soon, but nobody believed him anymore.\n\nEllie had a plan of her own. She wanted to raise chickens and sell the eggs in town, because eggs were one of the few things people still bought. But the dust made the hens sick, and two of them had already died. Every time a storm rolled in, the sky turned black at noon, and the birds panicked in their open pen. Ellie knew that if she lost the rest, her plan would be gone too.\n\nSo she studied the land around her. The old root cellar stayed cool and still, even during the worst storms. Ellie dragged wooden crates down the steps and lined them with straw. She hung a wet sheet across the doorway to catch the dust. Each time the horizon darkened, she carried the hens down one by one, even when the wind stung her face. It was hard, slow work, but the cellar kept the air clear enough for the birds to breathe.\n\nBy June, Ellie had nine healthy hens and a basket of eggs to sell each Saturday. The money was small, but it bought flour and coffee when her family needed them most. Living through the dust storms had taught her to read the sky and to plan for the worst. Years later, Ellie would say that the hard land had made her stubborn, and that stubbornness had made her strong.",
+   "skill_instances": [
+    {
+     "quote": "fine brown dust still settled on the table, the beds, and even the water bucket",
+     "explanation": "The historical setting, the Dust Bowl, shapes Ellie's daily life."
+    },
+    {
+     "quote": "But the dust made the hens sick, and two of them had already died.",
+     "explanation": "The setting creates the conflict in the plot."
+    },
+    {
+     "quote": "The old root cellar stayed cool and still, even during the worst storms.",
+     "explanation": "Ellie uses the setting itself to solve her problem."
+    },
+    {
+     "quote": "Living through the dust storms had taught her to read the sky and to plan for the worst.",
+     "explanation": "The setting changes Ellie as a character."
+    },
+    {
+     "quote": "Years later, Ellie would say that the hard land had made her stubborn, and that stubbornness had made her strong.",
+     "explanation": "This shows the lasting effect of the setting on her character."
+    }
+   ],
+   "protagonist": {
+    "name": "Ellie Brandt",
+    "notes": "twelve-year-old on a family farm who plans and acts for herself"
+   },
+   "setting": "a farm near Dalhart, Texas, during the Dust Bowl, 1935",
+   "lesson_hooks": {
+    "hook_question": "How can the place and time you live in shape who you become?",
+    "i_do": "Model how the dust settling on everything shows the setting shaping Ellie's daily life.",
+    "we_do": "Students explain how the root cellar connects the setting to Ellie's solution.",
+    "you_do_question": "What problem does the dust cause for Ellie's plan?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-6-012",
+   "grade": "6",
+   "band": "6-8",
+   "teks_code": "ELA.6.8.E.iii",
+   "standard": "Identifying the intended audience or reader.",
+   "skill": "Intended audience",
+   "text_type": "argumentative",
+   "lexile_min": "740",
+   "lexile_max": "950",
+   "words_min": "250",
+   "words_max": "350",
+   "sentence_len_min": "14",
+   "sentence_len_max": "16",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   4.5,
+   7.5
+  ],
+  "v20": {
+   "title": "Let's Light Up Greenway Trail",
+   "words": 261,
+   "words_ok": true,
+   "avg_sentence_len": 17.4,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 8.8,
+   "readability_ok": false,
+   "issues": [
+    "readability estimate: FK grade 8.8 (expected 4.5 to 7.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Join the Green Team",
+   "words": 302,
+   "words_ok": true,
+   "avg_sentence_len": 15.1,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 4.5,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Join the Green Team",
+   "passage_text": "Dear sixth graders, welcome to your first year at Cedar Ridge Middle School. You have new lockers, new teachers, and a schedule that changes every hour. I remember how strange that felt last year, and right now you might be wondering where you fit in. I want to make the case that you should join the Green Team, our school's recycling club.\n\nFirst, the Green Team is a simple way to meet people. We meet on Tuesdays after school, and nobody cares what elementary school you came from. Last year, half of our members were sixth graders, and many of them are now my closest friends. You do not need any special skills to join, just a willingness to show up and sort some cans.\n\nSecond, the work makes a real difference. Our school throws away about forty bags of trash every week. Last spring, the Green Team cut that number almost in half by placing blue bins in every hallway. We also collected enough cans to raise three hundred dollars, which paid for new books in the library. You will be able to see the results of your work in your own building.\n\nSome of you might think you are too busy. Middle school does bring more homework, and many of you have sports or music, so that worry is fair. But Green Team meetings last only forty minutes, and you can come when your schedule allows. Several members also play on the volleyball team or sing in the choir.\n\nSo when you see our table at the club fair next Friday, stop by and sign up. Bring a friend from your homeroom, or come alone and leave with a new one. Your first year of middle school only happens once, and this is a good way to make it count.",
+   "skill_instances": [
+    {
+     "quote": "Dear sixth graders, welcome to your first year at Cedar Ridge Middle School.",
+     "explanation": "The greeting names the intended audience directly: new sixth graders."
+    },
+    {
+     "quote": "You have new lockers, new teachers, and a schedule that changes every hour.",
+     "explanation": "The writer describes things only new middle schoolers are dealing with."
+    },
+    {
+     "quote": "We meet on Tuesdays after school, and nobody cares what elementary school you came from.",
+     "explanation": "This speaks to readers who just left elementary school."
+    },
+    {
+     "quote": "Some of you might think you are too busy.",
+     "explanation": "The writer answers a worry this audience is likely to have."
+    },
+    {
+     "quote": "Bring a friend from your homeroom, or come alone and leave with a new one.",
+     "explanation": "The call to action fits students, not parents or teachers."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "seventh-grade club member writing to new sixth graders"
+   },
+   "setting": "Cedar Ridge Middle School",
+   "lesson_hooks": {
+    "hook_question": "How would you write differently to a friend than to a principal?",
+    "i_do": "Model the greeting 'Dear sixth graders,' because it names the audience outright.",
+    "we_do": "Students find a detail that only makes sense for students new to middle school.",
+    "you_do_question": "Who is the intended audience of this letter?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-7-013",
+   "grade": "7",
+   "band": "6-8",
+   "teks_code": "ELA.7.8.D.i",
+   "standard": "The controlling idea or thesis with supporting evidence.",
+   "skill": "Controlling idea and supporting evidence",
+   "text_type": "informational",
+   "lexile_min": "850",
+   "lexile_max": "1010",
+   "words_min": "300",
+   "words_max": "375",
+   "sentence_len_min": "16",
+   "sentence_len_max": "18",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   5.5,
+   8.5
+  ],
+  "v20": {
+   "title": "How Prairie Dogs Engineer the Grasslands",
+   "words": 276,
+   "words_ok": false,
+   "avg_sentence_len": 19.7,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 8.6,
+   "readability_ok": false,
+   "issues": [
+    "length: 276 words (target 300-375 \u00b110)",
+    "readability estimate: FK grade 8.6 (expected 5.5 to 8.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Texas's Night Shift",
+   "words": 338,
+   "words_ok": true,
+   "avg_sentence_len": 16.1,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 6.0,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Texas's Night Shift",
+   "passage_text": "Every summer evening near San Antonio, a dark ribbon rises out of Bracken Cave and twists into the sky. It is made of millions of Mexican free-tailed bats heading out to hunt. Many people fear bats or think of them as pests. In fact, these small mammals are among the most useful animals in Texas, because they protect crops, control insects, and even support the state's economy.\n\nThe first piece of evidence is how much bats eat. A single free-tailed bat can eat hundreds of insects in one night. The colony at Bracken Cave is thought to be the largest bat colony in the world, with more than fifteen million bats. Together, those bats can eat many tons of insects before sunrise, including moths whose young feed on corn and cotton.\n\nThat appetite matters to farmers. When bats eat the moths, fewer eggs are laid, and fewer caterpillars hatch to damage the crops. Farmers can then spray less pesticide, which saves money and keeps more chemicals out of the soil and water. Scientists who studied this effect estimated that bats save farmers in the United States billions of dollars every year. For a state that grows as much cotton as Texas does, that help is hard to replace.\n\nBats also bring visitors and money to Texas cities. In Austin, about one and a half million bats live under the Congress Avenue Bridge from spring to fall. Each night, crowds gather on the bridge and along the river to watch them fly out. Tour boats, restaurants, and hotels all benefit from the people who come to see the show.\n\nBats are not perfect neighbors, and people should never touch one, since a few carry diseases such as rabies. Still, the evidence shows that their benefits far outweigh the risks. Protecting caves and bridges where bats live is not only good for wildlife but also good for farms, towns, and families across Texas. The next time you see bats at dusk, think of them as the state's hardworking night shift.",
+   "skill_instances": [
+    {
+     "quote": "In fact, these small mammals are among the most useful animals in Texas, because they protect crops, control insects, and even support the state's economy.",
+     "explanation": "This is the controlling idea that the rest of the text supports."
+    },
+    {
+     "quote": "A single free-tailed bat can eat hundreds of insects in one night.",
+     "explanation": "This evidence shows how much pest control one bat provides."
+    },
+    {
+     "quote": "Scientists who studied this effect estimated that bats save farmers in the United States billions of dollars every year.",
+     "explanation": "This evidence supports the claim that bats help the economy."
+    },
+    {
+     "quote": "In Austin, about one and a half million bats live under the Congress Avenue Bridge from spring to fall.",
+     "explanation": "This evidence supports the point that bats draw visitors."
+    },
+    {
+     "quote": "Still, the evidence shows that their benefits far outweigh the risks.",
+     "explanation": "The author returns to the controlling idea after admitting a risk."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+   },
+   "setting": "Bracken Cave near San Antonio and the Congress Avenue Bridge in Austin",
+   "lesson_hooks": {
+    "hook_question": "What do you think of when you hear the word bat?",
+    "i_do": "Model finding the controlling idea in the last sentence of the first paragraph.",
+    "we_do": "Students match one piece of evidence in paragraph three to the controlling idea.",
+    "you_do_question": "Which bridge in Austin is home to about one and a half million bats?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-7-014",
+   "grade": "7",
+   "band": "6-8",
+   "teks_code": "ELA.7.8.E.ii",
+   "standard": "Explaining how the author uses various types of evidence and consideration of alternatives to support the argument.",
+   "skill": "Types of evidence and alternatives",
+   "text_type": "argumentative",
+   "lexile_min": "850",
+   "lexile_max": "1010",
+   "words_min": "300",
+   "words_max": "375",
+   "sentence_len_min": "16",
+   "sentence_len_max": "18",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   5.5,
+   8.5
+  ],
+  "v20": {
+   "title": "Our School Should Start Composting",
+   "words": 290,
+   "words_ok": true,
+   "avg_sentence_len": 17.1,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 8.0,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "v21": {
+   "title": "Give Us Time to Eat",
+   "words": 368,
+   "words_ok": true,
+   "avg_sentence_len": 16.0,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 7.2,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Give Us Time to Eat",
+   "passage_text": "At Lakeview Middle School, students get twenty-two minutes for lunch. That sounds like enough time until you subtract the minutes spent walking to the cafeteria and waiting in line. Most of us end up with about ten minutes to actually eat. The school should extend lunch to thirty-five minutes, and the evidence for that change comes from several directions.\n\nThe first kind of evidence is numbers, and they are hard to ignore. Our student council surveyed 412 students last month, and 81 percent said they often throw away food because they run out of time. The cafeteria staff confirmed the problem when they weighed the trash for one week. On average, they found almost sixty pounds of uneaten food every day.\n\nThe second kind of evidence comes from experts. Our school nurse, Ruth Delgado, explained that students who skip lunch often visit her office in the afternoon with headaches or stomachaches. She also pointed out that hungry students have a harder time paying attention in class. National health groups recommend that students have at least twenty minutes to eat after they sit down, which our current schedule does not allow.\n\nPersonal experience points the same way, and it is not just mine. Last year, during a week of state testing, the school tried a longer lunch for a few days. Teachers noticed that afternoon classes were calmer, and fewer students asked to go to the nurse. My friends and I could finally finish our food and still talk for a few minutes.\n\nThere are alternatives worth considering, and one is to keep lunch the same and open a second serving line so students wait less. That would help, but it would cost money for more staff, and it would not fix the long walk from the far wing. Another idea is to let students eat in class, but teachers worry about spills and lost teaching time. A longer lunch solves the problem more directly than either option.\n\nAdding thirteen minutes would mean shortening each class by about two minutes. That is a small trade for students who are fed, focused, and ready to learn. The numbers, the experts, and our own experience all lead to the same conclusion.",
+   "skill_instances": [
+    {
+     "quote": "Our student council surveyed 412 students last month, and 81 percent said they often throw away food because they run out of time.",
+     "explanation": "Statistical evidence: survey numbers support the argument."
+    },
+    {
+     "quote": "Our school nurse, Ruth Delgado, explained that students who skip lunch often visit her office in the afternoon with headaches or stomachaches.",
+     "explanation": "Expert evidence: a school nurse speaks from experience."
+    },
+    {
+     "quote": "Teachers noticed that afternoon classes were calmer, and fewer students asked to go to the nurse.",
+     "explanation": "Observational evidence from a past trial of a longer lunch."
+    },
+    {
+     "quote": "There are alternatives worth considering, and one is to keep lunch the same and open a second serving line so students wait less.",
+     "explanation": "The author considers an alternative to the proposal."
+    },
+    {
+     "quote": "Another idea is to let students eat in class, but teachers worry about spills and lost teaching time.",
+     "explanation": "The author considers a second alternative and explains its weakness."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "seventh-grade student writer"
+   },
+   "setting": "Lakeview Middle School",
+   "lesson_hooks": {
+    "hook_question": "Is your lunch period long enough? How do you know?",
+    "i_do": "Model the survey sentence as statistical evidence, since numbers are the easiest type to spot.",
+    "we_do": "Students identify the type of evidence in the school nurse sentence.",
+    "you_do_question": "Name one alternative the author considers and the reason the author rejects it."
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-8-015",
+   "grade": "8",
+   "band": "6-8",
+   "teks_code": "ELA.8.7.C",
+   "standard": "Analyze non-linear plot development such as flashbacks, foreshadowing, subplots, and parallel plot structures and compare it to linear plot development.",
+   "skill": "Non-linear plot (flashback, foreshadowing)",
+   "text_type": "narrative",
+   "lexile_min": "900",
+   "lexile_max": "1050",
+   "words_min": "325",
+   "words_max": "400",
+   "sentence_len_min": "18",
+   "sentence_len_max": "20",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   6.5,
+   9.5
+  ],
+  "v20": {
+   "title": "The Recipe Card",
+   "words": 304,
+   "words_ok": false,
+   "avg_sentence_len": 23.4,
+   "sentence_ok": false,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 9.4,
+   "readability_ok": true,
+   "issues": [
+    "length: 304 words (target 325-400 \u00b110)",
+    "sentence length: 23.4 avg (target 18-20 \u00b12)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Fixed Fast",
+   "words": 359,
+   "words_ok": true,
+   "avg_sentence_len": 17.9,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 6.8,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Fixed Fast",
+   "passage_text": "The gym at Harlingen High smelled like floor wax and nervous sweat as Jalen set his team's robot on the practice table. In twenty minutes, the Rio Valley Regional finals would begin, and the robot would have to stack six blocks in under a minute. Jalen ran his thumb along the arm one last time and felt a wire shift slightly under the tape. He told himself it was nothing, but the tiny wobble stayed in the back of his mind.\n\nThree years earlier, Jalen had sat on an overturned bucket in his grandfather's garage, watching him repair a broken radio. The workbench was covered with screws, solder, and parts from machines that no longer worked. \"Anything you build will fail sometime,\" his grandfather said, tapping the radio's case with a screwdriver. \"What matters is whether you know it well enough to fix it fast,\" he added. Jalen had been eleven and more interested in the snacks on the shelf, but he had remembered every word.\n\nBack in the gym, the announcer called Team 14 to the arena. Jalen and his partner, Priya, carried the robot to the starting square while the crowd clapped from the bleachers. When the buzzer sounded, the robot rolled forward smoothly and lifted the first block, then the second and the third. On the fourth block, the arm jerked sideways and froze in midair, exactly where the loose wire was hidden.\n\nThe rules allowed one thirty-second repair, and Priya looked at Jalen with wide eyes. He did not panic, because he had built that arm himself and knew every connection inside it. In a few quick moves he peeled back the tape, pressed the wire firmly into its socket, and wrapped it again. The arm twitched, rose, and set the fourth block in place with twenty seconds left on the clock.\n\nThey finished with five blocks instead of six, which was enough for second place. On the bus ride home, Jalen texted his grandfather a photo of the silver medal. The reply came back a minute later, just two words long, but Jalen grinned at it the whole way down the highway: \"Fixed fast.\"",
+   "skill_instances": [
+    {
+     "quote": "Jalen ran his thumb along the arm one last time and felt a wire shift slightly under the tape.",
+     "explanation": "Foreshadowing: this hints at the problem that comes later."
+    },
+    {
+     "quote": "He told himself it was nothing, but the tiny wobble stayed in the back of his mind.",
+     "explanation": "Foreshadowing: the author signals that the wire will matter."
+    },
+    {
+     "quote": "Three years earlier, Jalen had sat on an overturned bucket in his grandfather's garage, watching him repair a broken radio.",
+     "explanation": "Flashback: the story jumps back in time."
+    },
+    {
+     "quote": "\"Anything you build will fail sometime,\" his grandfather said, tapping the radio's case with a screwdriver.",
+     "explanation": "The flashback gives advice that foreshadows how Jalen will act."
+    },
+    {
+     "quote": "Back in the gym, the announcer called Team 14 to the arena.",
+     "explanation": "This returns the plot from the flashback to the present."
+    }
+   ],
+   "protagonist": {
+    "name": "Jalen",
+    "notes": "eighth-grade robotics team member"
+   },
+   "setting": "a regional robotics competition in Harlingen, Texas, and his grandfather's garage",
+   "lesson_hooks": {
+    "hook_question": "Why might an author tell part of a story out of order?",
+    "i_do": "Model the foreshadowing in the loose-wire sentence, since it is the first hint of trouble.",
+    "we_do": "Students find where the flashback begins and where it ends.",
+    "you_do_question": "What words signal that the story is jumping back in time?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-E1-016",
+   "grade": "E1",
+   "band": "9-12",
+   "teks_code": "ELA.E1.6.D",
+   "standard": "Analyze how the setting influences the theme.",
+   "skill": "Setting's influence on theme",
+   "text_type": "narrative",
+   "lexile_min": "900",
+   "lexile_max": "1100",
+   "words_min": "400",
+   "words_max": "500",
+   "sentence_len_min": "18",
+   "sentence_len_max": "20",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   7.5,
+   10.5
+  ],
+  "v20": {
+   "title": "The Last Pecan Harvest",
+   "words": 409,
+   "words_ok": true,
+   "avg_sentence_len": 22.7,
+   "sentence_ok": false,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 8.6,
+   "readability_ok": true,
+   "issues": [
+    "sentence length: 22.7 avg (target 18-20 \u00b12)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Salt Grass",
+   "words": 433,
+   "words_ok": true,
+   "avg_sentence_len": 18.0,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 6.8,
+   "readability_ok": false,
+   "issues": [
+    "readability estimate: FK grade 6.8 (expected 7.5 to 10.5)"
+   ],
+   "lane": "yellow"
+  },
+  "passage": {
+   "title": "Salt Grass",
+   "passage_text": "The salt marsh behind Nana Ruth's house on the Bolivar Peninsula seemed limitless in the early morning. It was a gray-green sheet that ran all the way to the edge of the bay. Teresa had spent every summer of her childhood on that porch, shelling peas and counting pelicans as they skimmed the water in long, tidy lines. This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.\n\nHalf the houses on her grandmother's road had vanished, and the ones that remained stood on new stilts like anxious herons. Teresa's parents wanted Nana Ruth to move inland to Houston, where the apartment had air conditioning, an elevator, and no flood insurance to worry about. They had driven down from the city to help her relocate, and Teresa had come along anticipating a final goodbye.\n\nNana Ruth, however, was not packing. She was on her knees in the mud beside the porch steps, pressing seedlings of salt grass into the soft ground with her bare hands. \"The marsh is what saved the house,\" she said without looking up. \"It slowed the water enough that we lost the furniture instead of the walls.\"\n\nTeresa knelt beside her and took a handful of seedlings without being instructed. For the next hour, they worked in silence except for the cry of gulls and the slap of small waves against the reeds. Teresa observed how the new grass held the mud in place, and how fiddler crabs had already begun excavating tunnels between the roots. The land had been torn apart, yet it was patiently reassembling itself.\n\nThat evening, her parents laid out the apartment brochures on the kitchen table. Teresa watched her grandmother examine the glossy photographs of carpeted hallways and parking garages. Nana Ruth listened respectfully to every argument about safety and expense, because she knew they came from genuine affection. Then she folded the brochures neatly and set them aside. She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.\n\nTeresa did not know yet whether her grandmother was being courageous or merely stubborn. But as she fell asleep to the sound of the marsh breathing outside her window, she understood that some places are not just where people live. They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again. In the morning, Teresa asked if she could stay for the rest of the summer and help.",
+   "skill_instances": [
+    {
+     "quote": "This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.",
+     "explanation": "The setting after the hurricane frames the story's central question about home."
+    },
+    {
+     "quote": "\"The marsh is what saved the house,\" she said without looking up.",
+     "explanation": "Nana Ruth sees the marsh as protection, which begins to shape the theme."
+    },
+    {
+     "quote": "The land had been torn apart, yet it was patiently reassembling itself.",
+     "explanation": "The recovering marsh mirrors the theme of rebuilding after loss."
+    },
+    {
+     "quote": "She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.",
+     "explanation": "Nana Ruth's choice connects her identity to the coastal setting."
+    },
+    {
+     "quote": "They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again.",
+     "explanation": "Teresa states the theme the setting has been building toward."
+    }
+   ],
+   "protagonist": {
+    "name": "Teresa",
+    "notes": "teenager visiting her grandmother after a hurricane"
+   },
+   "setting": "the Bolivar Peninsula on the Texas Gulf Coast, the summer after a hurricane",
+   "lesson_hooks": {
+    "hook_question": "Can a place become part of who you are?",
+    "i_do": "Model how the marsh reassembling itself mirrors the theme of rebuilding.",
+    "we_do": "Students explain how Nana Ruth's final choice ties her identity to the setting.",
+    "you_do_question": "Which sentence states the theme most directly?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-E2-017",
+   "grade": "E2",
+   "band": "9-12",
+   "teks_code": "ELA.E2.7.E.ii",
+   "standard": "Various types of evidence and treatment of counterarguments, including concessions and rebuttals.",
+   "skill": "Counterarguments, concessions and rebuttals",
+   "text_type": "argumentative",
+   "lexile_min": "940",
+   "lexile_max": "1160",
+   "words_min": "450",
+   "words_max": "550",
+   "sentence_len_min": "20",
+   "sentence_len_max": "22",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   8.5,
+   11.5
+  ],
+  "v20": {
+   "title": "A Semester That Pays for Itself",
+   "words": 427,
+   "words_ok": false,
+   "avg_sentence_len": 25.1,
+   "sentence_ok": false,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 11.9,
+   "readability_ok": false,
+   "issues": [
+    "length: 427 words (target 450-550 \u00b110)",
+    "sentence length: 25.1 avg (target 20-22 \u00b12)",
+    "readability estimate: FK grade 11.9 (expected 8.5 to 11.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Let Us Sleep",
+   "words": 462,
+   "words_ok": true,
+   "avg_sentence_len": 19.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 9.6,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "Let Us Sleep",
+   "passage_text": "At 7:20 in the morning, when the first bell rings at our high school, many students are physically present but mentally still asleep. Teachers in first period describe rows of slumped shoulders, half-finished breakfasts, and heads resting on desks before the lesson has even begun. Our district should move the high school start time to 8:30. That change is supported by medical research and by the experience of districts that have already made it.\n\nThe medical case is strong. The American Academy of Pediatrics recommends that middle and high schools start no earlier than 8:30. Its experts explain that the body clock shifts during adolescence, which makes it difficult for teenagers to fall asleep before eleven. Most teenagers need eight to ten hours of sleep, yet surveys consistently show that the majority of high school students get fewer than eight on school nights. Chronic sleep loss is linked to weaker concentration, lower grades, and a greater risk of car accidents among young drivers.\n\nOpponents raise a serious concern about transportation. Our district staggers bus routes so that the same drivers can serve elementary, middle, and high schools in turn, and shifting one schedule could disrupt the others. I concede that this concern is fair, since a plan that strands younger children at dark bus stops would solve one problem by creating another. However, several districts have addressed this by flipping the order and sending elementary students first, since younger children naturally wake earlier.\n\nA second counterargument focuses on after-school activities. Coaches worry that a later dismissal will push practices into the evening and force athletes to miss class for away games. Students who work part-time jobs to support their families have a similar worry about losing hours. These are real costs, and the district should not dismiss them, but they can be reduced through careful scheduling rather than accepted as reasons to do nothing.\n\nThe experience of other districts offers a useful rebuttal. When schools in Seattle moved their high school start times about an hour later in 2016, researchers found that students slept an average of thirty-four more minutes per night. Tardiness and absences dropped at one of the schools studied, and grades in the science classes researchers examined improved by about four and a half percent. Those results suggest that the costs opponents fear are manageable, while the benefits for students are measurable.\n\nChanging a schedule that families have relied on for years will require patience, planning, and compromise. Still, the purpose of a school day is learning, and students cannot learn well when their bodies are fighting the clock. The district should form a committee of parents, teachers, coaches, and students to design a transition plan this year, so that the change can begin next fall.",
+   "skill_instances": [
+    {
+     "quote": "Opponents raise a serious concern about transportation.",
+     "explanation": "The writer introduces a counterargument."
+    },
+    {
+     "quote": "I concede that this concern is fair, since a plan that strands younger children at dark bus stops would solve one problem by creating another.",
+     "explanation": "A concession: the writer admits the other side has a valid point."
+    },
+    {
+     "quote": "However, several districts have addressed this by flipping the order and sending elementary students first, since younger children naturally wake earlier.",
+     "explanation": "A rebuttal: the writer answers the counterargument with a solution."
+    },
+    {
+     "quote": "A second counterargument focuses on after-school activities.",
+     "explanation": "The writer introduces a second opposing view."
+    },
+    {
+     "quote": "These are real costs, and the district should not dismiss them, but they can be reduced through careful scheduling rather than accepted as reasons to do nothing.",
+     "explanation": "A concession followed by a rebuttal in a single sentence."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "high school student writer"
+   },
+   "setting": "a Texas high school district",
+   "lesson_hooks": {
+    "hook_question": "Should school start later? What would change for you?",
+    "i_do": "Model the concession in paragraph three, since 'I concede' signals it directly.",
+    "we_do": "Students find the rebuttal that answers the transportation concern.",
+    "you_do_question": "What evidence from Seattle does the writer use as a rebuttal?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-E3-018",
+   "grade": "E3",
+   "band": "9-12",
+   "teks_code": "ELA.E3.7.D.i",
+   "standard": "Clear thesis, strong supporting evidence, pertinent examples, commentary, summary, and conclusion.",
+   "skill": "Thesis, evidence, commentary and conclusion",
+   "text_type": "informational",
+   "lexile_min": "1000",
+   "lexile_max": "1210",
+   "words_min": "500",
+   "words_max": "600",
+   "sentence_len_min": "22",
+   "sentence_len_max": "24",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   9.5,
+   12.5
+  ],
+  "v20": {
+   "title": "Cities Are Making Their Own Heat",
+   "words": 451,
+   "words_ok": false,
+   "avg_sentence_len": 23.7,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 11.4,
+   "readability_ok": true,
+   "issues": [
+    "length: 451 words (target 500-600 \u00b110)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "The Ditches That Outlasted Empires",
+   "words": 521,
+   "words_ok": true,
+   "avg_sentence_len": 21.7,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 11.8,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "The Ditches That Outlasted Empires",
+   "passage_text": "In the dry country of South Texas and northern New Mexico, water has always determined where people could live and what they could grow. Centuries before modern pumps and pipelines, Spanish colonists and Indigenous communities built acequias, shallow earthen canals that carried river water across fields by gravity alone. These systems deserve far more attention than they receive, because they demonstrate that durable infrastructure depends as much on shared responsibility as on clever engineering.\n\nThe engineering itself is remarkably simple: a low dam, called a presa, raises a river just enough to send part of its flow into a main channel, the acequia madre. From the mother ditch, as it is often called, the water moves downhill through smaller ditches, and farmers open wooden gates in turn to flood their own fields. Because the entire network relies on a gentle, carefully surveyed slope, it requires no electricity and very little machinery to operate.\n\nSan Antonio offers the clearest example in Texas, where Franciscan missionaries and the Coahuiltecan people built the Espada Aqueduct between 1731 and 1745 to carry an acequia across Piedras Creek. Nearly three centuries later, the stone arches still carry water, making it one of the oldest working aqueducts in the United States. In 2015, the San Antonio Missions, including their acequias, were named a UNESCO World Heritage Site.\n\nThe technology, however, is only half of the story. In the villages of northern New Mexico, many acequias are still managed by elected officials called mayordomos, who schedule water turns, settle disputes, and organize the spring cleaning of the ditches. Every landowner who draws water is expected to send workers to that cleaning, and those who fail to contribute can lose their share. In this way, the canal becomes not merely a channel for water but a living agreement among neighbors.\n\nThis shared governance explains why acequias have lasted so long. A concrete pipe can be engineered to survive for decades, yet it will eventually crack if no one is responsible for inspecting it. An acequia, by contrast, is inspected every year by the very people whose crops depend on it, so small problems are repaired before they become disasters. The system's durability, in other words, is a social achievement as much as a physical one.\n\nAcequias also face real threats today, as suburban development has paved over many fields and younger family members often move to cities rather than inherit the work of farming. When fewer people take part in the annual cleaning, the ditches silt up and the cooperative structure weakens. Several communities have responded by teaching students to maintain the channels and by recording the oral histories of longtime mayordomos.\n\nIn summary, acequias combine modest technology with a strong tradition of collective care. Their survival in San Antonio and New Mexico shows that the most lasting public works are often the ones that communities understand, maintain, and govern together. As Texas and the rest of the Southwest confront longer droughts and growing cities, planners would be wise to study these old ditches. They are not museum pieces but working models for managing scarce water fairly and sustainably.",
+   "skill_instances": [
+    {
+     "quote": "These systems deserve far more attention than they receive, because they demonstrate that durable infrastructure depends as much on shared responsibility as on clever engineering.",
+     "explanation": "This is the thesis: a clear, arguable claim the essay supports."
+    },
+    {
+     "quote": "Nearly three centuries later, the stone arches still carry water, making it one of the oldest working aqueducts in the United States.",
+     "explanation": "Strong supporting evidence from a specific Texas example."
+    },
+    {
+     "quote": "Every landowner who draws water is expected to send workers to that cleaning, and those who fail to contribute can lose their share.",
+     "explanation": "A pertinent example of shared responsibility in practice."
+    },
+    {
+     "quote": "The system's durability, in other words, is a social achievement as much as a physical one.",
+     "explanation": "Commentary: the writer explains what the evidence means."
+    },
+    {
+     "quote": "In summary, acequias combine modest technology with a strong tradition of collective care.",
+     "explanation": "The summary begins the conclusion by restating the main points."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "informational essay, no protagonist"
+   },
+   "setting": "acequias of San Antonio, Texas, and northern New Mexico",
+   "lesson_hooks": {
+    "hook_question": "What makes something built by people last for centuries?",
+    "i_do": "Model finding the thesis at the end of the first paragraph.",
+    "we_do": "Students label one sentence in paragraph five as evidence or commentary.",
+    "you_do_question": "What year were the San Antonio Missions named a UNESCO World Heritage Site?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-E3-019",
+   "grade": "E3",
+   "band": "9-12",
+   "teks_code": "ELA.E3.6.B",
+   "standard": "Analyze how characters' behaviors and underlying motivations contribute to moral dilemmas that influence the plot and theme.",
+   "skill": "Character motivation and moral dilemma",
+   "text_type": "narrative",
+   "lexile_min": "1000",
+   "lexile_max": "1210",
+   "words_min": "500",
+   "words_max": "600",
+   "sentence_len_min": "22",
+   "sentence_len_max": "24",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   9.5,
+   12.5
+  ],
+  "v20": {
+   "title": "Borrowed Code",
+   "words": 514,
+   "words_ok": true,
+   "avg_sentence_len": 20.6,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 9.0,
+   "readability_ok": false,
+   "issues": [
+    "readability estimate: FK grade 9.0 (expected 9.5 to 12.5)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "The Quotation",
+   "words": 518,
+   "words_ok": true,
+   "avg_sentence_len": 22.5,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 9.7,
+   "readability_ok": true,
+   "issues": [],
+   "lane": "green"
+  },
+  "passage": {
+   "title": "The Quotation",
+   "passage_text": "Marisol Herrera had spent three years building the Del Mar High School debate team into a contender, recruiting freshmen in the cafeteria and coaching them through practice rounds after school. Now, the night before the state qualifying tournament, she sat at her kitchen table in Corpus Christi, rereading the evidence file her partner, Grace, had assembled for their final case. One quotation, attributed to an economist at a well-known university, made their argument almost impossible to defeat.\n\nMarisol had tried to locate the original source so she could cite the page number, but the article Grace listed did not contain the sentence anywhere. She searched the economist's books, interviews, and lectures with growing unease, and each search confirmed what she had begun to suspect. When she finally texted Grace, the reply came almost instantly: she had paraphrased something she half remembered and put quotation marks around it because the deadline was midnight.\n\nMarisol understood the temptation better than she wanted to admit. Grace was not lazy or dishonest by nature; she worked two evening shifts a week at her aunt's restaurant, and the team's success had become her best chance at a college scholarship. Reporting the fabricated quotation would almost certainly disqualify them both, ending Grace's season and erasing the record Marisol had worked so hard to build.\n\nYet Marisol also knew how the evidence would be used. Their opponents would have no way to verify the quotation in the middle of a round, and the judges would trust it because debaters were expected to be honest about their sources. Winning that way would mean that every trophy on the team's shelf, including the ones they had earned fairly, would carry a quiet doubt that only she and Grace would know about.\n\nShe considered a compromise that would spare them both. They could simply remove the quotation, rebuild the case overnight with legitimate evidence, and say nothing to their coach about what had happened. The solution was tempting precisely because it seemed responsible, but it would also teach Grace that a mistake could vanish if no one was watching. Marisol realized that the question was no longer only about the tournament; it was about what kind of teammate, and what kind of friend, she intended to be.\n\nAt six in the morning, she called Grace instead of texting, and the two of them talked until the sky over the bay turned pale. Marisol told her that she would not hide the problem, but she also would not let Grace face it alone. Together they drove to school early, sat down with Coach Alvarez before the bus left, and explained exactly what had happened and why.\n\nThe coach withdrew their final case from the tournament, and the team competed with only the arguments they could defend. They did not qualify for state that year. Months later, however, Grace rebuilt the case from scratch with verified sources. When the two of them won the spring invitational with it, Marisol understood that this victory belonged to them in a way that a win built on a false quotation never could have.",
+   "skill_instances": [
+    {
+     "quote": "Grace was not lazy or dishonest by nature; she worked two evening shifts a week at her aunt's restaurant, and the team's success had become her best chance at a college scholarship.",
+     "explanation": "This explains Grace's motivation without excusing her choice."
+    },
+    {
+     "quote": "Reporting the fabricated quotation would almost certainly disqualify them both, ending Grace's season and erasing the record Marisol had worked so hard to build.",
+     "explanation": "This sets out the stakes of Marisol's moral dilemma."
+    },
+    {
+     "quote": "The solution was tempting precisely because it seemed responsible, but it would also teach Grace that a mistake could vanish if no one was watching.",
+     "explanation": "Marisol weighs a middle path and sees its hidden cost."
+    },
+    {
+     "quote": "Marisol told her that she would not hide the problem, but she also would not let Grace face it alone.",
+     "explanation": "Her motivation, honesty and loyalty together, drives the plot forward."
+    },
+    {
+     "quote": "They did not qualify for state that year.",
+     "explanation": "The consequence of her decision shapes the plot and the theme."
+    }
+   ],
+   "protagonist": {
+    "name": "Marisol Herrera",
+    "notes": "high school debate captain who makes a hard choice herself"
+   },
+   "setting": "Corpus Christi, Texas, the night before a state qualifying tournament",
+   "lesson_hooks": {
+    "hook_question": "Is it ever right to keep a friend's mistake secret?",
+    "i_do": "Model how Grace's motivation is explained in paragraph three.",
+    "we_do": "Students explain why the compromise in paragraph five tempts Marisol and why she rejects it.",
+    "you_do_question": "What does Marisol decide to do about the fabricated quotation?"
+   }
+  }
+ },
+ {
+  "brief": {
+   "lesson_id": "RL-TX-E4-020",
+   "grade": "E4",
+   "band": "9-12",
+   "teks_code": "ELA.E4.7.E.i",
+   "standard": "Clear arguable thesis, appeals, structure of the argument, convincing conclusion, and call to action.",
+   "skill": "Arguable thesis, appeals and call to action",
+   "text_type": "argumentative",
+   "lexile_min": "1050",
+   "lexile_max": "1300",
+   "words_min": "550",
+   "words_max": "700",
+   "sentence_len_min": "24",
+   "sentence_len_max": "26",
+   "instances_min": "3",
+   "instances_max": "5"
+  },
+  "fk_range": [
+   10.5,
+   13.5
+  ],
+  "v20": {
+   "title": "The Last Free Room in Town",
+   "words": 497,
+   "words_ok": false,
+   "avg_sentence_len": 23.7,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 12.5,
+   "readability_ok": true,
+   "issues": [
+    "length: 497 words (target 550-700 \u00b110)"
+   ],
+   "lane": "yellow"
+  },
+  "v21": {
+   "title": "Keep the Doors Open",
+   "words": 678,
+   "words_ok": true,
+   "avg_sentence_len": 24.2,
+   "sentence_ok": true,
+   "instances": 5,
+   "instances_ok": true,
+   "fk_grade": 10.4,
+   "readability_ok": false,
+   "issues": [
+    "readability estimate: FK grade 10.4 (expected 10.5 to 13.5)"
+   ],
+   "lane": "yellow"
+  },
+  "passage": {
+   "title": "Keep the Doors Open",
+   "passage_text": "Every city budget is a statement of values, and when money is tight, public libraries are often among the first services to lose hours, staff, and funding. Our city council is now considering a proposal to close the Eastside branch library on weekends and reduce its book budget by a third. I believe that decision would be a serious mistake, one that the council would come to regret. Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.\n\nI speak from experience, not only from principle, because this branch has been part of my life for years. For the past two years, I have volunteered at the Eastside branch every Saturday, shelving books, helping younger students with homework, and teaching older patrons how to fill out job applications online. In that time, I have learned more about my neighbors than any survey or spreadsheet could tell me. Above all, I have learned that the library quietly holds together much of the daily life of this side of town.\n\nConsider who actually uses the branch on a typical Saturday, when the parking lot is full before the doors even open. Students line up early, because many of them do not have reliable internet at home, and the library's computers are the only place they can complete assignments that teachers increasingly post online. Parents bring toddlers to story time, retirees read the newspapers and magazines the branch subscribes to, and adults searching for work use the printers to produce resumes and cover letters.\n\nThe logical case is just as strong as the personal one, and it begins with a simple question about who pays. Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them. Those families would have to travel across town by bus to reach the central library, often with small children in tow. A student who cannot finish homework falls behind, and a job seeker who cannot submit an application stays unemployed longer. Over time, those losses cost the city far more in earnings and potential than the council could ever save by cutting hours.\n\nThere is also a moral dimension that numbers alone cannot capture, and it may matter most of all. A public library is one of the few places left where anyone may enter, stay as long as they wish, and leave with something valuable without being asked to pay. When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.\n\nSupporters of the proposal argue that the city faces a genuine shortfall and that every department must share the burden. That point deserves respect, and I do not pretend that the budget is easy to balance or that the council's choices are simple. However, the Eastside branch already operates with fewer staff and shorter hours than the central library. Asking it to absorb a deeper cut would place an unequal share of the burden on the neighborhood that depends on it most.\n\nA fairer approach would spread any necessary reductions across all departments, protect weekend hours at every branch, and invite residents to propose savings before the final vote. Cities across Texas have found creative ways to support their libraries, from partnerships with local businesses to volunteer programs that extend hours without adding expense, and our city can learn from their example.\n\nThe council will hold a public hearing on the budget next Tuesday evening at City Hall, and residents are allowed to speak for three minutes each. I urge every student, parent, and neighbor who has ever borrowed a book, used a computer, or found a quiet place to think at the Eastside branch to attend. Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future.",
+   "skill_instances": [
+    {
+     "quote": "Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.",
+     "explanation": "This is the arguable thesis. A reasonable person could disagree."
+    },
+    {
+     "quote": "I speak from experience, not only from principle, because this branch has been part of my life for years.",
+     "explanation": "Ethos: the writer builds credibility through personal experience."
+    },
+    {
+     "quote": "Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them.",
+     "explanation": "Logos: the writer reasons about who really pays."
+    },
+    {
+     "quote": "When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.",
+     "explanation": "Pathos: the writer appeals to the reader's sense of fairness."
+    },
+    {
+     "quote": "Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future.",
+     "explanation": "The call to action tells readers exactly what to do."
+    }
+   ],
+   "protagonist": {
+    "name": null,
+    "notes": "high school senior who volunteers at the branch library"
+   },
+   "setting": "a Texas city facing a library budget cut",
+   "lesson_hooks": {
+    "hook_question": "What public place in your community would you fight to keep open?",
+    "i_do": "Model the ethos appeal in paragraph two, since the writer names her own experience.",
+    "we_do": "Students label the appeal used in the 'whose time and whose curiosity' sentence.",
+    "you_do_question": "What specific action does the writer ask readers to take?"
+   }
+  }
+ }
+]

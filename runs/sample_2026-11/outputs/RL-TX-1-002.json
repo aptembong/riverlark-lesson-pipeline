@@ -1,0 +1,37 @@
+{
+  "title": "Rain on the Roof",
+  "passage_text": "Pitter, patter, rain on the roof.\nPitter, patter, puddles grow.\nBig brown boots go splish and splash.\nRain, rain, where did you go?\n\nSoft gray clouds slide slowly by.\nSun peeks out to say hello.\nPitter, patter, rain on the roof.\nRain, rain, where did you go?\n\nMy mom and I make muddy pies.\nWe watch the worms wiggle below.\nPitter, patter, the rain is done.\nTomorrow, rain, come back slow!",
+  "skill_instances": [
+    {
+      "quote": "Pitter, patter, rain on the roof.",
+      "explanation": "This line repeats in the poem."
+    },
+    {
+      "quote": "Rain, rain, where did you go?",
+      "explanation": "This question repeats at the end of two stanzas."
+    },
+    {
+      "quote": "Big brown boots",
+      "explanation": "Alliteration: big and brown start with the same sound."
+    },
+    {
+      "quote": "clouds slide slowly",
+      "explanation": "Alliteration: slide and slowly both start with s."
+    },
+    {
+      "quote": "watch the worms wiggle",
+      "explanation": "Alliteration: watch, worms and wiggle start with w."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "child speaker playing with mom after rain"
+  },
+  "setting": "a home porch and yard on a rainy day",
+  "lesson_hooks": {
+    "hook_question": "What sounds does rain make?",
+    "i_do": "Model the repeated line 'Pitter, patter, rain on the roof.'",
+    "we_do": "Find two words that start with the same sound in stanza two.",
+    "you_do_question": "Which line repeats in the poem?"
+  }
+}

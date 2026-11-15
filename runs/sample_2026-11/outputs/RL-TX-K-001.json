@@ -1,0 +1,29 @@
+{
+  "title": "The Lost Red Ball",
+  "passage_text": "Leo has a red ball. He kicks it high. The ball lands in a tall bush. Oh no! Leo cannot see it.\n\nLeo looks under the slide. No ball. He looks by the gate. No ball.\n\nThen Leo has an idea. He gets a long stick. He pokes the bush gently. Out rolls the red ball! Leo smiles and kicks it again.",
+  "skill_instances": [
+    {
+      "quote": "The ball lands in a tall bush.",
+      "explanation": "This is the problem. Leo's ball is stuck."
+    },
+    {
+      "quote": "He gets a long stick.",
+      "explanation": "Leo starts to solve the problem."
+    },
+    {
+      "quote": "Out rolls the red ball!",
+      "explanation": "This is how the problem is solved."
+    }
+  ],
+  "protagonist": {
+    "name": "Leo",
+    "notes": "young boy at a playground"
+  },
+  "setting": "a neighborhood playground",
+  "lesson_hooks": {
+    "hook_question": "What do you do when you lose something?",
+    "i_do": "Model the problem sentence: the ball lands in a bush.",
+    "we_do": "Find the sentence where Leo starts to fix the problem.",
+    "you_do_question": "How does Leo get his ball back?"
+  }
+}

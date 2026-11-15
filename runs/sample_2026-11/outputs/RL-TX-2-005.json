@@ -1,0 +1,37 @@
+{
+  "title": "Our School Needs a Reading Garden",
+  "passage_text": "Our school should build a reading garden by the library. Right now, the space by the library is an empty patch of dirt. I think a garden would be the best place in the whole school.\n\nThe library has more than two thousand books. Students could carry those books outside and read under a tree. Plants need sunlight and water to grow. The patch gets sun every morning, and there is a water hose nearby.\n\nReading outside is more fun than reading inside. A garden would also be beautiful to look at. Please vote yes for the reading garden at our next class meeting!",
+  "skill_instances": [
+    {
+      "quote": "Right now, the space by the library is an empty patch of dirt.",
+      "explanation": "Fact: you can go look and check it."
+    },
+    {
+      "quote": "I think a garden would be the best place in the whole school.",
+      "explanation": "Opinion: I think shows what the writer feels."
+    },
+    {
+      "quote": "The library has more than two thousand books.",
+      "explanation": "Fact: someone could count the books."
+    },
+    {
+      "quote": "The patch gets sun every morning, and there is a water hose nearby.",
+      "explanation": "Fact: this can be checked."
+    },
+    {
+      "quote": "Reading outside is more fun than reading inside.",
+      "explanation": "Opinion: other people might feel differently."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "second-grade student writer"
+  },
+  "setting": "an elementary school",
+  "lesson_hooks": {
+    "hook_question": "What would make your school a better place?",
+    "i_do": "Model one fact and one opinion from paragraph one.",
+    "we_do": "Is 'The library has more than two thousand books' a fact or an opinion?",
+    "you_do_question": "Find one opinion in the last paragraph."
+  }
+}

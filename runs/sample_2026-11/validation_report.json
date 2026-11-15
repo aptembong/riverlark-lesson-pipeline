@@ -1,0 +1,473 @@
+[
+  {
+    "lesson_id": "RL-TX-K-001",
+    "grade": "K",
+    "band": "K-2",
+    "teks_code": "ELA.K.7.C",
+    "text_type": "narrative",
+    "title": "The Lost Red Ball",
+    "words": 62,
+    "words_ok": true,
+    "avg_sentence_len": 4.4,
+    "sentence_ok": true,
+    "instances": 3,
+    "instances_ok": true,
+    "fk_grade": -1.7,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-1-002",
+    "grade": "1",
+    "band": "K-2",
+    "teks_code": "ELA.1.9.B",
+    "text_type": "poem",
+    "title": "Rain on the Roof",
+    "words": 71,
+    "words_ok": true,
+    "avg_sentence_len": 5.9,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 0.9,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-1-003",
+    "grade": "1",
+    "band": "K-2",
+    "teks_code": "ELA.1.9.D.iii",
+    "text_type": "informational",
+    "title": "How a Bean Plant Grows",
+    "words": 71,
+    "words_ok": true,
+    "avg_sentence_len": 7.9,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 0.5,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-2-004",
+    "grade": "2",
+    "band": "K-2",
+    "teks_code": "ELA.2.9.D.iii",
+    "text_type": "informational",
+    "title": "Why Bluebonnets Bloom in Spring",
+    "words": 104,
+    "words_ok": true,
+    "avg_sentence_len": 11.6,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 3.1,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-2-005",
+    "grade": "2",
+    "band": "K-2",
+    "teks_code": "ELA.2.9.E.ii",
+    "text_type": "persuasive",
+    "title": "Our School Needs a Reading Garden",
+    "words": 104,
+    "words_ok": true,
+    "avg_sentence_len": 10.4,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 3.8,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "readability estimate: FK grade 3.8 (expected 0.5 to 3.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-3-006",
+    "grade": "3",
+    "band": "3-5",
+    "teks_code": "ELA.3.9.D.iii",
+    "text_type": "informational",
+    "title": "Saving Water at Westfield Elementary",
+    "words": 170,
+    "words_ok": true,
+    "avg_sentence_len": 14.2,
+    "sentence_ok": false,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 6.5,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "sentence length: 14.2 avg (target 10-12 \u00b12)",
+      "readability estimate: FK grade 6.5 (expected 1.5 to 4.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-3-007",
+    "grade": "3",
+    "band": "3-5",
+    "teks_code": "ELA.3.8.C",
+    "text_type": "narrative",
+    "title": "The Kite Contest",
+    "words": 168,
+    "words_ok": true,
+    "avg_sentence_len": 11.2,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 2.7,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-4-008",
+    "grade": "4",
+    "band": "3-5",
+    "teks_code": "ELA.4.9.B",
+    "text_type": "poem",
+    "title": "Summer Storm",
+    "words": 180,
+    "words_ok": true,
+    "avg_sentence_len": 8.2,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 5.0,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-4-009",
+    "grade": "4",
+    "band": "3-5",
+    "teks_code": "ELA.4.8.D",
+    "text_type": "narrative",
+    "title": "The Day the Bridge Flooded",
+    "words": 190,
+    "words_ok": true,
+    "avg_sentence_len": 15.8,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 4.7,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-5-010",
+    "grade": "5",
+    "band": "3-5",
+    "teks_code": "ELA.5.9.E.ii",
+    "text_type": "persuasive",
+    "title": "Should Our School Start Later?",
+    "words": 209,
+    "words_ok": true,
+    "avg_sentence_len": 20.9,
+    "sentence_ok": false,
+    "instances": 4,
+    "instances_ok": true,
+    "fk_grade": 7.7,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "sentence length: 20.9 avg (target 14-16 \u00b12)",
+      "readability estimate: FK grade 7.7 (expected 3.5 to 6.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-6-011",
+    "grade": "6",
+    "band": "6-8",
+    "teks_code": "ELA.6.7.D",
+    "text_type": "narrative",
+    "title": "Storm Day at the Harbor Bakery",
+    "words": 263,
+    "words_ok": true,
+    "avg_sentence_len": 21.9,
+    "sentence_ok": false,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 8.3,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "sentence length: 21.9 avg (target 14-16 \u00b12)",
+      "readability estimate: FK grade 8.3 (expected 4.5 to 7.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-6-012",
+    "grade": "6",
+    "band": "6-8",
+    "teks_code": "ELA.6.8.E.iii",
+    "text_type": "argumentative",
+    "title": "Let's Light Up Greenway Trail",
+    "words": 261,
+    "words_ok": true,
+    "avg_sentence_len": 17.4,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 8.8,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "readability estimate: FK grade 8.8 (expected 4.5 to 7.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-7-013",
+    "grade": "7",
+    "band": "6-8",
+    "teks_code": "ELA.7.8.D.i",
+    "text_type": "informational",
+    "title": "How Prairie Dogs Engineer the Grasslands",
+    "words": 276,
+    "words_ok": false,
+    "avg_sentence_len": 19.7,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 8.6,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "length: 276 words (target 300-375 \u00b110)",
+      "readability estimate: FK grade 8.6 (expected 5.5 to 8.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-7-014",
+    "grade": "7",
+    "band": "6-8",
+    "teks_code": "ELA.7.8.E.ii",
+    "text_type": "argumentative",
+    "title": "Our School Should Start Composting",
+    "words": 290,
+    "words_ok": true,
+    "avg_sentence_len": 17.1,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 8.0,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [],
+    "lane": "green"
+  },
+  {
+    "lesson_id": "RL-TX-8-015",
+    "grade": "8",
+    "band": "6-8",
+    "teks_code": "ELA.8.7.C",
+    "text_type": "narrative",
+    "title": "The Recipe Card",
+    "words": 304,
+    "words_ok": false,
+    "avg_sentence_len": 23.4,
+    "sentence_ok": false,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 9.4,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "length: 304 words (target 325-400 \u00b110)",
+      "sentence length: 23.4 avg (target 18-20 \u00b12)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-E1-016",
+    "grade": "E1",
+    "band": "9-12",
+    "teks_code": "ELA.E1.6.D",
+    "text_type": "narrative",
+    "title": "The Last Pecan Harvest",
+    "words": 409,
+    "words_ok": true,
+    "avg_sentence_len": 22.7,
+    "sentence_ok": false,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 8.6,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "sentence length: 22.7 avg (target 18-20 \u00b12)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-E2-017",
+    "grade": "E2",
+    "band": "9-12",
+    "teks_code": "ELA.E2.7.E.ii",
+    "text_type": "argumentative",
+    "title": "A Semester That Pays for Itself",
+    "words": 427,
+    "words_ok": false,
+    "avg_sentence_len": 25.1,
+    "sentence_ok": false,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 11.9,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "length: 427 words (target 450-550 \u00b110)",
+      "sentence length: 25.1 avg (target 20-22 \u00b12)",
+      "readability estimate: FK grade 11.9 (expected 8.5 to 11.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-E3-018",
+    "grade": "E3",
+    "band": "9-12",
+    "teks_code": "ELA.E3.7.D.i",
+    "text_type": "informational",
+    "title": "Cities Are Making Their Own Heat",
+    "words": 451,
+    "words_ok": false,
+    "avg_sentence_len": 23.7,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 11.4,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "length: 451 words (target 500-600 \u00b110)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-E3-019",
+    "grade": "E3",
+    "band": "9-12",
+    "teks_code": "ELA.E3.6.B",
+    "text_type": "narrative",
+    "title": "Borrowed Code",
+    "words": 514,
+    "words_ok": true,
+    "avg_sentence_len": 20.6,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 9.0,
+    "readability_ok": false,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "readability estimate: FK grade 9.0 (expected 9.5 to 12.5)"
+    ],
+    "lane": "yellow"
+  },
+  {
+    "lesson_id": "RL-TX-E4-020",
+    "grade": "E4",
+    "band": "9-12",
+    "teks_code": "ELA.E4.7.E.i",
+    "text_type": "argumentative",
+    "title": "The Last Free Room in Town",
+    "words": 497,
+    "words_ok": false,
+    "avg_sentence_len": 23.7,
+    "sentence_ok": true,
+    "instances": 5,
+    "instances_ok": true,
+    "fk_grade": 12.5,
+    "readability_ok": true,
+    "flags": {
+      "red": [],
+      "yellow": []
+    },
+    "issues": [
+      "length: 497 words (target 550-700 \u00b110)"
+    ],
+    "lane": "yellow"
+  }
+]

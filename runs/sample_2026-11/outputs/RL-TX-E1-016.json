@@ -1,0 +1,37 @@
+{
+  "title": "The Last Pecan Harvest",
+  "passage_text": "For three generations, the Castillo family had harvested pecans from the orchard that stretched along the Pecos River, where the trees grew so tall that their branches met above the dirt road and turned the summer light a deep, quiet green.\n\nElena had grown up believing the orchard would always look that way. As a child, she raced her cousins between the rows each November, filling burlap sacks while her father shook the trunks with the old mechanical arm and the nuts rained down like hail on the tin roof of the shed.\n\nBut this year the river was lower than anyone could remember. Three summers of drought had cracked the ground into a pattern of dusty plates, and the irrigation canal that once ran full now held only a thin brown ribbon of water. Many of the oldest trees had dropped their leaves early, and some had not produced a single nut.\n\nAt dinner, her father spread a map of the property across the kitchen table and explained that the family could no longer water every row. They would have to choose which trees to save. Elena argued that every tree mattered, that her great-grandfather had planted the first ones by hand, but her father only rubbed his tired eyes and said that loving a place sometimes meant changing it.\n\nThe next morning, Elena walked the orchard alone. She noticed what she had always overlooked: the youngest trees, planted near the north fence where the soil held more moisture, still showed green leaves and small clusters of nuts. Beside them, a neighbor's field of drought-tolerant sorghum swayed in the hot wind, thriving where cotton had once failed.\n\nSlowly, she began to understand that the land itself was teaching her family how to survive. The orchard had never been a fixed thing; it had always depended on the river, the weather, and the willingness of each generation to adapt.\n\nThat winter, Elena helped her father install drip lines along the north rows and mark the oldest dying trees for removal. It hurt to watch them come down, but she saved a slab from her great-grandfather's first tree and sanded it into a small table for the porch.\n\nWhen spring arrived, the young trees leafed out early, bright against the brown hills. Elena understood that her family's story would continue, not because the orchard stayed the same, but because the people who loved it were willing to change with it.",
+  "skill_instances": [
+    {
+      "quote": "Three summers of drought had cracked the ground into a pattern of dusty plates",
+      "explanation": "The harsh setting creates the central conflict."
+    },
+    {
+      "quote": "the irrigation canal that once ran full now held only a thin brown ribbon of water",
+      "explanation": "The changing land signals that the old way of life is ending."
+    },
+    {
+      "quote": "loving a place sometimes meant changing it",
+      "explanation": "The setting prompts the story's first statement of theme."
+    },
+    {
+      "quote": "the land itself was teaching her family how to survive",
+      "explanation": "Elena connects the setting directly to the theme of adaptation."
+    },
+    {
+      "quote": "not because the orchard stayed the same, but because the people who loved it were willing to change with it",
+      "explanation": "The final line states the theme the setting has built."
+    }
+  ],
+  "protagonist": {
+    "name": "Elena Castillo",
+    "notes": "high school student in a farming family"
+  },
+  "setting": "a West Texas pecan orchard during drought",
+  "lesson_hooks": {
+    "hook_question": "How can a place teach us something about ourselves?",
+    "i_do": "Model how the drought details point toward the theme.",
+    "we_do": "Find the sentence where Elena connects the land to survival.",
+    "you_do_question": "What theme does the orchard's change reveal?"
+  }
+}

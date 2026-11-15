@@ -1,0 +1,37 @@
+{
+  "title": "The Last Free Room in Town",
+  "passage_text": "In many Texas towns, there is only one public place where a person can sit indoors for hours, use a computer, read a newspaper, attend a class, and never be asked to buy anything: the public library. As state and local budgets tighten, libraries are often among the first services to lose hours and staff, yet cutting them is a costly mistake. Texas communities should protect and expand funding for public libraries, because they are essential infrastructure for education, economic opportunity, and civic life.\n\nConsider first the practical value libraries provide. Job seekers rely on library computers and printers to complete online applications, which many employers now require, and librarians routinely help patrons format résumés, navigate government websites, and apply for licenses. In rural counties where high-speed internet remains unavailable or unaffordable for many households, the library's connection is not a convenience but a lifeline, allowing students to submit homework and adults to attend telehealth appointments.\n\nThe economic argument is equally persuasive. Studies conducted by state library agencies across the country have repeatedly found that every dollar invested in public libraries returns several dollars in value to the community, through free access to books, databases, technology, and programs that residents would otherwise pay for. Small businesses use library databases for market research, and early literacy programs prepare young children for kindergarten, reducing the cost of remediation later in school.\n\nYet the strongest case for libraries may be the one that is hardest to measure. A library is one of the few spaces where people of every age, income, and background share the same tables and the same rules. On any afternoon, a retired veteran might be reading the newspaper beside a teenager studying for an exam, while a parent and toddler sing along at story time in the next room. In an era when many Americans report feeling isolated from their neighbors, these ordinary encounters strengthen the sense that a community belongs to everyone.\n\nSome taxpayers argue that libraries are outdated now that so much information is available online. But access to information is not the same as the ability to use it well, and the internet does not offer a trained professional who can help a student evaluate sources or guide an older adult through a confusing benefits application. Libraries have already evolved far beyond book lending, offering makerspaces, language classes, and tax preparation help.\n\nProtecting these institutions requires deliberate action. Residents should attend city council and county commissioners court meetings when budgets are discussed, speak about how the library has served their families, and ask their representatives to oppose cuts to hours and staff. Voters should support local bond measures that fund library renovations, and students can organize campaigns to sign up classmates for library cards.\n\nThe library has always quietly served the people who needed it most. Now it is time for the people it serves to speak up for the library, before the last free room in town closes its doors.",
+  "skill_instances": [
+    {
+      "quote": "Texas communities should protect and expand funding for public libraries",
+      "explanation": "The arguable thesis."
+    },
+    {
+      "quote": "every dollar invested in public libraries returns several dollars in value to the community",
+      "explanation": "An appeal to logic using economic evidence."
+    },
+    {
+      "quote": "a retired veteran might be reading the newspaper beside a teenager studying for an exam",
+      "explanation": "An appeal to emotion with a vivid community image."
+    },
+    {
+      "quote": "Residents should attend city council and county commissioners court meetings when budgets are discussed",
+      "explanation": "The call to action tells readers what to do."
+    },
+    {
+      "quote": "Now it is time for the people it serves to speak up for the library",
+      "explanation": "The convincing conclusion repeats the call to action."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "op-ed writer, no named narrator"
+  },
+  "setting": "Texas towns and their public libraries",
+  "lesson_hooks": {
+    "hook_question": "What is one free public place in your town that matters to people?",
+    "i_do": "Model the thesis and identify what makes it arguable.",
+    "we_do": "Find one appeal to emotion and one appeal to logic.",
+    "you_do_question": "What does the writer ask readers to do?"
+  }
+}

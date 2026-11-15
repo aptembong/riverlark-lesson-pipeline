@@ -1,0 +1,37 @@
+{
+  "title": "Give Us Time to Eat",
+  "passage_text": "At Lakeview Middle School, students get twenty-two minutes for lunch. That sounds like enough time until you subtract the minutes spent walking to the cafeteria and waiting in line. Most of us end up with about ten minutes to actually eat. The school should extend lunch to thirty-five minutes, and the evidence for that change comes from several directions.\n\nThe first kind of evidence is numbers, and they are hard to ignore. Our student council surveyed 412 students last month, and 81 percent said they often throw away food because they run out of time. The cafeteria staff confirmed the problem when they weighed the trash for one week. On average, they found almost sixty pounds of uneaten food every day.\n\nThe second kind of evidence comes from experts. Our school nurse, Ruth Delgado, explained that students who skip lunch often visit her office in the afternoon with headaches or stomachaches. She also pointed out that hungry students have a harder time paying attention in class. National health groups recommend that students have at least twenty minutes to eat after they sit down, which our current schedule does not allow.\n\nPersonal experience points the same way, and it is not just mine. Last year, during a week of state testing, the school tried a longer lunch for a few days. Teachers noticed that afternoon classes were calmer, and fewer students asked to go to the nurse. My friends and I could finally finish our food and still talk for a few minutes.\n\nThere are alternatives worth considering, and one is to keep lunch the same and open a second serving line so students wait less. That would help, but it would cost money for more staff, and it would not fix the long walk from the far wing. Another idea is to let students eat in class, but teachers worry about spills and lost teaching time. A longer lunch solves the problem more directly than either option.\n\nAdding thirteen minutes would mean shortening each class by about two minutes. That is a small trade for students who are fed, focused, and ready to learn. The numbers, the experts, and our own experience all lead to the same conclusion.",
+  "skill_instances": [
+    {
+      "quote": "Our student council surveyed 412 students last month, and 81 percent said they often throw away food because they run out of time.",
+      "explanation": "Statistical evidence: survey numbers support the argument."
+    },
+    {
+      "quote": "Our school nurse, Ruth Delgado, explained that students who skip lunch often visit her office in the afternoon with headaches or stomachaches.",
+      "explanation": "Expert evidence: a school nurse speaks from experience."
+    },
+    {
+      "quote": "Teachers noticed that afternoon classes were calmer, and fewer students asked to go to the nurse.",
+      "explanation": "Observational evidence from a past trial of a longer lunch."
+    },
+    {
+      "quote": "There are alternatives worth considering, and one is to keep lunch the same and open a second serving line so students wait less.",
+      "explanation": "The author considers an alternative to the proposal."
+    },
+    {
+      "quote": "Another idea is to let students eat in class, but teachers worry about spills and lost teaching time.",
+      "explanation": "The author considers a second alternative and explains its weakness."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "seventh-grade student writer"
+  },
+  "setting": "Lakeview Middle School",
+  "lesson_hooks": {
+    "hook_question": "Is your lunch period long enough? How do you know?",
+    "i_do": "Model the survey sentence as statistical evidence, since numbers are the easiest type to spot.",
+    "we_do": "Students identify the type of evidence in the school nurse sentence.",
+    "you_do_question": "Name one alternative the author considers and the reason the author rejects it."
+  }
+}

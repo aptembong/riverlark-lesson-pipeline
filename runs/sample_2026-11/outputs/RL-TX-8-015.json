@@ -1,0 +1,37 @@
+{
+  "title": "The Recipe Card",
+  "passage_text": "The recipe card was stained with vanilla and folded at one corner, and when Jasmine found it tucked inside her grandmother's cookbook, she almost threw it away with the rest of the clutter from the kitchen drawer.\n\nInstead, she read the faded handwriting, and suddenly she was seven years old again, standing on a wooden stool in the same kitchen while her grandmother guided her small hands to crack eggs into a yellow bowl. \"Slow and steady,\" Grandma Lou had said, laughing as a piece of shell slipped into the batter. \"Every good cake starts with a little mess.\" Jasmine had not thought about that afternoon in years, but she could still hear the radio playing old gospel songs while the oven warmed the room.\n\nNow Jasmine was fifteen, and the house felt too quiet since Grandma Lou had moved into the assisted living center across town. Her parents were packing boxes for the estate sale on Saturday, and everyone kept saying it was time to let go of old things.\n\nShe slipped the card into her jacket pocket without telling anyone. Later, she would realize that this small decision would change the way her whole family spent the following weekend.\n\nThat evening, Jasmine gathered flour, sugar, butter, and eggs, and she followed the instructions one careful step at a time. The batter looked lumpy, and she was sure she had measured the baking powder wrong, but she kept going, remembering her grandmother's patient voice.\n\nOn Sunday afternoon, Jasmine carried the cake, still slightly lopsided, into the bright dining room at the center. Grandma Lou looked at it for a long moment, then reached for her granddaughter's hand. \"You remembered,\" she whispered, and for the first time in months, the whole family sat around one table, sharing slices and stories until visiting hours ended.",
+  "skill_instances": [
+    {
+      "quote": "suddenly she was seven years old again, standing on a wooden stool in the same kitchen",
+      "explanation": "A flashback takes the reader into the past."
+    },
+    {
+      "quote": "Every good cake starts with a little mess.",
+      "explanation": "This line foreshadows the lumpy batter later."
+    },
+    {
+      "quote": "Jasmine had not thought about that afternoon in years",
+      "explanation": "This marks the end of the flashback."
+    },
+    {
+      "quote": "Now Jasmine was fifteen",
+      "explanation": "The story returns to the present."
+    },
+    {
+      "quote": "Later, she would realize that this small decision would change the way her whole family spent the following weekend.",
+      "explanation": "Foreshadowing hints at what will happen."
+    }
+  ],
+  "protagonist": {
+    "name": "Jasmine",
+    "notes": "fifteen-year-old who acts on her own to reconnect her family"
+  },
+  "setting": "a family kitchen and an assisted living center",
+  "lesson_hooks": {
+    "hook_question": "Can an object bring back a memory?",
+    "i_do": "Model where the flashback begins.",
+    "we_do": "Find a sentence that hints at what will happen later.",
+    "you_do_question": "Where does the story return to the present?"
+  }
+}

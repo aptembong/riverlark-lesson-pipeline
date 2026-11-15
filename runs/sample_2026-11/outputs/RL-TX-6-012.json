@@ -1,0 +1,37 @@
+{
+  "title": "Let's Light Up Greenway Trail",
+  "passage_text": "Dear Neighbors of the Maple Hollow community,\n\nIf you walk your dog, push a stroller, or ride your bike after dinner, you have probably noticed how dark Greenway Trail becomes once the sun goes down. I am a sixth grader who uses the trail every day, and I am writing to ask you to sign our petition for solar lights along the path.\n\nMany of you have told me at our block parties that you stopped walking the trail in the evening because you cannot see roots, puddles, or cyclists coming toward you. Last winter, two people in our neighborhood twisted their ankles on the uneven section near the creek. Better lighting would make the trail safer for everyone who lives here, from toddlers to grandparents.\n\nSome of you may worry about the cost, since our homeowners association has a tight budget this year. The good news is that solar lights do not need electrical wiring, and the city parks department has offered to pay for half of them through its community grant program.\n\nOthers may wonder whether bright lights will shine into backyards and keep families awake. The lights we have chosen point down toward the path and turn off automatically at eleven o'clock.\n\nYou know this neighborhood better than anyone, and your signatures will show the city that we care about the trail we share. Please sign the petition at the community mailbox or online before our meeting on March 3. Together we can make Greenway Trail a place where every neighbor feels safe after dark.\n\nSincerely,\nNadia Herrera",
+  "skill_instances": [
+    {
+      "quote": "Dear Neighbors of the Maple Hollow community,",
+      "explanation": "The greeting names the audience directly."
+    },
+    {
+      "quote": "If you walk your dog, push a stroller, or ride your bike after dinner",
+      "explanation": "The writer describes activities her audience does."
+    },
+    {
+      "quote": "Many of you have told me at our block parties",
+      "explanation": "The writer refers to shared experiences with her neighbors."
+    },
+    {
+      "quote": "Some of you may worry about the cost, since our homeowners association has a tight budget this year.",
+      "explanation": "The writer answers a concern this audience is likely to have."
+    },
+    {
+      "quote": "You know this neighborhood better than anyone",
+      "explanation": "The writer speaks to the audience's pride and knowledge."
+    }
+  ],
+  "protagonist": {
+    "name": "Nadia Herrera",
+    "notes": "sixth grader organizing her neighborhood"
+  },
+  "setting": "a suburban neighborhood trail",
+  "lesson_hooks": {
+    "hook_question": "Who would you write to if you wanted to change something in your neighborhood?",
+    "i_do": "Model how the greeting names the audience.",
+    "we_do": "Find a sentence where the writer answers a worry her audience might have.",
+    "you_do_question": "Who is the intended audience of this letter?"
+  }
+}
