@@ -1,0 +1,37 @@
+{
+  "title": "The Ditches That Outlasted Empires",
+  "passage_text": "In the dry country of South Texas and northern New Mexico, water has always determined where people could live and what they could grow. Centuries before modern pumps and pipelines, Spanish colonists and Indigenous communities built acequias, shallow earthen canals that carried river water across fields by gravity alone. These systems deserve far more attention than they receive, because they demonstrate that durable infrastructure depends as much on shared responsibility as on clever engineering.\n\nThe engineering itself is remarkably simple: a low dam, called a presa, raises a river just enough to send part of its flow into a main channel, the acequia madre. From the mother ditch, as it is often called, the water moves downhill through smaller ditches, and farmers open wooden gates in turn to flood their own fields. Because the entire network relies on a gentle, carefully surveyed slope, it requires no electricity and very little machinery to operate.\n\nSan Antonio offers the clearest example in Texas, where Franciscan missionaries and the Coahuiltecan people built the Espada Aqueduct between 1731 and 1745 to carry an acequia across Piedras Creek. Nearly three centuries later, the stone arches still carry water, making it one of the oldest working aqueducts in the United States. In 2015, the San Antonio Missions, including their acequias, were named a UNESCO World Heritage Site.\n\nThe technology, however, is only half of the story. In the villages of northern New Mexico, many acequias are still managed by elected officials called mayordomos, who schedule water turns, settle disputes, and organize the spring cleaning of the ditches. Every landowner who draws water is expected to send workers to that cleaning, and those who fail to contribute can lose their share. In this way, the canal becomes not merely a channel for water but a living agreement among neighbors.\n\nThis shared governance explains why acequias have lasted so long. A concrete pipe can be engineered to survive for decades, yet it will eventually crack if no one is responsible for inspecting it. An acequia, by contrast, is inspected every year by the very people whose crops depend on it, so small problems are repaired before they become disasters. The system's durability, in other words, is a social achievement as much as a physical one.\n\nAcequias also face real threats today, as suburban development has paved over many fields and younger family members often move to cities rather than inherit the work of farming. When fewer people take part in the annual cleaning, the ditches silt up and the cooperative structure weakens. Several communities have responded by teaching students to maintain the channels and by recording the oral histories of longtime mayordomos.\n\nIn summary, acequias combine modest technology with a strong tradition of collective care. Their survival in San Antonio and New Mexico shows that the most lasting public works are often the ones that communities understand, maintain, and govern together. As Texas and the rest of the Southwest confront longer droughts and growing cities, planners would be wise to study these old ditches. They are not museum pieces but working models for managing scarce water fairly and sustainably.",
+  "skill_instances": [
+    {
+      "quote": "These systems deserve far more attention than they receive, because they demonstrate that durable infrastructure depends as much on shared responsibility as on clever engineering.",
+      "explanation": "This is the thesis: a clear, arguable claim the essay supports."
+    },
+    {
+      "quote": "Nearly three centuries later, the stone arches still carry water, making it one of the oldest working aqueducts in the United States.",
+      "explanation": "Strong supporting evidence from a specific Texas example."
+    },
+    {
+      "quote": "Every landowner who draws water is expected to send workers to that cleaning, and those who fail to contribute can lose their share.",
+      "explanation": "A pertinent example of shared responsibility in practice."
+    },
+    {
+      "quote": "The system's durability, in other words, is a social achievement as much as a physical one.",
+      "explanation": "Commentary: the writer explains what the evidence means."
+    },
+    {
+      "quote": "In summary, acequias combine modest technology with a strong tradition of collective care.",
+      "explanation": "The summary begins the conclusion by restating the main points."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational essay, no protagonist"
+  },
+  "setting": "acequias of San Antonio, Texas, and northern New Mexico",
+  "lesson_hooks": {
+    "hook_question": "What makes something built by people last for centuries?",
+    "i_do": "Model finding the thesis at the end of the first paragraph.",
+    "we_do": "Students label one sentence in paragraph five as evidence or commentary.",
+    "you_do_question": "What year were the San Antonio Missions named a UNESCO World Heritage Site?"
+  }
+}

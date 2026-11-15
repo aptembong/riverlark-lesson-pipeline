@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riverlark Onboarding and Practice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Riverlark enablement pages: same tokens as the case study, Studio and video stage. One page per audience; a sub-nav joins the four. */
+
+:root{--river:#0E4D64;--sky:#5CC6D8;--coral:#F2765A;--mist:#F4F8FA;--ink:#12313D;--muted:#4E6873;--line:#D5E3E9;--card:#fff;
+--sky-soft:#E3F5F8;--coral-soft:#FDECE7;--green:#2E7D4F;--green-soft:#E3F2E8;--yellow:#9A6B00;--yellow-soft:#FBF1D6;--red:#B3261E;--red-soft:#FBE4E2;
+--font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--mist);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.55}
+a{color:var(--river)}
+h1,h2,h3,h4{margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(1.9rem,4vw,2.6rem);font-weight:800;letter-spacing:-.02em;color:var(--river)}
+h2{font-size:1.5rem;font-weight:800;color:var(--river)}
+h3{font-size:1.08rem;font-weight:700}
+h4{font-size:.98rem;font-weight:700}
+p{margin:0}
+:focus-visible{outline:3px solid var(--coral);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{background:var(--river);color:#fff}
+.bar{display:flex;align-items:center;gap:14px;padding:14px 0 8px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.brand svg{width:36px;height:36px}
+.wordmark{font-weight:700;font-size:1.05rem}.wordmark span{font-weight:500;opacity:.85}
+.tool{font-weight:700;padding-left:14px;border-left:1px solid rgba(255,255,255,.35)}
+.back{margin-left:auto;color:#fff;font-weight:600;font-size:.9rem}
+nav.sub{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:4px}
+nav.sub::-webkit-scrollbar{display:none}
+nav.sub a{color:#D6EEF3;text-decoration:none;font-weight:600;font-size:.9rem;padding:9px 14px;border-radius:10px 10px 0 0;white-space:nowrap}
+nav.sub a:hover{color:#fff;background:rgba(255,255,255,.08)}
+nav.sub a[aria-current="page"]{background:var(--mist);color:var(--river)}
+main.wrap{padding:34px 20px 64px}
+section.blk{margin-top:44px;display:flex;flex-direction:column;gap:16px}
+.hero{display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:1.08rem;max-width:72ch}
+.muted{color:var(--muted)}.small{font-size:.86rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.stack{display:flex;flex-direction:column;gap:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.pill.green{background:var(--green-soft);color:var(--green)}.pill.yellow{background:var(--yellow-soft);color:var(--yellow)}.pill.red{background:var(--red-soft);color:var(--red)}
+.pill.info{background:var(--sky-soft);color:var(--river)}.pill.real{background:var(--coral-soft);color:#9C3A21}.pill.illus{background:#EEF1F3;color:#4E5A61}
+.dot{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.stack>.pill,.lane>.pill,.st>.pill{align-self:flex-start}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.grid3,.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.grid2,.grid3,.grid4{grid-template-columns:1fr}}
+.lane{border-radius:16px;padding:18px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;gap:8px;border-top:6px solid var(--line)}
+.lane.green{border-top-color:var(--green)}.lane.yellow{border-top-color:#D9A400}.lane.red{border-top-color:var(--red)}.lane.info{border-top-color:var(--sky)}
+.lane .time{font-size:.84rem;font-weight:700;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:16px}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:#FAFCFD}
+tr:last-child td{border-bottom:0}
+td b{white-space:nowrap}
+ul.plain,ol.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.95rem;padding:10px 20px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;font-family:var(--font);background:none}
+.btn.primary{background:var(--coral);color:var(--ink)}.btn.ghost{color:var(--river);border-color:var(--river)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.callout{border-left:4px solid var(--sky);background:var(--sky-soft);border-radius:0 12px 12px 0;padding:14px 16px}
+.callout.coral{border-left-color:var(--coral);background:var(--coral-soft)}
+.example{background:#FAFCFD;border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:.94rem}
+.example b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-weight:600;font-size:.88rem}
+input[type=text],input[type=number],input[type=date],select,textarea{font:inherit;font-size:.94rem;padding:9px 12px;border:1px solid #B9CCD4;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+textarea{min-height:76px;resize:vertical}
+pre{margin:0;background:#0F2E3A;color:#DDEFF4;border-radius:14px;padding:16px;overflow:auto;font-size:.8rem;line-height:1.5;max-height:480px;white-space:pre-wrap}
+code{font-size:.88em;background:#EAF2F5;padding:1px 5px;border-radius:5px}
+pre code{background:none;padding:0}
+.view{display:none}.view.active{display:block}
+.viewtabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.viewtabs a{font-weight:700;font-size:.92rem;padding:8px 16px;border-radius:999px;text-decoration:none;border:2px solid var(--river);color:var(--river)}
+.viewtabs a[aria-current="page"]{background:var(--river);color:#fff}
+.num{font-variant-numeric:tabular-nums}
+footer.pg{border-top:1px solid var(--line);margin-top:56px;padding-top:22px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.next-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%}
+@media (max-width:760px){.next-grid{grid-template-columns:1fr}}
+.next-grid a{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.next-grid a span{display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.next-grid a b{color:var(--river)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+
+.stages{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:10px}
+@media (max-width:980px){.stages{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.stg{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px;display:flex;flex-direction:column;gap:6px;border-top:5px solid var(--sky)}
+.stg.auto{border-top-color:var(--river)}.stg.human{border-top-color:var(--green)}.stg.hand{border-top-color:#6B7C85}
+.stg .n{font-size:.78rem;font-weight:800;color:var(--muted)}
+.stg p{font-size:.86rem;color:var(--muted)}
+.key{display:flex;gap:14px;flex-wrap:wrap;font-size:.84rem;color:var(--muted)}
+.key i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+dl.brief{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:0;font-size:.92rem}dl.brief dt{font-weight:700}dl.brief dd{margin:0;color:var(--muted)}
+.drill{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.drill{grid-template-columns:1fr}}
+.dcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:10px}
+.dcard table{font-size:.86rem}.dcard th,.dcard td{padding:6px 9px}
+.ok{color:var(--green);font-weight:700}.miss{color:var(--red);font-weight:700}
+.choose{display:flex;gap:8px;flex-wrap:wrap}
+.choose button{font:inherit;font-weight:700;font-size:.9rem;padding:8px 16px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--ink);cursor:pointer}
+.choose button[aria-pressed="true"]{border-color:var(--river);background:var(--river);color:#fff}
+.choose button:disabled{cursor:default}
+.choose button.right{border-color:var(--green)}.choose button.wrong[aria-pressed="true"]{background:var(--red);border-color:var(--red)}
+.fb{border-radius:12px;padding:10px 12px;font-size:.92rem}
+.fb.good{background:var(--green-soft)}.fb.bad{background:var(--yellow-soft)}
+.src{font-size:.78rem;color:var(--muted)}
+.case{background:#fff;border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:14px}
+.case .head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:baseline}
+.passage{background:#FAFCFD;border:1px solid var(--line);border-radius:12px;padding:14px 16px;max-height:340px;overflow:auto;font-size:.96rem;display:flex;flex-direction:column;gap:10px}
+mark{background:#D8F0F5;border-bottom:2px solid var(--sky);padding:0 2px;border-radius:3px;color:inherit}
+.steplabel{font-size:.78rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--river)}
+.checks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 16px;font-size:.92rem}
+@media (max-width:640px){.checks{grid-template-columns:1fr}}
+.checks label{display:flex;gap:8px;align-items:flex-start}
+.locked{opacity:.5;pointer-events:none}
+.score{display:flex;gap:14px;flex-wrap:wrap}
+.score div{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 18px}
+.score b{display:block;font-size:1.6rem;font-weight:800;color:var(--river)}
+.casenav{display:flex;gap:8px;flex-wrap:wrap}
+.casenav button{font:inherit;font-weight:700;font-size:.86rem;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:#fff;cursor:pointer;color:var(--ink)}
+.casenav button[aria-current="true"]{background:var(--river);color:#fff;border-color:var(--river)}
+.casenav button.done::after{content:" ✓";color:var(--green)}
+.casenav button[aria-current="true"].done::after{color:#BDEBD0}
+
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="bar">
+    <a class="brand" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1" aria-label="Riverlark case study"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#FFFFFF"/><path d="M9 34c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#5CC6D8" stroke-width="3" stroke-linecap="round"/><path d="M9 40c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#0E4D64" stroke-width="3" stroke-linecap="round"/><path d="M12 21c5-1 9 1 12 4 2-5 6-9 13-10-3 2-4 4-5 7 3 0 5 1 6 2-3 0-6 1-8 3-4 4-11 5-18-6z" fill="#0E4D64"/><circle cx="33.6" cy="18.6" r="1.1" fill="#FFFFFF"/><path d="M36.8 17.5l4-1.2-3.6 2.4z" fill="#F2765A"/></svg><span class="wordmark">riverlark <span>learning</span></span></a>
+    <span class="tool">Enablement</span>
+    <a class="back" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">← Back to case study</a>
+  </div>
+  <nav class="sub" aria-label="Enablement pages"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi">Reviewer guide</a><a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw" aria-current="page">Onboarding + practice</a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV">Rollout plan</a><a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc">Prompt change process</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="eyebrow">Enablement · For writers and editors</span>
+    <h1>Onboarding and practice</h1>
+    <p class="lede">A short guide to how a lesson moves through the pipeline and how to fix a draft, then a practice round: sort real sample passages into lanes, make the editor's call, and compare yours with the validator's and an editor's.</p>
+    <div class="pills"><span class="pill real">Real passages and results from the November sample run</span><span class="pill illus">Editor decisions are illustrative</span></div>
+    <nav class="viewtabs" aria-label="Views"><a href="#guide">Guide</a><a href="#practice">Practice</a></nav>
+  </div>
+  
+<div class="view" id="guide">
+  <section class="blk" aria-labelledby="h-min" style="margin-top:28px">
+    <h2 id="h-min">The pipeline in one minute</h2>
+    <p class="lede">One brief goes in, one reviewed video lesson comes out. Claude drafts, scripts check, and people make every decision.</p>
+    <div class="stages"><div class="stg auto"><span class="n">STAGE 1</span><h4>Data layer</h4><p>Each TEKS standard becomes a brief with its grade's targets.</p></div><div class="stg ai"><span class="n">STAGE 2</span><h4>AI generation</h4><p>Claude drafts the passage and quotes its skill examples.</p></div><div class="stg auto"><span class="n">STAGE 3</span><h4>Automated checks</h4><p>Six checks sort the draft green, yellow or red.</p></div><div class="stg human"><span class="n">STAGE 4</span><h4>Editor review</h4><p>Editors decide every yellow and a 10% sample of green.</p></div><div class="stg ai"><span class="n">STAGE 5</span><h4>Lesson script</h4><p>The approved passage becomes a gradual-release script. Editors review it.</p></div><div class="stg hand"><span class="n">STAGE 6</span><h4>Video build and QA</h4><p>A vendor renders the video. Automated checks, then a 10% spot-check.</p></div><div class="stg auto"><span class="n">STAGE 7</span><h4>Deploy and improve</h4><p>Publish by TEKS code. Send-back reasons feed the next prompt change.</p></div></div>
+    <div class="key"><span><i style="background:var(--sky)"></i>AI step</span><span><i style="background:var(--river)"></i>Automated</span><span><i style="background:var(--green)"></i>People decide</span><span><i style="background:#6B7C85"></i>Vendor hand-off</span></div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-roles">
+    <h2 id="h-roles">Where you come in</h2>
+    <div class="grid2">
+      <div class="card stack"><span class="pill info">Writers</span><h3>You make the fixes and shape the scripts</h3>
+        <ul class="plain muted"><li>Revise a passage after an editor's “Approve with notes,” then send it back through the checks.</li><li>Tighten lesson scripts in Stage 5 so the I do, We do and You do steps teach the same skill.</li><li>Tell the Managing Editor when the same fix keeps coming up. That's how prompt changes start.</li></ul></div>
+      <div class="card stack"><span class="pill green">Editors</span><h3>You decide</h3>
+        <ul class="plain muted"><li>Review every yellow and a random 10% of greens, using the rubric.</li><li>Approve, approve with notes, regenerate, or reject. Every decision but Approve needs a note.</li><li>Review every lesson script before video.</li></ul>
+        <p class="small"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi">Read the reviewer guide →</a></p></div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-brief">
+    <h2 id="h-brief">What's in a brief</h2>
+    <p class="lede">Every draft starts from a brief. The targets come from the grade targets file, so two lessons for the same grade get the same bar.</p>
+    <div class="card"><dl class="brief">
+      <dt>Lesson ID</dt><dd>RL-TX-3-007</dd>
+      <dt>Grade and TEKS</dt><dd>Grade 3 · ELA.3.8.C: Analyze plot elements, including the sequence of events, the conflict, and the resolution.</dd>
+      <dt>Skill</dt><dd>Plot: sequence, conflict, resolution</dd>
+      <dt>Text type</dt><dd>narrative</dd>
+      <dt>Length</dt><dd>150-200 words</dd>
+      <dt>Sentences</dt><dd>10-12 words on average</dd>
+      <dt>Skill examples</dt><dd>3-5, each quoted exactly from the passage</dd>
+      <dt>Lexile</dt><dd>420L-650L, checked by the licensed analyzer</dd>
+    </dl><p class="small muted" style="margin-top:10px">A real brief from the November sample run. Its passage became the <a href="https://claude.ai/artifact/Jrp5Xyh2dTitcADGnRmvjT">sample video lesson</a>.</p></div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-fix">
+    <h2 id="h-fix">Fixing a yellow</h2>
+    <p class="lede">Most yellows are routine. Fix the cause, not the number.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col">The check says</th><th scope="col">Usually because</th><th scope="col">Fix it by</th><th scope="col">Don't</th></tr></thead>
+      <tbody>
+        <tr><td><b>Too short</b></td><td>The passage ends before the skill has room</td><td>Adding a paragraph that carries another skill example</td><td>Pad with description</td></tr>
+        <tr><td><b>Too long</b></td><td>Extra scenes or a second idea</td><td>Cutting the part that doesn't serve the skill</td><td>Cut the examples</td></tr>
+        <tr><td><b>Sentences too long</b></td><td>Ideas joined with “and,” “but,” “because”</td><td>Splitting at the joins</td><td>Make choppy fragments</td></tr>
+        <tr><td><b>Reads too hard</b></td><td>Rare words or long sentences</td><td>Swapping in grade-level words, then shorter sentences</td><td>Simplify the skill itself</td></tr>
+        <tr><td><b>Reads too easy</b> <span class="small muted">(often grades 9-12)</span></td><td>Plain words throughout</td><td>Choosing more precise words for key ideas</td><td>Lengthen sentences past the cap</td></tr>
+        <tr><td><b>Too few examples</b></td><td>The skill is named but not shown enough</td><td>Writing one more moment that shows it</td><td>Quote the same sentence twice</td></tr>
+        <tr><td><b>Quote not found</b></td><td>The example was paraphrased</td><td>Copying the sentence from the passage exactly</td><td>Edit the passage to match the quote</td></tr>
+        <tr><td><b>Flagged word</b></td><td>A word that often signals deficit framing or a stereotype</td><td>Rewriting the phrase in asset-based language</td><td>Swap in a synonym that means the same thing</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-rules">
+    <h2 id="h-rules">Four rules</h2>
+    <div class="grid4">
+      <div class="card stack"><h3>Checks sort, people decide</h3><p class="muted">A lane is a guess about how closely to read. An editor makes every call.</p></div>
+      <div class="card stack"><h3>Quotes are exact</h3><p class="muted">Skill examples are copied word for word, so the script and video highlight the right sentence.</p></div>
+      <div class="card stack"><h3>Lexile decides</h3><p class="muted">The free estimate only routes. The licensed analyzer is the readability gate.</p></div>
+      <div class="card stack"><h3>Every edit is rechecked</h3><p class="muted">After any fix, the passage runs through the checks again before approval.</p></div>
+    </div>
+    <div class="btnrow"><a class="btn primary" href="#practice">Start the practice →</a></div>
+  </section>
+</div>
+
+  
+<div class="view" id="practice">
+  <section class="blk" aria-labelledby="h-drill" style="margin-top:28px">
+    <span class="steplabel">Part 1 · about 5 minutes</span>
+    <h2 id="h-drill">Lane drill</h2>
+    <p class="lede">Read each set of check results and pick the lane the validator would give. Four come straight from the sample run. Three are training copies with one change each, so you can see what sends a passage red.</p>
+    <div class="card stack" style="padding:16px"><h3>The lane rules</h3>
+      <ul class="plain muted"><li><b class="ok">Green:</b> every check passed.</li><li><b style="color:var(--yellow)">Yellow:</b> any fit issue (length, sentence length, example count, readability), or one or two yellow-list words.</li><li><b class="miss">Red:</b> any red-list word, three or more yellow-list words, a broken schema, or an example that isn't quoted exactly.</li></ul></div>
+    <div class="drill" id="drill"></div>
+    <p id="drill-score" class="small muted" aria-live="polite"></p>
+  </section>
+
+  <section class="blk" aria-labelledby="h-cases">
+    <span class="steplabel">Part 2 · about 15 minutes</span>
+    <h2 id="h-cases">Five real passages</h2>
+    <p class="lede">These are v2.1 passages from the November sample run, with the validator's real results. First call the lane. Then review it as an editor and compare your decision with an editor's.</p>
+    <div class="callout small">The editor decisions here are illustrative, written to show how the rubric applies. In calibration, editors often differ on Approve versus Approve with notes, and that's the conversation worth having.</div>
+    <div class="casenav" id="casenav" role="tablist" aria-label="Practice passages"></div>
+    <div id="case"></div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-score">
+    <h2 id="h-score">Your results</h2>
+    <div class="score" id="score" aria-live="polite"></div>
+    <p class="muted small">Nothing is saved or sent. In onboarding, bring your Part 2 decisions to the calibration session and compare them with the other editors' decisions.</p>
+  </section>
+</div>
+
+  <footer class="pg">
+  <div class="next-grid"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi"><span>Enablement</span><b>Reviewer guide →</b></a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV"><span>Enablement</span><b>Rollout plan →</b></a><a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc"><span>Enablement</span><b>Prompt change process →</b></a></div>
+  <div class="btnrow" style="width:100%">
+    <a class="btn primary" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">Back to the case study</a>
+    <a class="btn ghost" href="https://claude.ai/artifact/7xML8iRSihrrK4vWzbYCqT">Open Lesson Studio</a>
+    <span class="muted small">Riverlark Learning is a fictional publisher. Texas, TEKS and STAAR are real. People and decisions marked illustrative are written to show how the process works.</span>
+  </div>
+</footer>
+
+</main>
+<script>
+/* hash views: show the view named in location.hash, else the first */
+(function(){
+  const views=[...document.querySelectorAll('.view')], tabs=[...document.querySelectorAll('.viewtabs a')];
+  if(!views.length) return;
+  function show(){
+    const h=(location.hash||'').slice(1); const v=views.find(x=>x.id===h)||views[0];
+    views.forEach(x=>x.classList.toggle('active',x===v));
+    tabs.forEach(a=>{ if(a.getAttribute('href')==='#'+v.id) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  }
+  window.addEventListener('hashchange',()=>{show();window.scrollTo(0,0)}); show();
+})();
+async function copyText(text, msgEl){
+  try{ await navigator.clipboard.writeText(text); if(msgEl) msgEl.textContent='Copied.'; }
+  catch(e){ if(msgEl) msgEl.textContent='Your browser blocked copying. Select the text in the box and copy it.'; }
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+const DRILL=[{"id": "RL-TX-1-003", "title": "How a Bean Plant Grows", "grade": "1", "skill": "Chronological order", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "71 words", "75-100 (\u00b110)"], ["Average sentence", true, "7.9 words", "6-8 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 0.5", "-2.0 to 2.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "green", "source": "Real: prompt v2.0 result from the November sample run", "real": true, "why": "Every check passed, so it's green. A random 10% of greens still reach an editor."}, {"id": "RL-TX-2-005", "title": "Our School Needs a Reading Garden", "grade": "2", "skill": "Fact and opinion", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "104 words", "100-150 (\u00b110)"], ["Average sentence", true, "10.4 words", "8-10 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", false, "FK grade 3.8", "0.5 to 3.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "yellow", "source": "Real: prompt v2.0 result from the November sample run", "real": true, "why": "One fit issue (readability ran a little hard) makes it yellow. An editor reads it in full and runs Lexile."}, {"id": "RL-TX-E2-017", "title": "A Semester That Pays for Itself", "grade": "E2", "skill": "Counterarguments, concessions and rebuttals", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", false, "427 words", "450-550 (\u00b110)"], ["Average sentence", false, "25.1 words", "20-22 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", false, "FK grade 11.9", "8.5 to 11.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "yellow", "source": "Real: prompt v2.0 result from the November sample run", "real": true, "why": "Three fit issues, and it's still yellow. Length, sentence length and readability never make a passage red, however many miss. Red is only for flagged words, a broken schema or a misquoted example."}, {"id": "RL-TX-5-010-T", "title": "Our Town Should Plant More Shade Trees (training copy)", "grade": "5", "skill": "Facts used for or against an argument", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "225 words", "200-250 (\u00b110)"], ["Average sentence", true, "14.1 words", "14-16 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 4.1", "3.5 to 6.5"], ["Representation flags", false, "Red list: \u201cdisadvantaged\u201d (deficit framing)", "No red- or yellow-list words"]], "lane": "red", "why": "One red-list word sends a passage red, even when everything else passes. It never reaches review: it's redrafted.", "source": "Training variation: real v2.1 numbers with one change made for practice. One sentence was changed to include a red-list word.", "real": false}, {"id": "RL-TX-4-009-T", "title": "The Ice Storm Project (training copy)", "grade": "4", "skill": "Setting's influence on plot", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "188 words", "175-225 (\u00b110)"], ["Average sentence", true, "11.1 words", "12-14 (\u00b12)"], ["Skill evidence", false, "5 examples, 1 not found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 4.1", "2.5 to 5.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "red", "why": "A skill example that isn't in the passage word for word is red. Exact quotes are how the lesson script and video highlight the right sentence.", "source": "Training variation: real v2.1 numbers with one change made for practice. One skill example was reworded so it no longer matches the passage.", "real": false}, {"id": "RL-TX-7-013-T", "title": "Texas's Night Shift (training copy)", "grade": "7", "skill": "Controlling idea and supporting evidence", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "338 words", "300-375 (\u00b110)"], ["Average sentence", true, "16.1 words", "16-18 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 6.0", "5.5 to 8.5"], ["Representation flags", false, "Yellow list: \u201cunderprivileged\u201d (deficit framing, moderate)", "No red- or yellow-list words"]], "lane": "yellow", "why": "One or two yellow-list words make it yellow, so an editor reads the sentence in context. Three or more would make it red.", "source": "Training variation: real v2.1 numbers with one change made for practice. One sentence was changed to include a yellow-list word.", "real": false}, {"id": "RL-TX-E1-016", "title": "The Last Pecan Harvest", "grade": "E1", "skill": "Setting's influence on theme", "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "409 words", "400-500 (\u00b110)"], ["Average sentence", false, "22.7 words", "18-20 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 8.6", "7.5 to 10.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "yellow", "source": "Real: prompt v2.0 result from the November sample run", "real": true, "why": "Average sentence length ran over the band's range, which is a fit issue, so it's yellow. (Prompt v2.1 fixed this one.)"}];
+const CASES=[{"id": "RL-TX-K-001", "grade": "K", "teks": "ELA.K.7.C", "skill": "Problem and resolution", "type": "narrative", "title": "Mia's Kite", "text": "Mia has a kite. It is blue and yellow. The wind blows hard. The kite gets stuck in a tree! She cannot reach it. Mia is sad.\n\nMia thinks. She tugs the string slowly. Tug, tug, tug. The kite wiggles free. Down it floats into her hands. She smiles big. Mia runs to the hill. Her kite flies high again.", "quotes": ["The kite gets stuck in a tree!", "She tugs the string slowly.", "The kite wiggles free."], "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "60 words", "50-75 (\u00b110)"], ["Average sentence", true, "4.3 words", "4-6 (\u00b12)"], ["Skill evidence", true, "3 examples, all found exactly", "2-3, quoted exactly"], ["Readability estimate", true, "FK grade -0.9", "-3.0 to 1.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "green", "why": "Every check passed, so it's green.", "lexile": "0L-200L", "decision": "Approve", "note": "Mia fixes the problem herself by tugging the string slowly. Three short examples cover the problem, the attempt and the solution. Spot-check passed.", "notice": "In kindergarten stories, agency is easy to check: who solves the problem? Here it's Mia, not an adult."}, {"id": "RL-TX-3-007", "grade": "3", "teks": "ELA.3.8.C", "skill": "Plot: sequence, conflict, resolution", "type": "narrative", "title": "The Missing Library Book", "text": "On Monday, Rosa checked out a book about sea turtles. It had bright pictures of baby turtles racing to the ocean. She read it every night that week. On Friday, the book was due back at the library.\n\nFriday morning, Rosa looked in her backpack. The book was not there. She checked under her bed and behind the couch. Her heart beat fast. She did not want to tell the librarian that she had lost it.\n\nRosa sat down and thought hard. Where had she read the book last? She remembered reading on the porch swing after dinner, so she ran outside to look.\n\nThere was the book, tucked between two cushions. The cover was a little damp from the morning dew, but it was fine. Rosa let out a long, happy breath. Rosa dried it with a towel and put it in her backpack.\n\nAt school, she told the librarian what had happened. The librarian smiled and said that thinking back was a smart plan. Rosa checked out a new book that day.", "quotes": ["On Monday, Rosa checked out a book about sea turtles.", "The book was not there.", "She did not want to tell the librarian that she had lost it.", "There was the book, tucked between two cushions.", "At school, she told the librarian what had happened."], "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "174 words", "150-200 (\u00b110)"], ["Average sentence", true, "9.2 words", "10-12 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 2.2", "1.5 to 4.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "green", "why": "Every check passed, so it's green.", "lexile": "420L-650L", "decision": "Approve", "note": "Clear sequence, conflict and resolution for grade 3. Rosa solves her own problem. Spot-check passed.", "notice": "This is the passage that went on to become the sample video lesson."}, {"id": "RL-TX-6-012", "grade": "6", "teks": "ELA.6.8.E.iii", "skill": "Intended audience", "type": "argumentative", "title": "Join the Green Team", "text": "Dear sixth graders, welcome to your first year at Cedar Ridge Middle School. You have new lockers, new teachers, and a schedule that changes every hour. I remember how strange that felt last year, and right now you might be wondering where you fit in. I want to make the case that you should join the Green Team, our school's recycling club.\n\nFirst, the Green Team is a simple way to meet people. We meet on Tuesdays after school, and nobody cares what elementary school you came from. Last year, half of our members were sixth graders, and many of them are now my closest friends. You do not need any special skills to join, just a willingness to show up and sort some cans.\n\nSecond, the work makes a real difference. Our school throws away about forty bags of trash every week. Last spring, the Green Team cut that number almost in half by placing blue bins in every hallway. We also collected enough cans to raise three hundred dollars, which paid for new books in the library. You will be able to see the results of your work in your own building.\n\nSome of you might think you are too busy. Middle school does bring more homework, and many of you have sports or music, so that worry is fair. But Green Team meetings last only forty minutes, and you can come when your schedule allows. Several members also play on the volleyball team or sing in the choir.\n\nSo when you see our table at the club fair next Friday, stop by and sign up. Bring a friend from your homeroom, or come alone and leave with a new one. Your first year of middle school only happens once, and this is a good way to make it count.", "quotes": ["Dear sixth graders, welcome to your first year at Cedar Ridge Middle School.", "You have new lockers, new teachers, and a schedule that changes every hour.", "We meet on Tuesdays after school, and nobody cares what elementary school you came from.", "Some of you might think you are too busy.", "Bring a friend from your homeroom, or come alone and leave with a new one."], "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "302 words", "250-350 (\u00b110)"], ["Average sentence", true, "15.1 words", "14-16 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", true, "FK grade 4.5", "4.5 to 7.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "green", "why": "Every check passed, so it's green.", "lexile": "740L-950L", "decision": "Approve", "note": "All five examples point to the same audience, new sixth graders, and the paragraph about being too busy answers a worry this audience really has. The estimate sits exactly on the grade 6 floor, so the Lexile check decides. Logged for the readability change.", "notice": "Green isn't the same as centered. FK 4.5 is the very bottom of the grade 6 range. This is the pattern the next prompt change is aimed at."}, {"id": "RL-TX-E1-016", "grade": "E1", "teks": "ELA.E1.6.D", "skill": "Setting's influence on theme", "type": "narrative", "title": "Salt Grass", "text": "The salt marsh behind Nana Ruth's house on the Bolivar Peninsula seemed limitless in the early morning. It was a gray-green sheet that ran all the way to the edge of the bay. Teresa had spent every summer of her childhood on that porch, shelling peas and counting pelicans as they skimmed the water in long, tidy lines. This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.\n\nHalf the houses on her grandmother's road had vanished, and the ones that remained stood on new stilts like anxious herons. Teresa's parents wanted Nana Ruth to move inland to Houston, where the apartment had air conditioning, an elevator, and no flood insurance to worry about. They had driven down from the city to help her relocate, and Teresa had come along anticipating a final goodbye.\n\nNana Ruth, however, was not packing. She was on her knees in the mud beside the porch steps, pressing seedlings of salt grass into the soft ground with her bare hands. \"The marsh is what saved the house,\" she said without looking up. \"It slowed the water enough that we lost the furniture instead of the walls.\"\n\nTeresa knelt beside her and took a handful of seedlings without being instructed. For the next hour, they worked in silence except for the cry of gulls and the slap of small waves against the reeds. Teresa observed how the new grass held the mud in place, and how fiddler crabs had already begun excavating tunnels between the roots. The land had been torn apart, yet it was patiently reassembling itself.\n\nThat evening, her parents laid out the apartment brochures on the kitchen table. Teresa watched her grandmother examine the glossy photographs of carpeted hallways and parking garages. Nana Ruth listened respectfully to every argument about safety and expense, because she knew they came from genuine affection. Then she folded the brochures neatly and set them aside. She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.\n\nTeresa did not know yet whether her grandmother was being courageous or merely stubborn. But as she fell asleep to the sound of the marsh breathing outside her window, she understood that some places are not just where people live. They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again. In the morning, Teresa asked if she could stay for the rest of the summer and help.", "quotes": ["This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.", "\"The marsh is what saved the house,\" she said without looking up.", "The land had been torn apart, yet it was patiently reassembling itself.", "She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.", "They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again."], "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "433 words", "400-500 (\u00b110)"], ["Average sentence", true, "18.0 words", "18-20 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", false, "FK grade 6.8", "7.5 to 10.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "yellow", "why": "readability estimate: FK grade 6.8 (expected 7.5 to 10.5). That's a fit issue, so it's yellow.", "lexile": "900L-1100L", "decision": "Approve with notes", "note": "Strong theme and setting work, and Teresa makes her own choice. Readability estimate is just under the grade 9 floor, so raise a few word choices to grade level in paragraphs 1 and 2, then confirm with the licensed Lexile check before video.", "notice": "The miss is small and the teaching is strong, so a redraft would throw away good work. Notes, then Lexile."}, {"id": "RL-TX-E4-020", "grade": "E4", "teks": "ELA.E4.7.E.i", "skill": "Arguable thesis, appeals and call to action", "type": "argumentative", "title": "Keep the Doors Open", "text": "Every city budget is a statement of values, and when money is tight, public libraries are often among the first services to lose hours, staff, and funding. Our city council is now considering a proposal to close the Eastside branch library on weekends and reduce its book budget by a third. I believe that decision would be a serious mistake, one that the council would come to regret. Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.\n\nI speak from experience, not only from principle, because this branch has been part of my life for years. For the past two years, I have volunteered at the Eastside branch every Saturday, shelving books, helping younger students with homework, and teaching older patrons how to fill out job applications online. In that time, I have learned more about my neighbors than any survey or spreadsheet could tell me. Above all, I have learned that the library quietly holds together much of the daily life of this side of town.\n\nConsider who actually uses the branch on a typical Saturday, when the parking lot is full before the doors even open. Students line up early, because many of them do not have reliable internet at home, and the library's computers are the only place they can complete assignments that teachers increasingly post online. Parents bring toddlers to story time, retirees read the newspapers and magazines the branch subscribes to, and adults searching for work use the printers to produce resumes and cover letters.\n\nThe logical case is just as strong as the personal one, and it begins with a simple question about who pays. Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them. Those families would have to travel across town by bus to reach the central library, often with small children in tow. A student who cannot finish homework falls behind, and a job seeker who cannot submit an application stays unemployed longer. Over time, those losses cost the city far more in earnings and potential than the council could ever save by cutting hours.\n\nThere is also a moral dimension that numbers alone cannot capture, and it may matter most of all. A public library is one of the few places left where anyone may enter, stay as long as they wish, and leave with something valuable without being asked to pay. When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.\n\nSupporters of the proposal argue that the city faces a genuine shortfall and that every department must share the burden. That point deserves respect, and I do not pretend that the budget is easy to balance or that the council's choices are simple. However, the Eastside branch already operates with fewer staff and shorter hours than the central library. Asking it to absorb a deeper cut would place an unequal share of the burden on the neighborhood that depends on it most.\n\nA fairer approach would spread any necessary reductions across all departments, protect weekend hours at every branch, and invite residents to propose savings before the final vote. Cities across Texas have found creative ways to support their libraries, from partnerships with local businesses to volunteer programs that extend hours without adding expense, and our city can learn from their example.\n\nThe council will hold a public hearing on the budget next Tuesday evening at City Hall, and residents are allowed to speak for three minutes each. I urge every student, parent, and neighbor who has ever borrowed a book, used a computer, or found a quiet place to think at the Eastside branch to attend. Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future.", "quotes": ["Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.", "I speak from experience, not only from principle, because this branch has been part of my life for years.", "Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them.", "When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.", "Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future."], "rows": [["Schema", true, "All fields and lesson hooks present", "All fields, 4 hooks"], ["Length", true, "678 words", "550-700 (\u00b110)"], ["Average sentence", true, "24.2 words", "24-26 (\u00b12)"], ["Skill evidence", true, "5 examples, all found exactly", "3-5, quoted exactly"], ["Readability estimate", false, "FK grade 10.4", "10.5 to 13.5"], ["Representation flags", true, "None", "No red- or yellow-list words"]], "lane": "yellow", "why": "readability estimate: FK grade 10.4 (expected 10.5 to 13.5). That's a fit issue, so it's yellow.", "lexile": "1050L-1300L", "decision": "Approve with notes", "note": "Thesis, ethos, logos, pathos and the call to action are all clear and quoted exactly. The estimate is 0.1 under the grade 12 floor. Sharpen word choice in paragraphs 3 and 4 rather than lengthening sentences, which are already on target, then confirm with Lexile.", "notice": "The word lists didn't flag \u201cthe families least able to absorb them,\u201d and an editor should still read it closely. Here it's about who carries a cost, not a judgment about who those families are, so it passes. That's a call only a person can make."}];
+
+const LANES=['green','yellow','red'], CAP=s=>s[0].toUpperCase()+s.slice(1);
+const state={drill:{}, lane:{}, dec:{}, rub:{}, cur:0};
+function tbl(rows){
+  return `<table><thead><tr><th>Check</th><th>Result</th><th>Target</th></tr></thead><tbody>${rows.map(([l,ok,res,t])=>`<tr><td>${esc(l)}</td><td class="${ok?'ok':'miss'}">${ok?'✓':'✗'} ${esc(res)}</td><td>${esc(t)}</td></tr>`).join('')}</tbody></table>`;
+}
+function pills(name, chosen, answer){
+  return `<div class="choose" role="group" aria-label="Pick a lane">${LANES.map(l=>{
+    const done=chosen!=null; const cls=done?(l===answer?'right':(l===chosen?'wrong':'')):'';
+    return `<button type="button" data-${name}="${l}" aria-pressed="${chosen===l}" class="${cls}" ${done?'disabled':''}>${CAP(l)}</button>`}).join('')}</div>`;
+}
+function renderDrill(){
+  document.getElementById('drill').innerHTML=DRILL.map((d,i)=>{
+    const c=state.drill[i];
+    return `<div class="dcard"><div style="display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap"><b>${i+1}. ${esc(d.title)}</b><span class="src">Grade ${esc(d.grade)} · ${esc(d.skill)}</span></div>
+      <div class="tablewrap" style="border-radius:10px">${tbl(d.rows)}</div>
+      <div data-drill-i="${i}">${pills('dl',c,d.lane)}</div>
+      ${c!=null?`<div class="fb ${c===d.lane?'good':'bad'}"><b>${c===d.lane?'Right':'Not quite'}: ${CAP(d.lane)}.</b> ${esc(d.why)}</div>`:''}
+      <span class="src">${esc(d.source)}</span></div>`;}).join('');
+  const n=Object.keys(state.drill).length, r=Object.entries(state.drill).filter(([i,c])=>DRILL[i].lane===c).length;
+  document.getElementById('drill-score').textContent=n?`${r} of ${n} right so far, out of ${DRILL.length}.`:'';
+  renderScore();
+}
+document.getElementById('drill').addEventListener('click',e=>{
+  const b=e.target.closest('button[data-dl]'); if(!b) return;
+  const i=+b.closest('[data-drill-i]').dataset.drillI; state.drill[i]=b.dataset.dl; renderDrill();
+});
+function hl(text,quotes){
+  let h=esc(text); quotes.map(esc).filter(Boolean).sort((a,b)=>b.length-a.length).forEach(q=>{h=h.split(q).join('\u0001'+q+'\u0002')});
+  h=h.replace(/\u0001/g,'<mark>').replace(/\u0002/g,'</mark>');
+  return h.split(/\n\n+/).map(p=>'<p>'+p.replace(/\n/g,'<br>')+'</p>').join('');
+}
+const RUB=["The skill is taught, not just mentioned","Clear enough for the grade","Fits the grade's length and reading level","The main character solves their own problem","Culture, family and place read as everyday life","No stereotypes or deficit language","Disability, if present, uses person-first or neutral words"];
+const DEC=["Approve","Approve with notes","Regenerate","Reject"];
+function renderNav(){
+  document.getElementById('casenav').innerHTML=CASES.map((c,i)=>`<button type="button" role="tab" aria-current="${i===state.cur}" aria-selected="${i===state.cur}" class="${state.dec[i]?'done':''}" data-case="${i}">${i+1}. Grade ${esc(c.grade)}</button>`).join('');
+}
+function renderCase(){
+  const i=state.cur, c=CASES[i], lane=state.lane[i], dec=state.dec[i], rub=state.rub[i]||[];
+  const laneFb = lane!=null ? `<div class="fb ${lane===c.lane?'good':'bad'}"><b>The validator said ${CAP(c.lane)}.</b> ${esc(c.why)}</div>` : '';
+  const decBtns = `<div class="choose" role="group" aria-label="Your decision">${DEC.map(d=>`<button type="button" data-dec="${d}" aria-pressed="${dec===d}" ${dec?'disabled':''}>${d}</button>`).join('')}</div>`;
+  const reveal = dec ? `<div class="fb ${dec===c.decision?'good':'bad'}"><b>An editor's call (illustrative): ${esc(c.decision)}.</b> ${esc(c.note)}</div>
+     <div class="example"><b>What to notice</b>${esc(c.notice)}</div>
+     <p class="small muted">You ticked ${rub.filter(Boolean).length} of ${RUB.length} rubric checks. ${dec===c.decision?'Your decision matches.':'Different from the example. Bring your reason to calibration.'}</p>` : '';
+  document.getElementById('case').innerHTML=`<div class="case">
+    <div class="head"><h3>${esc(c.title)}</h3><span class="src">${esc(c.id)} · Grade ${esc(c.grade)} · ${esc(c.teks)} · ${esc(c.skill)} · ${esc(c.type)}</span></div>
+    <div class="passage">${hl(c.text,c.quotes)}</div>
+    <p class="src">Highlighted: the skill examples Claude quoted. Real v2.1 passage, unedited.</p>
+    <div class="tablewrap" style="border-radius:12px">${tbl(c.rows)}</div>
+    <div class="stack" style="gap:8px"><span class="steplabel">Step 1 · Which lane?</span><div data-case-lane>${pills('cl',lane,c.lane)}</div>${laneFb}</div>
+    <div class="stack ${lane==null?'locked':''}" style="gap:10px" aria-disabled="${lane==null}">
+      <span class="steplabel">Step 2 · Your call as the editor</span>
+      <p class="small muted">${c.lane==='green'?'This green was drawn for the 10% spot-check.':'Yellow: full review.'} The licensed Lexile check would run here against ${esc(c.lexile)}.</p>
+      <div class="checks">${RUB.map((t,k)=>`<label><input type="checkbox" data-rub="${k}" ${rub[k]?'checked':''} ${dec?'disabled':''}> ${t}</label>`).join('')}</div>
+      ${decBtns}
+      ${reveal}
+    </div>
+    <div class="btnrow">${i>0?`<button class="btn ghost" type="button" data-go="${i-1}">← Previous</button>`:''}${i<CASES.length-1?`<button class="btn primary" type="button" data-go="${i+1}">Next passage →</button>`:`<a class="btn primary" href="#h-score">See your results</a>`}</div>
+  </div>`;
+  renderNav(); renderScore();
+}
+document.getElementById('casenav').addEventListener('click',e=>{const b=e.target.closest('[data-case]'); if(b){state.cur=+b.dataset.case; renderCase();}});
+document.getElementById('case').addEventListener('click',e=>{
+  const i=state.cur;
+  const l=e.target.closest('button[data-cl]'); if(l){state.lane[i]=l.dataset.cl; return renderCase();}
+  const d=e.target.closest('button[data-dec]'); if(d){state.dec[i]=d.dataset.dec; return renderCase();}
+  const g=e.target.closest('[data-go]'); if(g){state.cur=+g.dataset.go; renderCase(); document.getElementById('h-cases').scrollIntoView({block:'start'});}
+});
+document.getElementById('case').addEventListener('change',e=>{
+  const r=e.target.closest('[data-rub]'); if(!r) return; const i=state.cur; (state.rub[i]=state.rub[i]||[])[+r.dataset.rub]=r.checked;
+});
+function renderScore(){
+  const dn=Object.keys(state.drill).length, dr=Object.entries(state.drill).filter(([i,c])=>DRILL[i].lane===c).length;
+  const ln=Object.keys(state.lane).length, lr=Object.entries(state.lane).filter(([i,c])=>CASES[i].lane===c).length;
+  const en=Object.keys(state.dec).length, er=Object.entries(state.dec).filter(([i,c])=>CASES[i].decision===c).length;
+  document.getElementById('score').innerHTML=`<div><b>${dr}/${DRILL.length}</b><span class="small muted">lane drill right${dn<DRILL.length?` (${dn} answered)`:''}</span></div>
+   <div><b>${lr}/${CASES.length}</b><span class="small muted">passage lanes match the validator${ln<CASES.length?` (${ln} answered)`:''}</span></div>
+   <div><b>${er}/${CASES.length}</b><span class="small muted">decisions match the example${en<CASES.length?` (${en} answered)`:''}</span></div>`;
+}
+renderDrill(); renderCase();
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "title": "Texas's Night Shift",
+  "passage_text": "Every summer evening near San Antonio, a dark ribbon rises out of Bracken Cave and twists into the sky. It is made of millions of Mexican free-tailed bats heading out to hunt. Many people fear bats or think of them as pests. In fact, these small mammals are among the most useful animals in Texas, because they protect crops, control insects, and even support the state's economy.\n\nThe first piece of evidence is how much bats eat. A single free-tailed bat can eat hundreds of insects in one night. The colony at Bracken Cave is thought to be the largest bat colony in the world, with more than fifteen million bats. Together, those bats can eat many tons of insects before sunrise, including moths whose young feed on corn and cotton.\n\nThat appetite matters to farmers. When bats eat the moths, fewer eggs are laid, and fewer caterpillars hatch to damage the crops. Farmers can then spray less pesticide, which saves money and keeps more chemicals out of the soil and water. Scientists who studied this effect estimated that bats save farmers in the United States billions of dollars every year. For a state that grows as much cotton as Texas does, that help is hard to replace.\n\nBats also bring visitors and money to Texas cities. In Austin, about one and a half million bats live under the Congress Avenue Bridge from spring to fall. Each night, crowds gather on the bridge and along the river to watch them fly out. Tour boats, restaurants, and hotels all benefit from the people who come to see the show.\n\nBats are not perfect neighbors, and people should never touch one, since a few carry diseases such as rabies. Still, the evidence shows that their benefits far outweigh the risks. Protecting caves and bridges where bats live is not only good for wildlife but also good for farms, towns, and families across Texas. The next time you see bats at dusk, think of them as the state's hardworking night shift.",
+  "skill_instances": [
+    {
+      "quote": "In fact, these small mammals are among the most useful animals in Texas, because they protect crops, control insects, and even support the state's economy.",
+      "explanation": "This is the controlling idea that the rest of the text supports."
+    },
+    {
+      "quote": "A single free-tailed bat can eat hundreds of insects in one night.",
+      "explanation": "This evidence shows how much pest control one bat provides."
+    },
+    {
+      "quote": "Scientists who studied this effect estimated that bats save farmers in the United States billions of dollars every year.",
+      "explanation": "This evidence supports the claim that bats help the economy."
+    },
+    {
+      "quote": "In Austin, about one and a half million bats live under the Congress Avenue Bridge from spring to fall.",
+      "explanation": "This evidence supports the point that bats draw visitors."
+    },
+    {
+      "quote": "Still, the evidence shows that their benefits far outweigh the risks.",
+      "explanation": "The author returns to the controlling idea after admitting a risk."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "Bracken Cave near San Antonio and the Congress Avenue Bridge in Austin",
+  "lesson_hooks": {
+    "hook_question": "What do you think of when you hear the word bat?",
+    "i_do": "Model finding the controlling idea in the last sentence of the first paragraph.",
+    "we_do": "Students match one piece of evidence in paragraph three to the controlling idea.",
+    "you_do_question": "Which bridge in Austin is home to about one and a half million bats?"
+  }
+}

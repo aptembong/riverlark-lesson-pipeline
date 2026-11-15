@@ -1,0 +1,309 @@
+{
+  "format": "riverlark-storyboard/1.0",
+  "lesson_id": "RL-TX-3-007",
+  "title": "The Missing Library Book",
+  "grade": "3",
+  "teks_code": "ELA.3.8.C",
+  "skill": "Plot: sequence, conflict and resolution",
+  "source": "Approved passage from the v2.1 sample run (green lane, editor decision: Approve)",
+  "script_prompt_version": "script v1.0",
+  "render_spec": {
+    "resolution": "1920x1080",
+    "fps": 30,
+    "style": "text-first, no avatar",
+    "narration_voice": "warm, unhurried, about 140 words per minute",
+    "captions": "burnt-in caption bar on every scene except the read-aloud (the highlighted passage is the caption there), plus a WebVTT sidecar for the whole lesson",
+    "word_highlight": "each passage word highlighted as it is read",
+    "brand": {
+      "river": "#0E4D64",
+      "sky": "#5CC6D8",
+      "coral": "#F2765A",
+      "mist": "#F4F8FA",
+      "font": "Inter"
+    }
+  },
+  "scenes": [
+    {
+      "id": "S1",
+      "phase": "Title",
+      "target_seconds": 12,
+      "on_screen": {
+        "layout": "title",
+        "heading": "The Missing Library Book",
+        "subheading": "Grade 3 · Plot: what happens first, the problem, and how it gets solved"
+      },
+      "segments": [
+        {
+          "narration": "Hi, readers! Today we're reading a story called The Missing Library Book.",
+          "highlight": null
+        },
+        {
+          "narration": "As we read, we'll look for the plot. That's what happens first, the problem, and how the problem gets solved.",
+          "highlight": null
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "phase": "Hook",
+      "target_seconds": 14,
+      "on_screen": {
+        "layout": "question",
+        "heading": "Have you ever lost something you needed?",
+        "prompt": "Think about it."
+      },
+      "segments": [
+        {
+          "narration": "Have you ever lost something you needed? Maybe a shoe, or your homework?",
+          "highlight": null
+        },
+        {
+          "narration": "Think about how that felt.",
+          "highlight": null,
+          "pause_after": 2.0
+        },
+        {
+          "narration": "In this story, a girl named Rosa loses something important. Let's find out what happens.",
+          "highlight": null
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "phase": "Read aloud",
+      "target_seconds": 85,
+      "on_screen": {
+        "layout": "passage",
+        "show": "one paragraph at a time",
+        "progress": "Paragraph n of 5"
+      },
+      "segments": [
+        {
+          "narration": "paragraph:1",
+          "highlight": "word-by-word"
+        },
+        {
+          "narration": "paragraph:2",
+          "highlight": "word-by-word"
+        },
+        {
+          "narration": "paragraph:3",
+          "highlight": "word-by-word"
+        },
+        {
+          "narration": "paragraph:4",
+          "highlight": "word-by-word"
+        },
+        {
+          "narration": "paragraph:5",
+          "highlight": "word-by-word"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "phase": "I do",
+      "target_seconds": 38,
+      "on_screen": {
+        "layout": "model",
+        "heading": "Watch me find the plot",
+        "tracker": [
+          "Beginning",
+          "Problem",
+          "Solution",
+          "End"
+        ]
+      },
+      "segments": [
+        {
+          "narration": "Let me show you how I find the plot. First, I look for what happens at the beginning.",
+          "highlight": {
+            "paragraph": 1
+          }
+        },
+        {
+          "narration": "On Monday, Rosa checked out a book about sea turtles. This is the first event. It starts the story.",
+          "highlight": {
+            "quote": "On Monday, Rosa checked out a book about sea turtles.",
+            "tag": "Beginning"
+          }
+        },
+        {
+          "narration": "Next, I look for the problem. Here it is. The book was not there. This is where the problem starts.",
+          "highlight": {
+            "quote": "The book was not there.",
+            "tag": "Problem"
+          }
+        },
+        {
+          "narration": "Why does it matter? She did not want to tell the librarian that she had lost it. Rosa is worried.",
+          "highlight": {
+            "quote": "She did not want to tell the librarian that she had lost it.",
+            "tag": "Problem"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "phase": "We do",
+      "target_seconds": 30,
+      "on_screen": {
+        "layout": "guided",
+        "heading": "Your turn, with me",
+        "prompt": "Find the sentence where the problem gets solved.",
+        "timer_seconds": 5
+      },
+      "segments": [
+        {
+          "narration": "Now let's try one together. Find the sentence where the problem gets solved. Look at paragraph four.",
+          "highlight": {
+            "paragraph": 4,
+            "tag": "Look here"
+          },
+          "pause_after": 5.0,
+          "timer": true
+        },
+        {
+          "narration": "Did you find it? There was the book, tucked between two cushions. Rosa finds her book. The problem is solved!",
+          "highlight": {
+            "quote": "There was the book, tucked between two cushions.",
+            "tag": "Solution"
+          }
+        },
+        {
+          "narration": "And at the end, she told the librarian what had happened.",
+          "highlight": {
+            "quote": "At school, she told the librarian what had happened.",
+            "tag": "End"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "phase": "You do",
+      "target_seconds": 22,
+      "on_screen": {
+        "layout": "check",
+        "heading": "Quick check",
+        "question": "Where does Rosa find the book?",
+        "choices": [
+          {
+            "key": "A",
+            "text": "Under her bed"
+          },
+          {
+            "key": "B",
+            "text": "In her backpack"
+          },
+          {
+            "key": "C",
+            "text": "On the porch swing"
+          },
+          {
+            "key": "D",
+            "text": "At the library"
+          }
+        ],
+        "answer": "C",
+        "timer_seconds": 5
+      },
+      "segments": [
+        {
+          "narration": "Now you try. Where does Rosa find the book? Is it A, under her bed? B, in her backpack? C, on the porch swing? Or D, at the library?",
+          "highlight": null,
+          "pause_after": 5.0,
+          "timer": true
+        },
+        {
+          "narration": "The answer is C. Rosa finds the book on the porch swing, tucked between two cushions. She found it by thinking back to where she read it last.",
+          "highlight": {
+            "choice": "C"
+          }
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "phase": "Recap",
+      "target_seconds": 22,
+      "on_screen": {
+        "layout": "recap",
+        "heading": "The plot of The Missing Library Book",
+        "steps": [
+          {
+            "tag": "Beginning",
+            "text": "Rosa checks out a book."
+          },
+          {
+            "tag": "Problem",
+            "text": "The book is missing."
+          },
+          {
+            "tag": "Solution",
+            "text": "She finds it on the porch swing."
+          },
+          {
+            "tag": "End",
+            "text": "She tells the librarian."
+          }
+        ]
+      },
+      "segments": [
+        {
+          "narration": "Great work today! A plot has a beginning, a problem, a solution, and an end.",
+          "highlight": null
+        },
+        {
+          "narration": "Rosa checked out a book. The book went missing. She thought back and found it. Then she told the librarian.",
+          "highlight": "steps-in-turn"
+        },
+        {
+          "narration": "Next time you read a story, look for the problem, and how it gets solved.",
+          "highlight": null
+        }
+      ]
+    }
+  ],
+  "editor_review": {
+    "status": "Approved",
+    "illustrative": true,
+    "notes": "Arc follows gradual release. Every quote matches the approved passage. Distractors A and B come from the story, so the check tests the text, not a guess."
+  },
+  "pronunciation_flags": {
+    "rule": "Flag every spoken word with more than one pronunciation and record the one meant. The list goes to the vendor with the storyboard.",
+    "flags": [
+      {
+        "scene": "S1",
+        "line": "As we read, we'll look for the plot.",
+        "word": "read",
+        "say_as": "reed (present tense)"
+      },
+      {
+        "scene": "S3",
+        "line": "She read it every night that week.",
+        "word": "read",
+        "say_as": "red (past tense)"
+      },
+      {
+        "scene": "S3",
+        "line": "Where had she read the book last?",
+        "word": "read",
+        "say_as": "red (past tense)"
+      },
+      {
+        "scene": "S6",
+        "line": "She found it by thinking back to where she read it last.",
+        "word": "read",
+        "say_as": "red (past tense)"
+      },
+      {
+        "scene": "S7",
+        "line": "Next time you read a story, look for the problem, and how it gets solved.",
+        "word": "read",
+        "say_as": "reed (present tense)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Join the Green Team",
+  "passage_text": "Dear sixth graders, welcome to your first year at Cedar Ridge Middle School. You have new lockers, new teachers, and a schedule that changes every hour. I remember how strange that felt last year, and right now you might be wondering where you fit in. I want to make the case that you should join the Green Team, our school's recycling club.\n\nFirst, the Green Team is a simple way to meet people. We meet on Tuesdays after school, and nobody cares what elementary school you came from. Last year, half of our members were sixth graders, and many of them are now my closest friends. You do not need any special skills to join, just a willingness to show up and sort some cans.\n\nSecond, the work makes a real difference. Our school throws away about forty bags of trash every week. Last spring, the Green Team cut that number almost in half by placing blue bins in every hallway. We also collected enough cans to raise three hundred dollars, which paid for new books in the library. You will be able to see the results of your work in your own building.\n\nSome of you might think you are too busy. Middle school does bring more homework, and many of you have sports or music, so that worry is fair. But Green Team meetings last only forty minutes, and you can come when your schedule allows. Several members also play on the volleyball team or sing in the choir.\n\nSo when you see our table at the club fair next Friday, stop by and sign up. Bring a friend from your homeroom, or come alone and leave with a new one. Your first year of middle school only happens once, and this is a good way to make it count.",
+  "skill_instances": [
+    {
+      "quote": "Dear sixth graders, welcome to your first year at Cedar Ridge Middle School.",
+      "explanation": "The greeting names the intended audience directly: new sixth graders."
+    },
+    {
+      "quote": "You have new lockers, new teachers, and a schedule that changes every hour.",
+      "explanation": "The writer describes things only new middle schoolers are dealing with."
+    },
+    {
+      "quote": "We meet on Tuesdays after school, and nobody cares what elementary school you came from.",
+      "explanation": "This speaks to readers who just left elementary school."
+    },
+    {
+      "quote": "Some of you might think you are too busy.",
+      "explanation": "The writer answers a worry this audience is likely to have."
+    },
+    {
+      "quote": "Bring a friend from your homeroom, or come alone and leave with a new one.",
+      "explanation": "The call to action fits students, not parents or teachers."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "seventh-grade club member writing to new sixth graders"
+  },
+  "setting": "Cedar Ridge Middle School",
+  "lesson_hooks": {
+    "hook_question": "How would you write differently to a friend than to a principal?",
+    "i_do": "Model the greeting 'Dear sixth graders,' because it names the audience outright.",
+    "we_do": "Students find a detail that only makes sense for students new to middle school.",
+    "you_do_question": "Who is the intended audience of this letter?"
+  }
+}

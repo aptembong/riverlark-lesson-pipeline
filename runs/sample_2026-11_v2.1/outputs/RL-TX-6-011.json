@@ -1,0 +1,37 @@
+{
+  "title": "Ellie and the Dust",
+  "passage_text": "In the spring of 1935, the wind near Dalhart, Texas, seemed to blow every single day. It carried dirt from fields that had once been green with wheat. Twelve-year-old Ellie Brandt kept damp cloths over the windows, but fine brown dust still settled on the table, the beds, and even the water bucket. Her father said the rain would come back soon, but nobody believed him anymore.\n\nEllie had a plan of her own. She wanted to raise chickens and sell the eggs in town, because eggs were one of the few things people still bought. But the dust made the hens sick, and two of them had already died. Every time a storm rolled in, the sky turned black at noon, and the birds panicked in their open pen. Ellie knew that if she lost the rest, her plan would be gone too.\n\nSo she studied the land around her. The old root cellar stayed cool and still, even during the worst storms. Ellie dragged wooden crates down the steps and lined them with straw. She hung a wet sheet across the doorway to catch the dust. Each time the horizon darkened, she carried the hens down one by one, even when the wind stung her face. It was hard, slow work, but the cellar kept the air clear enough for the birds to breathe.\n\nBy June, Ellie had nine healthy hens and a basket of eggs to sell each Saturday. The money was small, but it bought flour and coffee when her family needed them most. Living through the dust storms had taught her to read the sky and to plan for the worst. Years later, Ellie would say that the hard land had made her stubborn, and that stubbornness had made her strong.",
+  "skill_instances": [
+    {
+      "quote": "fine brown dust still settled on the table, the beds, and even the water bucket",
+      "explanation": "The historical setting, the Dust Bowl, shapes Ellie's daily life."
+    },
+    {
+      "quote": "But the dust made the hens sick, and two of them had already died.",
+      "explanation": "The setting creates the conflict in the plot."
+    },
+    {
+      "quote": "The old root cellar stayed cool and still, even during the worst storms.",
+      "explanation": "Ellie uses the setting itself to solve her problem."
+    },
+    {
+      "quote": "Living through the dust storms had taught her to read the sky and to plan for the worst.",
+      "explanation": "The setting changes Ellie as a character."
+    },
+    {
+      "quote": "Years later, Ellie would say that the hard land had made her stubborn, and that stubbornness had made her strong.",
+      "explanation": "This shows the lasting effect of the setting on her character."
+    }
+  ],
+  "protagonist": {
+    "name": "Ellie Brandt",
+    "notes": "twelve-year-old on a family farm who plans and acts for herself"
+  },
+  "setting": "a farm near Dalhart, Texas, during the Dust Bowl, 1935",
+  "lesson_hooks": {
+    "hook_question": "How can the place and time you live in shape who you become?",
+    "i_do": "Model how the dust settling on everything shows the setting shaping Ellie's daily life.",
+    "we_do": "Students explain how the root cellar connects the setting to Ellie's solution.",
+    "you_do_question": "What problem does the dust cause for Ellie's plan?"
+  }
+}

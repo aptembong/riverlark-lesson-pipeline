@@ -1,0 +1,37 @@
+{
+  "title": "Borrowed Code",
+  "passage_text": "Theo Nguyen had spent four years building robots in the cramped workshop behind Cypress Ridge High School, and the state championship in Austin was only nine days away when he discovered the problem.\n\nHe was reviewing the code for their robot's navigation system late on a Tuesday night when he noticed a block of instructions that looked unusually polished, with comments written in a style he did not recognize. A quick search revealed the truth: nearly two hundred lines had been copied from a university team's public project, and the original authors' names had been deleted. The only person who had worked on that section was Sam Delgado, Theo's teammate since freshman year and one of his closest friends.\n\nTheo understood immediately why Sam might have done it. Sam's family had been counting on the engineering scholarship that the competition's top finishers often received, and Sam had confided weeks earlier that he was terrified of being the reason the team fell short. The navigation code had been failing in every practice run, and the deadline had pressed on all of them.\n\nYet the competition rules were clear. Teams could use open-source code only if they credited it, and judges disqualified any team caught presenting borrowed work as their own. If Theo said nothing, the team might win, and Sam might earn the scholarship that could change his future. If Theo reported the code, the team would likely lose points, and Sam might never forgive him.\n\nTheo also had to admit his own motives were complicated. He wanted to win as badly as anyone, and part of him whispered that no judge would ever notice. But he imagined standing on the stage in Austin, accepting a trophy for work that was not entirely theirs, and the picture felt hollow rather than triumphant.\n\nOn Wednesday afternoon, he asked Sam to stay after practice. Instead of accusing him, Theo opened the laptop, showed him the search results, and asked what had happened. Sam stared at the screen for a long time before his shoulders sagged. He explained that he had meant to add the credit later and then had been too ashamed to admit how much he had relied on someone else's solution.\n\nTogether, they decided to tell their coach and restore the original authors' names in the code. The coach was disappointed but respected that they had come forward, and she helped them document which parts the team had built and which they had adapted.\n\nAt the championship, the judges deducted points for the late disclosure, and the team finished fourth instead of first. Sam did not receive the scholarship that year. Still, one of the judges stopped them in the hallway afterward and said that their honesty was the kind of engineering judgment colleges should notice, and she handed Sam a card for a summer research program at her university.\n\nRiding the bus home through the dark Hill Country, Theo realized that the hardest part of the decision had not been knowing what was right. It had been choosing it when the cost was real.",
+  "skill_instances": [
+    {
+      "quote": "Theo understood immediately why Sam might have done it.",
+      "explanation": "The writer signals the reader to consider Sam's motivation."
+    },
+    {
+      "quote": "Sam's family had been counting on the engineering scholarship",
+      "explanation": "Sam's motivation creates pressure that leads to the dilemma."
+    },
+    {
+      "quote": "If Theo said nothing, the team might win, and Sam might earn the scholarship that could change his future.",
+      "explanation": "The moral dilemma is stated as two costly choices."
+    },
+    {
+      "quote": "He wanted to win as badly as anyone, and part of him whispered that no judge would ever notice.",
+      "explanation": "Theo's own motivation complicates the dilemma."
+    },
+    {
+      "quote": "the hardest part of the decision had not been knowing what was right. It had been choosing it when the cost was real.",
+      "explanation": "The resolution of the dilemma reveals the theme."
+    }
+  ],
+  "protagonist": {
+    "name": "Theo Nguyen",
+    "notes": "high school robotics team member who makes a hard ethical choice"
+  },
+  "setting": "a Texas high school robotics workshop and state championship",
+  "lesson_hooks": {
+    "hook_question": "Have you ever had to choose between loyalty to a friend and doing what's right?",
+    "i_do": "Model how Sam's motivation creates the dilemma.",
+    "we_do": "Find the sentence that shows Theo's own mixed motives.",
+    "you_do_question": "What theme does Theo's decision reveal?"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "The Day the Bridge Flooded",
+  "passage_text": "In the small Hill Country town of Paloma Springs, the low-water bridge was the only quick way to reach Grandma Ruth's ranch across the creek. Every Sunday, Imani and her father drove over it with a cooler of peaches and a stack of library books.\n\nOne Sunday in May, heavy storms had rolled through the night before, and the creek had risen high and fast. When they reached the bridge, brown water was rushing over the road, and a bright orange sign warned drivers to turn around.\n\nImani knew that floodwater can sweep a car away, even when it looks shallow. \"We can't cross here,\" she said, pointing at the sign. Her father agreed, but Grandma Ruth was expecting them, and her phone had no signal on the ranch.\n\nImani pulled out the paper county map from the glove box. She traced a long gravel road that curved north around the creek to a higher bridge. The trip took an extra forty minutes, but they arrived safely just before lunch.\n\nGrandma Ruth hugged them both and laughed when she saw the map. \"That old road kept you dry,\" she said.",
+  "skill_instances": [
+    {
+      "quote": "the low-water bridge was the only quick way to reach Grandma Ruth's ranch across the creek",
+      "explanation": "The setting creates the route the family depends on."
+    },
+    {
+      "quote": "heavy storms had rolled through the night before, and the creek had risen high and fast",
+      "explanation": "A change in the setting causes the problem."
+    },
+    {
+      "quote": "brown water was rushing over the road, and a bright orange sign warned drivers to turn around",
+      "explanation": "The flooded setting blocks the plot."
+    },
+    {
+      "quote": "She traced a long gravel road that curved north around the creek to a higher bridge.",
+      "explanation": "Imani uses the land itself to find a solution."
+    },
+    {
+      "quote": "The trip took an extra forty minutes, but they arrived safely just before lunch.",
+      "explanation": "The setting shapes how the story ends."
+    }
+  ],
+  "protagonist": {
+    "name": "Imani",
+    "notes": "fourth grader who knows flood safety and leads the solution"
+  },
+  "setting": "a Texas Hill Country town after a storm",
+  "lesson_hooks": {
+    "hook_question": "Why do you think Texas roads have 'Turn Around, Don't Drown' signs?",
+    "i_do": "Model how the flooded creek causes the problem.",
+    "we_do": "Find how Imani uses the land to solve the problem.",
+    "you_do_question": "How would the story change if there had been no storm?"
+  }
+}

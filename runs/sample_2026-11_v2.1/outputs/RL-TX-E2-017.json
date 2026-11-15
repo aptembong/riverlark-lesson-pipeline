@@ -1,0 +1,37 @@
+{
+  "title": "Let Us Sleep",
+  "passage_text": "At 7:20 in the morning, when the first bell rings at our high school, many students are physically present but mentally still asleep. Teachers in first period describe rows of slumped shoulders, half-finished breakfasts, and heads resting on desks before the lesson has even begun. Our district should move the high school start time to 8:30. That change is supported by medical research and by the experience of districts that have already made it.\n\nThe medical case is strong. The American Academy of Pediatrics recommends that middle and high schools start no earlier than 8:30. Its experts explain that the body clock shifts during adolescence, which makes it difficult for teenagers to fall asleep before eleven. Most teenagers need eight to ten hours of sleep, yet surveys consistently show that the majority of high school students get fewer than eight on school nights. Chronic sleep loss is linked to weaker concentration, lower grades, and a greater risk of car accidents among young drivers.\n\nOpponents raise a serious concern about transportation. Our district staggers bus routes so that the same drivers can serve elementary, middle, and high schools in turn, and shifting one schedule could disrupt the others. I concede that this concern is fair, since a plan that strands younger children at dark bus stops would solve one problem by creating another. However, several districts have addressed this by flipping the order and sending elementary students first, since younger children naturally wake earlier.\n\nA second counterargument focuses on after-school activities. Coaches worry that a later dismissal will push practices into the evening and force athletes to miss class for away games. Students who work part-time jobs to support their families have a similar worry about losing hours. These are real costs, and the district should not dismiss them, but they can be reduced through careful scheduling rather than accepted as reasons to do nothing.\n\nThe experience of other districts offers a useful rebuttal. When schools in Seattle moved their high school start times about an hour later in 2016, researchers found that students slept an average of thirty-four more minutes per night. Tardiness and absences dropped at one of the schools studied, and grades in the science classes researchers examined improved by about four and a half percent. Those results suggest that the costs opponents fear are manageable, while the benefits for students are measurable.\n\nChanging a schedule that families have relied on for years will require patience, planning, and compromise. Still, the purpose of a school day is learning, and students cannot learn well when their bodies are fighting the clock. The district should form a committee of parents, teachers, coaches, and students to design a transition plan this year, so that the change can begin next fall.",
+  "skill_instances": [
+    {
+      "quote": "Opponents raise a serious concern about transportation.",
+      "explanation": "The writer introduces a counterargument."
+    },
+    {
+      "quote": "I concede that this concern is fair, since a plan that strands younger children at dark bus stops would solve one problem by creating another.",
+      "explanation": "A concession: the writer admits the other side has a valid point."
+    },
+    {
+      "quote": "However, several districts have addressed this by flipping the order and sending elementary students first, since younger children naturally wake earlier.",
+      "explanation": "A rebuttal: the writer answers the counterargument with a solution."
+    },
+    {
+      "quote": "A second counterargument focuses on after-school activities.",
+      "explanation": "The writer introduces a second opposing view."
+    },
+    {
+      "quote": "These are real costs, and the district should not dismiss them, but they can be reduced through careful scheduling rather than accepted as reasons to do nothing.",
+      "explanation": "A concession followed by a rebuttal in a single sentence."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "high school student writer"
+  },
+  "setting": "a Texas high school district",
+  "lesson_hooks": {
+    "hook_question": "Should school start later? What would change for you?",
+    "i_do": "Model the concession in paragraph three, since 'I concede' signals it directly.",
+    "we_do": "Students find the rebuttal that answers the transportation concern.",
+    "you_do_question": "What evidence from Seattle does the writer use as a rebuttal?"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Saving Water at Westfield Elementary",
+  "passage_text": "Last spring, students at Westfield Elementary noticed a problem with the school garden. The plants were drying out quickly, and the city had asked everyone to use less water during the long, hot summer. The garden club needed a way to keep the vegetables alive without wasting a single drop.\n\nThe students researched ideas at the library and asked a local farmer for advice. She explained that rain barrels can catch water from a roof when storms roll through. The club decided to try this solution. With help from parents, they placed two large barrels under the gutters by the cafeteria.\n\nThe next problem was moving the water to the garden. A fourth grader named Rosa suggested using an old hose with tiny holes poked along its side. This simple tool, called a soaker hose, drips water slowly right onto the roots.\n\nBy the end of the summer, the garden was green and full of tomatoes. The club had solved its problem by using rain instead of the city's water.",
+  "skill_instances": [
+    {
+      "quote": "The plants were drying out quickly, and the city had asked everyone to use less water during the long, hot summer.",
+      "explanation": "This states the problem."
+    },
+    {
+      "quote": "She explained that rain barrels can catch water from a roof when storms roll through.",
+      "explanation": "This gives the first solution."
+    },
+    {
+      "quote": "The next problem was moving the water to the garden.",
+      "explanation": "A second problem appears."
+    },
+    {
+      "quote": "This simple tool, called a soaker hose, drips water slowly right onto the roots.",
+      "explanation": "This solves the second problem."
+    },
+    {
+      "quote": "The club had solved its problem by using rain instead of the city's water.",
+      "explanation": "This sums up how the problem was solved."
+    }
+  ],
+  "protagonist": {
+    "name": "Rosa",
+    "notes": "fourth-grade garden club member"
+  },
+  "setting": "a school garden in a Texas city",
+  "lesson_hooks": {
+    "hook_question": "Have you ever had to fix a problem at school?",
+    "i_do": "Model the problem sentence in paragraph one.",
+    "we_do": "Find the solution to the second problem.",
+    "you_do_question": "How did the club get water for the garden?"
+  }
+}

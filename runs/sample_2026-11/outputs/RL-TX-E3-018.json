@@ -1,0 +1,37 @@
+{
+  "title": "Cities Are Making Their Own Heat",
+  "passage_text": "On a summer afternoon in a large Texas city, the temperature downtown can be several degrees hotter than in the farmland just beyond the suburbs, a pattern scientists call the urban heat island effect. Although this difference may sound minor, the urban heat island is one of the most serious public health challenges facing growing cities, because it intensifies dangerous heat precisely where the most people live, work, and travel.\n\nThe causes of the effect are well documented. Asphalt roads, dark rooftops, and concrete sidewalks absorb sunlight during the day and release that stored heat slowly through the evening, so city neighborhoods often stay warm long after sunset. Meanwhile, the trees and soil that cool rural areas through shade and evaporation are scarce in dense urban districts, leaving fewer natural defenses against the heat.\n\nThe consequences extend well beyond discomfort. According to the Centers for Disease Control and Prevention, extreme heat causes more deaths in the United States each year than many other weather events, and nighttime heat is especially harmful because the body has less chance to recover after a hot day. Older adults, outdoor workers, and residents without reliable air conditioning face the greatest risk, which means the heat island can deepen existing inequalities within the same city.\n\nThis evidence matters because it reframes heat as a problem that cities partly create through their own design choices, rather than simply a feature of the climate. If pavement and building materials contribute to the problem, then planners and residents also have the power to reduce it.\n\nSeveral cities have already tested practical solutions. Some have painted rooftops and parking lots with reflective coatings that bounce sunlight away instead of absorbing it, while others have launched tree-planting programs aimed at the neighborhoods with the least shade. Green roofs, which cover buildings with layers of soil and plants, can lower rooftop temperatures and capture stormwater at the same time. Studies of these efforts suggest that even modest changes, such as increasing tree canopy along a few major streets, can make a measurable difference in local temperatures.\n\nThese strategies are not without challenges. Planting trees requires water and years of patient care, and reflective coatings must be maintained to remain effective. Nevertheless, the costs of inaction are steeper, measured in emergency room visits, higher energy bills, and lives lost during prolonged heat waves.\n\nIn the end, the urban heat island is not an unavoidable fact of city life but the product of decisions that can be revisited. As Texas cities continue to expand, the choices leaders make about trees, pavement, and building design will determine whether those cities become safer places to live or dangerous ovens during the hottest months of the year.",
+  "skill_instances": [
+    {
+      "quote": "the urban heat island is one of the most serious public health challenges facing growing cities",
+      "explanation": "The thesis states the writer's central claim."
+    },
+    {
+      "quote": "Asphalt roads, dark rooftops, and concrete sidewalks absorb sunlight during the day and release that stored heat slowly through the evening",
+      "explanation": "Evidence explaining the cause."
+    },
+    {
+      "quote": "According to the Centers for Disease Control and Prevention, extreme heat causes more deaths in the United States each year than many other weather events",
+      "explanation": "Evidence from an authoritative source."
+    },
+    {
+      "quote": "This evidence matters because it reframes heat as a problem that cities partly create through their own design choices",
+      "explanation": "Commentary explaining why the evidence matters."
+    },
+    {
+      "quote": "In the end, the urban heat island is not an unavoidable fact of city life but the product of decisions that can be revisited.",
+      "explanation": "The conclusion returns to the thesis."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "large Texas cities in summer",
+  "lesson_hooks": {
+    "hook_question": "Why might a city feel hotter than the countryside?",
+    "i_do": "Model how the thesis sentence makes a claim.",
+    "we_do": "Find the paragraph that is commentary rather than evidence.",
+    "you_do_question": "How does the conclusion connect back to the thesis?"
+  }
+}

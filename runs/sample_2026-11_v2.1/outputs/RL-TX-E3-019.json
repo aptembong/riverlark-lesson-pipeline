@@ -1,0 +1,37 @@
+{
+  "title": "The Quotation",
+  "passage_text": "Marisol Herrera had spent three years building the Del Mar High School debate team into a contender, recruiting freshmen in the cafeteria and coaching them through practice rounds after school. Now, the night before the state qualifying tournament, she sat at her kitchen table in Corpus Christi, rereading the evidence file her partner, Grace, had assembled for their final case. One quotation, attributed to an economist at a well-known university, made their argument almost impossible to defeat.\n\nMarisol had tried to locate the original source so she could cite the page number, but the article Grace listed did not contain the sentence anywhere. She searched the economist's books, interviews, and lectures with growing unease, and each search confirmed what she had begun to suspect. When she finally texted Grace, the reply came almost instantly: she had paraphrased something she half remembered and put quotation marks around it because the deadline was midnight.\n\nMarisol understood the temptation better than she wanted to admit. Grace was not lazy or dishonest by nature; she worked two evening shifts a week at her aunt's restaurant, and the team's success had become her best chance at a college scholarship. Reporting the fabricated quotation would almost certainly disqualify them both, ending Grace's season and erasing the record Marisol had worked so hard to build.\n\nYet Marisol also knew how the evidence would be used. Their opponents would have no way to verify the quotation in the middle of a round, and the judges would trust it because debaters were expected to be honest about their sources. Winning that way would mean that every trophy on the team's shelf, including the ones they had earned fairly, would carry a quiet doubt that only she and Grace would know about.\n\nShe considered a compromise that would spare them both. They could simply remove the quotation, rebuild the case overnight with legitimate evidence, and say nothing to their coach about what had happened. The solution was tempting precisely because it seemed responsible, but it would also teach Grace that a mistake could vanish if no one was watching. Marisol realized that the question was no longer only about the tournament; it was about what kind of teammate, and what kind of friend, she intended to be.\n\nAt six in the morning, she called Grace instead of texting, and the two of them talked until the sky over the bay turned pale. Marisol told her that she would not hide the problem, but she also would not let Grace face it alone. Together they drove to school early, sat down with Coach Alvarez before the bus left, and explained exactly what had happened and why.\n\nThe coach withdrew their final case from the tournament, and the team competed with only the arguments they could defend. They did not qualify for state that year. Months later, however, Grace rebuilt the case from scratch with verified sources. When the two of them won the spring invitational with it, Marisol understood that this victory belonged to them in a way that a win built on a false quotation never could have.",
+  "skill_instances": [
+    {
+      "quote": "Grace was not lazy or dishonest by nature; she worked two evening shifts a week at her aunt's restaurant, and the team's success had become her best chance at a college scholarship.",
+      "explanation": "This explains Grace's motivation without excusing her choice."
+    },
+    {
+      "quote": "Reporting the fabricated quotation would almost certainly disqualify them both, ending Grace's season and erasing the record Marisol had worked so hard to build.",
+      "explanation": "This sets out the stakes of Marisol's moral dilemma."
+    },
+    {
+      "quote": "The solution was tempting precisely because it seemed responsible, but it would also teach Grace that a mistake could vanish if no one was watching.",
+      "explanation": "Marisol weighs a middle path and sees its hidden cost."
+    },
+    {
+      "quote": "Marisol told her that she would not hide the problem, but she also would not let Grace face it alone.",
+      "explanation": "Her motivation, honesty and loyalty together, drives the plot forward."
+    },
+    {
+      "quote": "They did not qualify for state that year.",
+      "explanation": "The consequence of her decision shapes the plot and the theme."
+    }
+  ],
+  "protagonist": {
+    "name": "Marisol Herrera",
+    "notes": "high school debate captain who makes a hard choice herself"
+  },
+  "setting": "Corpus Christi, Texas, the night before a state qualifying tournament",
+  "lesson_hooks": {
+    "hook_question": "Is it ever right to keep a friend's mistake secret?",
+    "i_do": "Model how Grace's motivation is explained in paragraph three.",
+    "we_do": "Students explain why the compromise in paragraph five tempts Marisol and why she rejects it.",
+    "you_do_question": "What does Marisol decide to do about the fabricated quotation?"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "How Prairie Dogs Engineer the Grasslands",
+  "passage_text": "Prairie dogs are often treated as pests by ranchers, but these small rodents are actually some of the most important engineers of the Great Plains, shaping the land in ways that help dozens of other species survive.\n\nThe most visible evidence of their work lies underground. A single prairie dog colony, called a town, can contain hundreds of burrows connected by tunnels that stretch for many yards beneath the surface. As the animals dig, they loosen and mix the soil, which allows rainwater to soak deep into the ground instead of running off the dry surface.\n\nTheir constant grazing also changes the plants above. Prairie dogs clip tall grasses short so they can watch for predators, and the fresh, tender shoots that grow back contain more protein than older stems. Researchers have observed bison and pronghorn choosing to graze near prairie dog towns, likely because the new growth is easier to digest.\n\nThe burrows themselves become homes for other animals. Burrowing owls nest in abandoned tunnels, while rabbits, snakes, and insects use them to escape summer heat and winter wind. The endangered black-footed ferret depends almost entirely on prairie dogs, both as prey and for the shelter their burrows provide.\n\nFinally, prairie dogs are a major food source for hawks, eagles, coyotes, and badgers. When prairie dog populations decline, scientists have documented drops in the number of predators that rely on them, showing how closely the grassland community is linked.\n\nTaken together, this evidence shows that prairie dogs do far more than dig holes. By shaping the soil, the plants, and the food web, they help keep the grassland healthy for many creatures that share it.",
+  "skill_instances": [
+    {
+      "quote": "these small rodents are actually some of the most important engineers of the Great Plains",
+      "explanation": "This is the controlling idea of the article."
+    },
+    {
+      "quote": "they loosen and mix the soil, which allows rainwater to soak deep into the ground",
+      "explanation": "Evidence about how prairie dogs change the soil."
+    },
+    {
+      "quote": "Burrowing owls nest in abandoned tunnels",
+      "explanation": "Evidence that other animals depend on the burrows."
+    },
+    {
+      "quote": "The endangered black-footed ferret depends almost entirely on prairie dogs",
+      "explanation": "Strong evidence about one species' dependence."
+    },
+    {
+      "quote": "Taken together, this evidence shows that prairie dogs do far more than dig holes.",
+      "explanation": "The conclusion connects evidence back to the controlling idea."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "the Great Plains grasslands",
+  "lesson_hooks": {
+    "hook_question": "Can a small animal change a whole landscape?",
+    "i_do": "Model how the first sentence states the controlling idea.",
+    "we_do": "Find one piece of evidence about animals that use the burrows.",
+    "you_do_question": "Which sentence restates the controlling idea at the end?"
+  }
+}

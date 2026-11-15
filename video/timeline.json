@@ -1,0 +1,3129 @@
+{
+ "lesson_id": "RL-TX-3-007",
+ "scenes": [
+  {
+   "id": "S1",
+   "phase": "Title",
+   "start": 0.0,
+   "segments": [
+    {
+     "start": 0.7,
+     "text": "Hi, readers! Today we're reading a story called The Missing Library Book.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Hi, readers!",
+       "start": 0.7,
+       "end": 1.783,
+       "words": [
+        {
+         "w": "Hi,",
+         "start": 0.74,
+         "end": 1.221
+        },
+        {
+         "w": "readers!",
+         "start": 1.221,
+         "end": 1.723
+        }
+       ]
+      },
+      {
+       "text": "Today we're reading a story called The Missing Library Book.",
+       "start": 2.063,
+       "end": 6.143,
+       "words": [
+        {
+         "w": "Today",
+         "start": 2.103,
+         "end": 2.559
+        },
+        {
+         "w": "we're",
+         "start": 2.559,
+         "end": 2.821
+        },
+        {
+         "w": "reading",
+         "start": 2.821,
+         "end": 3.277
+        },
+        {
+         "w": "a",
+         "start": 3.277,
+         "end": 3.539
+        },
+        {
+         "w": "story",
+         "start": 3.539,
+         "end": 3.996
+        },
+        {
+         "w": "called",
+         "start": 3.996,
+         "end": 4.452
+        },
+        {
+         "w": "The",
+         "start": 4.452,
+         "end": 4.714
+        },
+        {
+         "w": "Missing",
+         "start": 4.714,
+         "end": 5.17
+        },
+        {
+         "w": "Library",
+         "start": 5.17,
+         "end": 5.821
+        },
+        {
+         "w": "Book.",
+         "start": 5.821,
+         "end": 6.083
+        }
+       ]
+      }
+     ],
+     "speech_end": 6.423,
+     "end": 6.973
+    },
+    {
+     "start": 6.973,
+     "text": "As we read, we'll look for the plot. That's what happens first, the problem, and how the problem gets solved.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "As we read, we'll look for the plot.",
+       "start": 6.973,
+       "end": 9.261,
+       "words": [
+        {
+         "w": "As",
+         "start": 7.013,
+         "end": 7.265
+        },
+        {
+         "w": "we",
+         "start": 7.265,
+         "end": 7.518
+        },
+        {
+         "w": "read,",
+         "start": 7.518,
+         "end": 7.939
+        },
+        {
+         "w": "we'll",
+         "start": 7.939,
+         "end": 8.191
+        },
+        {
+         "w": "look",
+         "start": 8.191,
+         "end": 8.444
+        },
+        {
+         "w": "for",
+         "start": 8.444,
+         "end": 8.696
+        },
+        {
+         "w": "the",
+         "start": 8.696,
+         "end": 8.949
+        },
+        {
+         "w": "plot.",
+         "start": 8.949,
+         "end": 9.201
+        }
+       ]
+      },
+      {
+       "text": "That's what happens first, the problem, and how the problem gets solved.",
+       "start": 9.541,
+       "end": 14.227,
+       "words": [
+        {
+         "w": "That's",
+         "start": 9.581,
+         "end": 9.862
+        },
+        {
+         "w": "what",
+         "start": 9.862,
+         "end": 10.144
+        },
+        {
+         "w": "happens",
+         "start": 10.144,
+         "end": 10.634
+        },
+        {
+         "w": "first,",
+         "start": 10.634,
+         "end": 11.103
+        },
+        {
+         "w": "the",
+         "start": 11.103,
+         "end": 11.384
+        },
+        {
+         "w": "problem,",
+         "start": 11.384,
+         "end": 12.061
+        },
+        {
+         "w": "and",
+         "start": 12.061,
+         "end": 12.343
+        },
+        {
+         "w": "how",
+         "start": 12.343,
+         "end": 12.624
+        },
+        {
+         "w": "the",
+         "start": 12.624,
+         "end": 12.906
+        },
+        {
+         "w": "problem",
+         "start": 12.906,
+         "end": 13.396
+        },
+        {
+         "w": "gets",
+         "start": 13.396,
+         "end": 13.677
+        },
+        {
+         "w": "solved.",
+         "start": 13.677,
+         "end": 14.167
+        }
+       ]
+      }
+     ],
+     "speech_end": 14.507,
+     "end": 15.057
+    }
+   ],
+   "end": 15.477
+  },
+  {
+   "id": "S2",
+   "phase": "Hook",
+   "start": 15.477,
+   "segments": [
+    {
+     "start": 16.177,
+     "text": "Have you ever lost something you needed? Maybe a shoe, or your homework?",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Have you ever lost something you needed?",
+       "start": 16.177,
+       "end": 18.438,
+       "words": [
+        {
+         "w": "Have",
+         "start": 16.217,
+         "end": 16.434
+        },
+        {
+         "w": "you",
+         "start": 16.434,
+         "end": 16.651
+        },
+        {
+         "w": "ever",
+         "start": 16.651,
+         "end": 17.028
+        },
+        {
+         "w": "lost",
+         "start": 17.028,
+         "end": 17.245
+        },
+        {
+         "w": "something",
+         "start": 17.245,
+         "end": 17.784
+        },
+        {
+         "w": "you",
+         "start": 17.784,
+         "end": 18.001
+        },
+        {
+         "w": "needed?",
+         "start": 18.001,
+         "end": 18.378
+        }
+       ]
+      },
+      {
+       "text": "Maybe a shoe, or your homework?",
+       "start": 18.718,
+       "end": 20.789,
+       "words": [
+        {
+         "w": "Maybe",
+         "start": 18.758,
+         "end": 19.0
+        },
+        {
+         "w": "a",
+         "start": 19.0,
+         "end": 19.242
+        },
+        {
+         "w": "shoe,",
+         "start": 19.242,
+         "end": 19.645
+        },
+        {
+         "w": "or",
+         "start": 19.645,
+         "end": 19.887
+        },
+        {
+         "w": "your",
+         "start": 19.887,
+         "end": 20.129
+        },
+        {
+         "w": "homework?",
+         "start": 20.129,
+         "end": 20.729
+        }
+       ]
+      }
+     ],
+     "speech_end": 21.069,
+     "end": 21.619
+    },
+    {
+     "start": 21.619,
+     "text": "Think about how that felt.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Think about how that felt.",
+       "start": 21.619,
+       "end": 23.202,
+       "words": [
+        {
+         "w": "Think",
+         "start": 21.659,
+         "end": 21.917
+        },
+        {
+         "w": "about",
+         "start": 21.917,
+         "end": 22.367
+        },
+        {
+         "w": "how",
+         "start": 22.367,
+         "end": 22.625
+        },
+        {
+         "w": "that",
+         "start": 22.625,
+         "end": 22.883
+        },
+        {
+         "w": "felt.",
+         "start": 22.883,
+         "end": 23.142
+        }
+       ]
+      }
+     ],
+     "speech_end": 23.482,
+     "end": 26.032
+    },
+    {
+     "start": 26.032,
+     "text": "In this story, a girl named Rosa loses something important. Let's find out what happens.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "In this story, a girl named Rosa loses something important.",
+       "start": 26.032,
+       "end": 30.481,
+       "words": [
+        {
+         "w": "In",
+         "start": 26.072,
+         "end": 26.334
+        },
+        {
+         "w": "this",
+         "start": 26.334,
+         "end": 26.596
+        },
+        {
+         "w": "story,",
+         "start": 26.596,
+         "end": 27.227
+        },
+        {
+         "w": "a",
+         "start": 27.227,
+         "end": 27.489
+        },
+        {
+         "w": "girl",
+         "start": 27.489,
+         "end": 27.751
+        },
+        {
+         "w": "named",
+         "start": 27.751,
+         "end": 28.207
+        },
+        {
+         "w": "Rosa",
+         "start": 28.207,
+         "end": 28.664
+        },
+        {
+         "w": "loses",
+         "start": 28.664,
+         "end": 29.12
+        },
+        {
+         "w": "something",
+         "start": 29.12,
+         "end": 29.77
+        },
+        {
+         "w": "important.",
+         "start": 29.77,
+         "end": 30.421
+        }
+       ]
+      },
+      {
+       "text": "Let's find out what happens.",
+       "start": 30.761,
+       "end": 32.492,
+       "words": [
+        {
+         "w": "Let's",
+         "start": 30.801,
+         "end": 31.085
+        },
+        {
+         "w": "find",
+         "start": 31.085,
+         "end": 31.369
+        },
+        {
+         "w": "out",
+         "start": 31.369,
+         "end": 31.653
+        },
+        {
+         "w": "what",
+         "start": 31.653,
+         "end": 31.938
+        },
+        {
+         "w": "happens.",
+         "start": 31.938,
+         "end": 32.432
+        }
+       ]
+      }
+     ],
+     "speech_end": 32.772,
+     "end": 33.322
+    }
+   ],
+   "end": 33.742
+  },
+  {
+   "id": "S3",
+   "phase": "Read aloud",
+   "start": 33.742,
+   "segments": [
+    {
+     "start": 34.442,
+     "text": "On Monday, Rosa checked out a book about sea turtles. It had bright pictures of baby turtles racing to the ocean. She read it every night that week. On Friday, the book was due back at the library.",
+     "paragraph": 1,
+     "highlight": "word-by-word",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "On Monday, Rosa checked out a book about sea turtles.",
+       "start": 34.442,
+       "end": 38.617,
+       "words": [
+        {
+         "w": "On",
+         "start": 34.482,
+         "end": 34.766
+        },
+        {
+         "w": "Monday,",
+         "start": 34.766,
+         "end": 35.449
+        },
+        {
+         "w": "Rosa",
+         "start": 35.449,
+         "end": 35.942
+        },
+        {
+         "w": "checked",
+         "start": 35.942,
+         "end": 36.436
+        },
+        {
+         "w": "out",
+         "start": 36.436,
+         "end": 36.719
+        },
+        {
+         "w": "a",
+         "start": 36.719,
+         "end": 37.003
+        },
+        {
+         "w": "book",
+         "start": 37.003,
+         "end": 37.286
+        },
+        {
+         "w": "about",
+         "start": 37.286,
+         "end": 37.78
+        },
+        {
+         "w": "sea",
+         "start": 37.78,
+         "end": 38.063
+        },
+        {
+         "w": "turtles.",
+         "start": 38.063,
+         "end": 38.557
+        }
+       ]
+      },
+      {
+       "text": "It had bright pictures of baby turtles racing to the ocean.",
+       "start": 39.147,
+       "end": 43.629,
+       "words": [
+        {
+         "w": "It",
+         "start": 39.187,
+         "end": 39.471
+        },
+        {
+         "w": "had",
+         "start": 39.471,
+         "end": 39.755
+        },
+        {
+         "w": "bright",
+         "start": 39.755,
+         "end": 40.038
+        },
+        {
+         "w": "pictures",
+         "start": 40.038,
+         "end": 40.742
+        },
+        {
+         "w": "of",
+         "start": 40.742,
+         "end": 41.026
+        },
+        {
+         "w": "baby",
+         "start": 41.026,
+         "end": 41.52
+        },
+        {
+         "w": "turtles",
+         "start": 41.52,
+         "end": 42.014
+        },
+        {
+         "w": "racing",
+         "start": 42.014,
+         "end": 42.508
+        },
+        {
+         "w": "to",
+         "start": 42.508,
+         "end": 42.792
+        },
+        {
+         "w": "the",
+         "start": 42.792,
+         "end": 43.075
+        },
+        {
+         "w": "ocean.",
+         "start": 43.075,
+         "end": 43.569
+        }
+       ]
+      },
+      {
+       "text": "She read it every night that week.",
+       "start": 44.159,
+       "end": 46.637,
+       "words": [
+        {
+         "w": "She",
+         "start": 44.199,
+         "end": 44.48
+        },
+        {
+         "w": "read",
+         "start": 44.48,
+         "end": 44.76
+        },
+        {
+         "w": "it",
+         "start": 44.76,
+         "end": 45.04
+        },
+        {
+         "w": "every",
+         "start": 45.04,
+         "end": 45.736
+        },
+        {
+         "w": "night",
+         "start": 45.736,
+         "end": 46.016
+        },
+        {
+         "w": "that",
+         "start": 46.016,
+         "end": 46.296
+        },
+        {
+         "w": "week.",
+         "start": 46.296,
+         "end": 46.577
+        }
+       ]
+      },
+      {
+       "text": "On Friday, the book was due back at the library.",
+       "start": 47.167,
+       "end": 50.962,
+       "words": [
+        {
+         "w": "On",
+         "start": 47.207,
+         "end": 47.493
+        },
+        {
+         "w": "Friday,",
+         "start": 47.493,
+         "end": 48.184
+        },
+        {
+         "w": "the",
+         "start": 48.184,
+         "end": 48.47
+        },
+        {
+         "w": "book",
+         "start": 48.47,
+         "end": 48.757
+        },
+        {
+         "w": "was",
+         "start": 48.757,
+         "end": 49.044
+        },
+        {
+         "w": "due",
+         "start": 49.044,
+         "end": 49.33
+        },
+        {
+         "w": "back",
+         "start": 49.33,
+         "end": 49.617
+        },
+        {
+         "w": "at",
+         "start": 49.617,
+         "end": 49.904
+        },
+        {
+         "w": "the",
+         "start": 49.904,
+         "end": 50.191
+        },
+        {
+         "w": "library.",
+         "start": 50.191,
+         "end": 50.902
+        }
+       ]
+      }
+     ],
+     "speech_end": 51.492,
+     "end": 52.042
+    },
+    {
+     "start": 52.042,
+     "text": "Friday morning, Rosa looked in her backpack. The book was not there. She checked under her bed and behind the couch. Her heart beat fast. She did not want to tell the librarian that she had lost it.",
+     "paragraph": 2,
+     "highlight": "word-by-word",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Friday morning, Rosa looked in her backpack.",
+       "start": 52.042,
+       "end": 55.425,
+       "words": [
+        {
+         "w": "Friday",
+         "start": 52.082,
+         "end": 52.585
+        },
+        {
+         "w": "morning,",
+         "start": 52.585,
+         "end": 53.28
+        },
+        {
+         "w": "Rosa",
+         "start": 53.28,
+         "end": 53.782
+        },
+        {
+         "w": "looked",
+         "start": 53.782,
+         "end": 54.285
+        },
+        {
+         "w": "in",
+         "start": 54.285,
+         "end": 54.573
+        },
+        {
+         "w": "her",
+         "start": 54.573,
+         "end": 54.862
+        },
+        {
+         "w": "backpack.",
+         "start": 54.862,
+         "end": 55.365
+        }
+       ]
+      },
+      {
+       "text": "The book was not there.",
+       "start": 55.955,
+       "end": 57.646,
+       "words": [
+        {
+         "w": "The",
+         "start": 55.995,
+         "end": 56.313
+        },
+        {
+         "w": "book",
+         "start": 56.313,
+         "end": 56.631
+        },
+        {
+         "w": "was",
+         "start": 56.631,
+         "end": 56.949
+        },
+        {
+         "w": "not",
+         "start": 56.949,
+         "end": 57.268
+        },
+        {
+         "w": "there.",
+         "start": 57.268,
+         "end": 57.586
+        }
+       ]
+      },
+      {
+       "text": "She checked under her bed and behind the couch.",
+       "start": 58.176,
+       "end": 61.442,
+       "words": [
+        {
+         "w": "She",
+         "start": 58.216,
+         "end": 58.498
+        },
+        {
+         "w": "checked",
+         "start": 58.498,
+         "end": 58.989
+        },
+        {
+         "w": "under",
+         "start": 58.989,
+         "end": 59.48
+        },
+        {
+         "w": "her",
+         "start": 59.48,
+         "end": 59.762
+        },
+        {
+         "w": "bed",
+         "start": 59.762,
+         "end": 60.045
+        },
+        {
+         "w": "and",
+         "start": 60.045,
+         "end": 60.327
+        },
+        {
+         "w": "behind",
+         "start": 60.327,
+         "end": 60.818
+        },
+        {
+         "w": "the",
+         "start": 60.818,
+         "end": 61.1
+        },
+        {
+         "w": "couch.",
+         "start": 61.1,
+         "end": 61.382
+        }
+       ]
+      },
+      {
+       "text": "Her heart beat fast.",
+       "start": 61.972,
+       "end": 63.74,
+       "words": [
+        {
+         "w": "Her",
+         "start": 62.012,
+         "end": 62.429
+        },
+        {
+         "w": "heart",
+         "start": 62.429,
+         "end": 62.846
+        },
+        {
+         "w": "beat",
+         "start": 62.846,
+         "end": 63.263
+        },
+        {
+         "w": "fast.",
+         "start": 63.263,
+         "end": 63.68
+        }
+       ]
+      },
+      {
+       "text": "She did not want to tell the librarian that she had lost it.",
+       "start": 64.27,
+       "end": 68.237,
+       "words": [
+        {
+         "w": "She",
+         "start": 64.31,
+         "end": 64.577
+        },
+        {
+         "w": "did",
+         "start": 64.577,
+         "end": 64.844
+        },
+        {
+         "w": "not",
+         "start": 64.844,
+         "end": 65.111
+        },
+        {
+         "w": "want",
+         "start": 65.111,
+         "end": 65.378
+        },
+        {
+         "w": "to",
+         "start": 65.378,
+         "end": 65.645
+        },
+        {
+         "w": "tell",
+         "start": 65.645,
+         "end": 65.912
+        },
+        {
+         "w": "the",
+         "start": 65.912,
+         "end": 66.179
+        },
+        {
+         "w": "librarian",
+         "start": 66.179,
+         "end": 66.842
+        },
+        {
+         "w": "that",
+         "start": 66.842,
+         "end": 67.109
+        },
+        {
+         "w": "she",
+         "start": 67.109,
+         "end": 67.376
+        },
+        {
+         "w": "had",
+         "start": 67.376,
+         "end": 67.643
+        },
+        {
+         "w": "lost",
+         "start": 67.643,
+         "end": 67.91
+        },
+        {
+         "w": "it.",
+         "start": 67.91,
+         "end": 68.177
+        }
+       ]
+      }
+     ],
+     "speech_end": 68.767,
+     "end": 69.317
+    },
+    {
+     "start": 69.317,
+     "text": "Rosa sat down and thought hard. Where had she read the book last? She remembered reading on the porch swing after dinner, so she ran outside to look.",
+     "paragraph": 3,
+     "highlight": "word-by-word",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Rosa sat down and thought hard.",
+       "start": 69.317,
+       "end": 71.65,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 69.357,
+         "end": 69.934
+        },
+        {
+         "w": "sat",
+         "start": 69.934,
+         "end": 70.265
+        },
+        {
+         "w": "down",
+         "start": 70.265,
+         "end": 70.596
+        },
+        {
+         "w": "and",
+         "start": 70.596,
+         "end": 70.927
+        },
+        {
+         "w": "thought",
+         "start": 70.927,
+         "end": 71.259
+        },
+        {
+         "w": "hard.",
+         "start": 71.259,
+         "end": 71.59
+        }
+       ]
+      },
+      {
+       "text": "Where had she read the book last?",
+       "start": 72.18,
+       "end": 74.324,
+       "words": [
+        {
+         "w": "Where",
+         "start": 72.22,
+         "end": 72.512
+        },
+        {
+         "w": "had",
+         "start": 72.512,
+         "end": 72.804
+        },
+        {
+         "w": "she",
+         "start": 72.804,
+         "end": 73.096
+        },
+        {
+         "w": "read",
+         "start": 73.096,
+         "end": 73.388
+        },
+        {
+         "w": "the",
+         "start": 73.388,
+         "end": 73.68
+        },
+        {
+         "w": "book",
+         "start": 73.68,
+         "end": 73.972
+        },
+        {
+         "w": "last?",
+         "start": 73.972,
+         "end": 74.264
+        }
+       ]
+      },
+      {
+       "text": "She remembered reading on the porch swing after dinner, so she ran outside to look.",
+       "start": 74.854,
+       "end": 80.987,
+       "words": [
+        {
+         "w": "She",
+         "start": 74.894,
+         "end": 75.184
+        },
+        {
+         "w": "remembered",
+         "start": 75.184,
+         "end": 76.116
+        },
+        {
+         "w": "reading",
+         "start": 76.116,
+         "end": 76.619
+        },
+        {
+         "w": "on",
+         "start": 76.619,
+         "end": 76.909
+        },
+        {
+         "w": "the",
+         "start": 76.909,
+         "end": 77.198
+        },
+        {
+         "w": "porch",
+         "start": 77.198,
+         "end": 77.487
+        },
+        {
+         "w": "swing",
+         "start": 77.487,
+         "end": 77.777
+        },
+        {
+         "w": "after",
+         "start": 77.777,
+         "end": 78.28
+        },
+        {
+         "w": "dinner,",
+         "start": 78.28,
+         "end": 78.977
+        },
+        {
+         "w": "so",
+         "start": 78.977,
+         "end": 79.266
+        },
+        {
+         "w": "she",
+         "start": 79.266,
+         "end": 79.555
+        },
+        {
+         "w": "ran",
+         "start": 79.555,
+         "end": 79.845
+        },
+        {
+         "w": "outside",
+         "start": 79.845,
+         "end": 80.348
+        },
+        {
+         "w": "to",
+         "start": 80.348,
+         "end": 80.637
+        },
+        {
+         "w": "look.",
+         "start": 80.637,
+         "end": 80.927
+        }
+       ]
+      }
+     ],
+     "speech_end": 81.517,
+     "end": 82.067
+    },
+    {
+     "start": 82.067,
+     "text": "There was the book, tucked between two cushions. The cover was a little damp from the morning dew, but it was fine. Rosa let out a long, happy breath. Rosa dried it with a towel and put it in her backpack.",
+     "paragraph": 4,
+     "highlight": "word-by-word",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "There was the book, tucked between two cushions.",
+       "start": 82.067,
+       "end": 85.353,
+       "words": [
+        {
+         "w": "There",
+         "start": 82.107,
+         "end": 82.399
+        },
+        {
+         "w": "was",
+         "start": 82.399,
+         "end": 82.692
+        },
+        {
+         "w": "the",
+         "start": 82.692,
+         "end": 82.985
+        },
+        {
+         "w": "book,",
+         "start": 82.985,
+         "end": 83.472
+        },
+        {
+         "w": "tucked",
+         "start": 83.472,
+         "end": 83.982
+        },
+        {
+         "w": "between",
+         "start": 83.982,
+         "end": 84.491
+        },
+        {
+         "w": "two",
+         "start": 84.491,
+         "end": 84.784
+        },
+        {
+         "w": "cushions.",
+         "start": 84.784,
+         "end": 85.293
+        }
+       ]
+      },
+      {
+       "text": "The cover was a little damp from the morning dew, but it was fine.",
+       "start": 85.883,
+       "end": 90.267,
+       "words": [
+        {
+         "w": "The",
+         "start": 85.923,
+         "end": 86.177
+        },
+        {
+         "w": "cover",
+         "start": 86.177,
+         "end": 86.618
+        },
+        {
+         "w": "was",
+         "start": 86.618,
+         "end": 86.872
+        },
+        {
+         "w": "a",
+         "start": 86.872,
+         "end": 87.126
+        },
+        {
+         "w": "little",
+         "start": 87.126,
+         "end": 87.567
+        },
+        {
+         "w": "damp",
+         "start": 87.567,
+         "end": 87.821
+        },
+        {
+         "w": "from",
+         "start": 87.821,
+         "end": 88.074
+        },
+        {
+         "w": "the",
+         "start": 88.074,
+         "end": 88.328
+        },
+        {
+         "w": "morning",
+         "start": 88.328,
+         "end": 88.769
+        },
+        {
+         "w": "dew,",
+         "start": 88.769,
+         "end": 89.192
+        },
+        {
+         "w": "but",
+         "start": 89.192,
+         "end": 89.446
+        },
+        {
+         "w": "it",
+         "start": 89.446,
+         "end": 89.699
+        },
+        {
+         "w": "was",
+         "start": 89.699,
+         "end": 89.953
+        },
+        {
+         "w": "fine.",
+         "start": 89.953,
+         "end": 90.207
+        }
+       ]
+      },
+      {
+       "text": "Rosa let out a long, happy breath.",
+       "start": 90.797,
+       "end": 93.731,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 90.837,
+         "end": 91.376
+        },
+        {
+         "w": "let",
+         "start": 91.376,
+         "end": 91.686
+        },
+        {
+         "w": "out",
+         "start": 91.686,
+         "end": 91.996
+        },
+        {
+         "w": "a",
+         "start": 91.996,
+         "end": 92.305
+        },
+        {
+         "w": "long,",
+         "start": 92.305,
+         "end": 92.822
+        },
+        {
+         "w": "happy",
+         "start": 92.822,
+         "end": 93.361
+        },
+        {
+         "w": "breath.",
+         "start": 93.361,
+         "end": 93.671
+        }
+       ]
+      },
+      {
+       "text": "Rosa dried it with a towel and put it in her backpack.",
+       "start": 94.261,
+       "end": 98.108,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 94.301,
+         "end": 94.76
+        },
+        {
+         "w": "dried",
+         "start": 94.76,
+         "end": 95.023
+        },
+        {
+         "w": "it",
+         "start": 95.023,
+         "end": 95.286
+        },
+        {
+         "w": "with",
+         "start": 95.286,
+         "end": 95.55
+        },
+        {
+         "w": "a",
+         "start": 95.55,
+         "end": 95.813
+        },
+        {
+         "w": "towel",
+         "start": 95.813,
+         "end": 96.272
+        },
+        {
+         "w": "and",
+         "start": 96.272,
+         "end": 96.535
+        },
+        {
+         "w": "put",
+         "start": 96.535,
+         "end": 96.799
+        },
+        {
+         "w": "it",
+         "start": 96.799,
+         "end": 97.062
+        },
+        {
+         "w": "in",
+         "start": 97.062,
+         "end": 97.326
+        },
+        {
+         "w": "her",
+         "start": 97.326,
+         "end": 97.589
+        },
+        {
+         "w": "backpack.",
+         "start": 97.589,
+         "end": 98.048
+        }
+       ]
+      }
+     ],
+     "speech_end": 98.638,
+     "end": 99.188
+    },
+    {
+     "start": 99.188,
+     "text": "At school, she told the librarian what had happened. The librarian smiled and said that thinking back was a smart plan. Rosa checked out a new book that day.",
+     "paragraph": 5,
+     "highlight": "word-by-word",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "At school, she told the librarian what had happened.",
+       "start": 99.188,
+       "end": 102.627,
+       "words": [
+        {
+         "w": "At",
+         "start": 99.228,
+         "end": 99.492
+        },
+        {
+         "w": "school,",
+         "start": 99.492,
+         "end": 99.933
+        },
+        {
+         "w": "she",
+         "start": 99.933,
+         "end": 100.197
+        },
+        {
+         "w": "told",
+         "start": 100.197,
+         "end": 100.462
+        },
+        {
+         "w": "the",
+         "start": 100.462,
+         "end": 100.726
+        },
+        {
+         "w": "librarian",
+         "start": 100.726,
+         "end": 101.382
+        },
+        {
+         "w": "what",
+         "start": 101.382,
+         "end": 101.647
+        },
+        {
+         "w": "had",
+         "start": 101.647,
+         "end": 101.911
+        },
+        {
+         "w": "happened.",
+         "start": 101.911,
+         "end": 102.567
+        }
+       ]
+      },
+      {
+       "text": "The librarian smiled and said that thinking back was a smart plan.",
+       "start": 103.157,
+       "end": 108.373,
+       "words": [
+        {
+         "w": "The",
+         "start": 103.197,
+         "end": 103.539
+        },
+        {
+         "w": "librarian",
+         "start": 103.539,
+         "end": 104.388
+        },
+        {
+         "w": "smiled",
+         "start": 104.388,
+         "end": 104.983
+        },
+        {
+         "w": "and",
+         "start": 104.983,
+         "end": 105.325
+        },
+        {
+         "w": "said",
+         "start": 105.325,
+         "end": 105.667
+        },
+        {
+         "w": "that",
+         "start": 105.667,
+         "end": 106.009
+        },
+        {
+         "w": "thinking",
+         "start": 106.009,
+         "end": 106.604
+        },
+        {
+         "w": "back",
+         "start": 106.604,
+         "end": 106.946
+        },
+        {
+         "w": "was",
+         "start": 106.946,
+         "end": 107.287
+        },
+        {
+         "w": "a",
+         "start": 107.287,
+         "end": 107.629
+        },
+        {
+         "w": "smart",
+         "start": 107.629,
+         "end": 107.971
+        },
+        {
+         "w": "plan.",
+         "start": 107.971,
+         "end": 108.313
+        }
+       ]
+      },
+      {
+       "text": "Rosa checked out a new book that day.",
+       "start": 108.903,
+       "end": 111.649,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 108.943,
+         "end": 109.429
+        },
+        {
+         "w": "checked",
+         "start": 109.429,
+         "end": 109.915
+        },
+        {
+         "w": "out",
+         "start": 109.915,
+         "end": 110.194
+        },
+        {
+         "w": "a",
+         "start": 110.194,
+         "end": 110.473
+        },
+        {
+         "w": "new",
+         "start": 110.473,
+         "end": 110.752
+        },
+        {
+         "w": "book",
+         "start": 110.752,
+         "end": 111.031
+        },
+        {
+         "w": "that",
+         "start": 111.031,
+         "end": 111.31
+        },
+        {
+         "w": "day.",
+         "start": 111.31,
+         "end": 111.589
+        }
+       ]
+      }
+     ],
+     "speech_end": 112.179,
+     "end": 112.729
+    }
+   ],
+   "end": 113.149
+  },
+  {
+   "id": "S4",
+   "phase": "I do",
+   "start": 113.149,
+   "segments": [
+    {
+     "start": 113.849,
+     "text": "Let me show you how I find the plot. First, I look for what happens at the beginning.",
+     "paragraph": null,
+     "highlight": {
+      "paragraph": 1
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Let me show you how I find the plot.",
+       "start": 113.849,
+       "end": 115.988,
+       "words": [
+        {
+         "w": "Let",
+         "start": 113.889,
+         "end": 114.115
+        },
+        {
+         "w": "me",
+         "start": 114.115,
+         "end": 114.342
+        },
+        {
+         "w": "show",
+         "start": 114.342,
+         "end": 114.569
+        },
+        {
+         "w": "you",
+         "start": 114.569,
+         "end": 114.795
+        },
+        {
+         "w": "how",
+         "start": 114.795,
+         "end": 115.022
+        },
+        {
+         "w": "I",
+         "start": 115.022,
+         "end": 115.249
+        },
+        {
+         "w": "find",
+         "start": 115.249,
+         "end": 115.475
+        },
+        {
+         "w": "the",
+         "start": 115.475,
+         "end": 115.702
+        },
+        {
+         "w": "plot.",
+         "start": 115.702,
+         "end": 115.928
+        }
+       ]
+      },
+      {
+       "text": "First, I look for what happens at the beginning.",
+       "start": 116.268,
+       "end": 119.168,
+       "words": [
+        {
+         "w": "First,",
+         "start": 116.308,
+         "end": 116.701
+        },
+        {
+         "w": "I",
+         "start": 116.701,
+         "end": 116.936
+        },
+        {
+         "w": "look",
+         "start": 116.936,
+         "end": 117.172
+        },
+        {
+         "w": "for",
+         "start": 117.172,
+         "end": 117.407
+        },
+        {
+         "w": "what",
+         "start": 117.407,
+         "end": 117.643
+        },
+        {
+         "w": "happens",
+         "start": 117.643,
+         "end": 118.053
+        },
+        {
+         "w": "at",
+         "start": 118.053,
+         "end": 118.288
+        },
+        {
+         "w": "the",
+         "start": 118.288,
+         "end": 118.524
+        },
+        {
+         "w": "beginning.",
+         "start": 118.524,
+         "end": 119.108
+        }
+       ]
+      }
+     ],
+     "speech_end": 119.448,
+     "end": 119.998
+    },
+    {
+     "start": 119.998,
+     "text": "On Monday, Rosa checked out a book about sea turtles. This is the first event. It starts the story.",
+     "paragraph": null,
+     "highlight": {
+      "quote": "On Monday, Rosa checked out a book about sea turtles.",
+      "tag": "Beginning"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "On Monday, Rosa checked out a book about sea turtles.",
+       "start": 119.998,
+       "end": 123.606,
+       "words": [
+        {
+         "w": "On",
+         "start": 120.038,
+         "end": 120.282
+        },
+        {
+         "w": "Monday,",
+         "start": 120.282,
+         "end": 120.87
+        },
+        {
+         "w": "Rosa",
+         "start": 120.87,
+         "end": 121.295
+        },
+        {
+         "w": "checked",
+         "start": 121.295,
+         "end": 121.72
+        },
+        {
+         "w": "out",
+         "start": 121.72,
+         "end": 121.964
+        },
+        {
+         "w": "a",
+         "start": 121.964,
+         "end": 122.208
+        },
+        {
+         "w": "book",
+         "start": 122.208,
+         "end": 122.452
+        },
+        {
+         "w": "about",
+         "start": 122.452,
+         "end": 122.877
+        },
+        {
+         "w": "sea",
+         "start": 122.877,
+         "end": 123.121
+        },
+        {
+         "w": "turtles.",
+         "start": 123.121,
+         "end": 123.546
+        }
+       ]
+      },
+      {
+       "text": "This is the first event.",
+       "start": 123.886,
+       "end": 125.724,
+       "words": [
+        {
+         "w": "This",
+         "start": 123.926,
+         "end": 124.228
+        },
+        {
+         "w": "is",
+         "start": 124.228,
+         "end": 124.531
+        },
+        {
+         "w": "the",
+         "start": 124.531,
+         "end": 124.834
+        },
+        {
+         "w": "first",
+         "start": 124.834,
+         "end": 125.137
+        },
+        {
+         "w": "event.",
+         "start": 125.137,
+         "end": 125.664
+        }
+       ]
+      },
+      {
+       "text": "It starts the story.",
+       "start": 126.004,
+       "end": 127.472,
+       "words": [
+        {
+         "w": "It",
+         "start": 126.044,
+         "end": 126.333
+        },
+        {
+         "w": "starts",
+         "start": 126.333,
+         "end": 126.621
+        },
+        {
+         "w": "the",
+         "start": 126.621,
+         "end": 126.91
+        },
+        {
+         "w": "story.",
+         "start": 126.91,
+         "end": 127.412
+        }
+       ]
+      }
+     ],
+     "speech_end": 127.752,
+     "end": 128.302
+    },
+    {
+     "start": 128.302,
+     "text": "Next, I look for the problem. Here it is. The book was not there. This is where the problem starts.",
+     "paragraph": null,
+     "highlight": {
+      "quote": "The book was not there.",
+      "tag": "Problem"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Next, I look for the problem.",
+       "start": 128.302,
+       "end": 130.289,
+       "words": [
+        {
+         "w": "Next,",
+         "start": 128.342,
+         "end": 128.767
+        },
+        {
+         "w": "I",
+         "start": 128.767,
+         "end": 129.022
+        },
+        {
+         "w": "look",
+         "start": 129.022,
+         "end": 129.276
+        },
+        {
+         "w": "for",
+         "start": 129.276,
+         "end": 129.531
+        },
+        {
+         "w": "the",
+         "start": 129.531,
+         "end": 129.786
+        },
+        {
+         "w": "problem.",
+         "start": 129.786,
+         "end": 130.229
+        }
+       ]
+      },
+      {
+       "text": "Here it is.",
+       "start": 130.569,
+       "end": 131.515,
+       "words": [
+        {
+         "w": "Here",
+         "start": 130.609,
+         "end": 130.891
+        },
+        {
+         "w": "it",
+         "start": 130.891,
+         "end": 131.173
+        },
+        {
+         "w": "is.",
+         "start": 131.173,
+         "end": 131.455
+        }
+       ]
+      },
+      {
+       "text": "The book was not there.",
+       "start": 131.795,
+       "end": 133.416,
+       "words": [
+        {
+         "w": "The",
+         "start": 131.835,
+         "end": 132.139
+        },
+        {
+         "w": "book",
+         "start": 132.139,
+         "end": 132.443
+        },
+        {
+         "w": "was",
+         "start": 132.443,
+         "end": 132.748
+        },
+        {
+         "w": "not",
+         "start": 132.748,
+         "end": 133.052
+        },
+        {
+         "w": "there.",
+         "start": 133.052,
+         "end": 133.356
+        }
+       ]
+      },
+      {
+       "text": "This is where the problem starts.",
+       "start": 133.696,
+       "end": 135.793,
+       "words": [
+        {
+         "w": "This",
+         "start": 133.736,
+         "end": 134.032
+        },
+        {
+         "w": "is",
+         "start": 134.032,
+         "end": 134.329
+        },
+        {
+         "w": "where",
+         "start": 134.329,
+         "end": 134.625
+        },
+        {
+         "w": "the",
+         "start": 134.625,
+         "end": 134.921
+        },
+        {
+         "w": "problem",
+         "start": 134.921,
+         "end": 135.437
+        },
+        {
+         "w": "starts.",
+         "start": 135.437,
+         "end": 135.733
+        }
+       ]
+      }
+     ],
+     "speech_end": 136.073,
+     "end": 136.623
+    },
+    {
+     "start": 136.623,
+     "text": "Why does it matter? She did not want to tell the librarian that she had lost it. Rosa is worried.",
+     "paragraph": null,
+     "highlight": {
+      "quote": "She did not want to tell the librarian that she had lost it.",
+      "tag": "Problem"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Why does it matter?",
+       "start": 136.623,
+       "end": 137.862,
+       "words": [
+        {
+         "w": "Why",
+         "start": 136.663,
+         "end": 136.903
+        },
+        {
+         "w": "does",
+         "start": 136.903,
+         "end": 137.144
+        },
+        {
+         "w": "it",
+         "start": 137.144,
+         "end": 137.384
+        },
+        {
+         "w": "matter?",
+         "start": 137.384,
+         "end": 137.802
+        }
+       ]
+      },
+      {
+       "text": "She did not want to tell the librarian that she had lost it.",
+       "start": 138.142,
+       "end": 141.651,
+       "words": [
+        {
+         "w": "She",
+         "start": 138.182,
+         "end": 138.418
+        },
+        {
+         "w": "did",
+         "start": 138.418,
+         "end": 138.653
+        },
+        {
+         "w": "not",
+         "start": 138.653,
+         "end": 138.888
+        },
+        {
+         "w": "want",
+         "start": 138.888,
+         "end": 139.124
+        },
+        {
+         "w": "to",
+         "start": 139.124,
+         "end": 139.359
+        },
+        {
+         "w": "tell",
+         "start": 139.359,
+         "end": 139.594
+        },
+        {
+         "w": "the",
+         "start": 139.594,
+         "end": 139.83
+        },
+        {
+         "w": "librarian",
+         "start": 139.83,
+         "end": 140.414
+        },
+        {
+         "w": "that",
+         "start": 140.414,
+         "end": 140.649
+        },
+        {
+         "w": "she",
+         "start": 140.649,
+         "end": 140.884
+        },
+        {
+         "w": "had",
+         "start": 140.884,
+         "end": 141.12
+        },
+        {
+         "w": "lost",
+         "start": 141.12,
+         "end": 141.355
+        },
+        {
+         "w": "it.",
+         "start": 141.355,
+         "end": 141.591
+        }
+       ]
+      },
+      {
+       "text": "Rosa is worried.",
+       "start": 141.931,
+       "end": 143.327,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 141.971,
+         "end": 142.474
+        },
+        {
+         "w": "is",
+         "start": 142.474,
+         "end": 142.763
+        },
+        {
+         "w": "worried.",
+         "start": 142.763,
+         "end": 143.267
+        }
+       ]
+      }
+     ],
+     "speech_end": 143.607,
+     "end": 144.157
+    }
+   ],
+   "end": 144.577
+  },
+  {
+   "id": "S5",
+   "phase": "We do",
+   "start": 144.577,
+   "segments": [
+    {
+     "start": 145.277,
+     "text": "Now let's try one together. Find the sentence where the problem gets solved. Look at paragraph four.",
+     "paragraph": null,
+     "highlight": {
+      "paragraph": 4,
+      "tag": "Look here"
+     },
+     "timer": true,
+     "sentences": [
+      {
+       "text": "Now let's try one together.",
+       "start": 145.277,
+       "end": 147.13,
+       "words": [
+        {
+         "w": "Now",
+         "start": 145.317,
+         "end": 145.588
+        },
+        {
+         "w": "let's",
+         "start": 145.588,
+         "end": 145.858
+        },
+        {
+         "w": "try",
+         "start": 145.858,
+         "end": 146.129
+        },
+        {
+         "w": "one",
+         "start": 146.129,
+         "end": 146.399
+        },
+        {
+         "w": "together.",
+         "start": 146.399,
+         "end": 147.07
+        }
+       ]
+      },
+      {
+       "text": "Find the sentence where the problem gets solved.",
+       "start": 147.41,
+       "end": 150.481,
+       "words": [
+        {
+         "w": "Find",
+         "start": 147.45,
+         "end": 147.741
+        },
+        {
+         "w": "the",
+         "start": 147.741,
+         "end": 148.032
+        },
+        {
+         "w": "sentence",
+         "start": 148.032,
+         "end": 148.538
+        },
+        {
+         "w": "where",
+         "start": 148.538,
+         "end": 148.828
+        },
+        {
+         "w": "the",
+         "start": 148.828,
+         "end": 149.119
+        },
+        {
+         "w": "problem",
+         "start": 149.119,
+         "end": 149.625
+        },
+        {
+         "w": "gets",
+         "start": 149.625,
+         "end": 149.915
+        },
+        {
+         "w": "solved.",
+         "start": 149.915,
+         "end": 150.421
+        }
+       ]
+      },
+      {
+       "text": "Look at paragraph four.",
+       "start": 150.761,
+       "end": 152.399,
+       "words": [
+        {
+         "w": "Look",
+         "start": 150.801,
+         "end": 151.082
+        },
+        {
+         "w": "at",
+         "start": 151.082,
+         "end": 151.362
+        },
+        {
+         "w": "paragraph",
+         "start": 151.362,
+         "end": 152.059
+        },
+        {
+         "w": "four.",
+         "start": 152.059,
+         "end": 152.339
+        }
+       ]
+      }
+     ],
+     "speech_end": 152.679,
+     "end": 158.229
+    },
+    {
+     "start": 158.229,
+     "text": "Did you find it? There was the book, tucked between two cushions. Rosa finds her book. The problem is solved!",
+     "paragraph": null,
+     "highlight": {
+      "quote": "There was the book, tucked between two cushions.",
+      "tag": "Solution"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Did you find it?",
+       "start": 158.229,
+       "end": 159.417,
+       "words": [
+        {
+         "w": "Did",
+         "start": 158.269,
+         "end": 158.541
+        },
+        {
+         "w": "you",
+         "start": 158.541,
+         "end": 158.813
+        },
+        {
+         "w": "find",
+         "start": 158.813,
+         "end": 159.085
+        },
+        {
+         "w": "it?",
+         "start": 159.085,
+         "end": 159.357
+        }
+       ]
+      },
+      {
+       "text": "There was the book, tucked between two cushions.",
+       "start": 159.697,
+       "end": 162.582,
+       "words": [
+        {
+         "w": "There",
+         "start": 159.737,
+         "end": 159.993
+        },
+        {
+         "w": "was",
+         "start": 159.993,
+         "end": 160.249
+        },
+        {
+         "w": "the",
+         "start": 160.249,
+         "end": 160.504
+        },
+        {
+         "w": "book,",
+         "start": 160.504,
+         "end": 160.931
+        },
+        {
+         "w": "tucked",
+         "start": 160.931,
+         "end": 161.376
+        },
+        {
+         "w": "between",
+         "start": 161.376,
+         "end": 161.821
+        },
+        {
+         "w": "two",
+         "start": 161.821,
+         "end": 162.077
+        },
+        {
+         "w": "cushions.",
+         "start": 162.077,
+         "end": 162.522
+        }
+       ]
+      },
+      {
+       "text": "Rosa finds her book.",
+       "start": 162.862,
+       "end": 164.466,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 162.902,
+         "end": 163.454
+        },
+        {
+         "w": "finds",
+         "start": 163.454,
+         "end": 163.772
+        },
+        {
+         "w": "her",
+         "start": 163.772,
+         "end": 164.089
+        },
+        {
+         "w": "book.",
+         "start": 164.089,
+         "end": 164.406
+        }
+       ]
+      },
+      {
+       "text": "The problem is solved!",
+       "start": 164.746,
+       "end": 166.265,
+       "words": [
+        {
+         "w": "The",
+         "start": 164.786,
+         "end": 165.045
+        },
+        {
+         "w": "problem",
+         "start": 165.045,
+         "end": 165.495
+        },
+        {
+         "w": "is",
+         "start": 165.495,
+         "end": 165.754
+        },
+        {
+         "w": "solved!",
+         "start": 165.754,
+         "end": 166.205
+        }
+       ]
+      }
+     ],
+     "speech_end": 166.545,
+     "end": 167.095
+    },
+    {
+     "start": 167.095,
+     "text": "And at the end, she told the librarian what had happened.",
+     "paragraph": null,
+     "highlight": {
+      "quote": "At school, she told the librarian what had happened.",
+      "tag": "End"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "And at the end, she told the librarian what had happened.",
+       "start": 167.095,
+       "end": 170.666,
+       "words": [
+        {
+         "w": "And",
+         "start": 167.135,
+         "end": 167.372
+        },
+        {
+         "w": "at",
+         "start": 167.372,
+         "end": 167.609
+        },
+        {
+         "w": "the",
+         "start": 167.609,
+         "end": 167.846
+        },
+        {
+         "w": "end,",
+         "start": 167.846,
+         "end": 168.242
+        },
+        {
+         "w": "she",
+         "start": 168.242,
+         "end": 168.479
+        },
+        {
+         "w": "told",
+         "start": 168.479,
+         "end": 168.716
+        },
+        {
+         "w": "the",
+         "start": 168.716,
+         "end": 168.954
+        },
+        {
+         "w": "librarian",
+         "start": 168.954,
+         "end": 169.543
+        },
+        {
+         "w": "what",
+         "start": 169.543,
+         "end": 169.78
+        },
+        {
+         "w": "had",
+         "start": 169.78,
+         "end": 170.017
+        },
+        {
+         "w": "happened.",
+         "start": 170.017,
+         "end": 170.606
+        }
+       ]
+      }
+     ],
+     "speech_end": 170.946,
+     "end": 171.496
+    }
+   ],
+   "end": 171.916
+  },
+  {
+   "id": "S6",
+   "phase": "You do",
+   "start": 171.916,
+   "segments": [
+    {
+     "start": 172.616,
+     "text": "Now you try. Where does Rosa find the book? Is it A, under her bed? B, in her backpack? C, on the porch swing? Or D, at the library?",
+     "paragraph": null,
+     "highlight": null,
+     "timer": true,
+     "sentences": [
+      {
+       "text": "Now you try.",
+       "start": 172.616,
+       "end": 173.746,
+       "words": [
+        {
+         "w": "Now",
+         "start": 172.656,
+         "end": 173.0
+        },
+        {
+         "w": "you",
+         "start": 173.0,
+         "end": 173.343
+        },
+        {
+         "w": "try.",
+         "start": 173.343,
+         "end": 173.686
+        }
+       ]
+      },
+      {
+       "text": "Where does Rosa find the book?",
+       "start": 174.026,
+       "end": 176.013,
+       "words": [
+        {
+         "w": "Where",
+         "start": 174.066,
+         "end": 174.346
+        },
+        {
+         "w": "does",
+         "start": 174.346,
+         "end": 174.626
+        },
+        {
+         "w": "Rosa",
+         "start": 174.626,
+         "end": 175.113
+        },
+        {
+         "w": "find",
+         "start": 175.113,
+         "end": 175.393
+        },
+        {
+         "w": "the",
+         "start": 175.393,
+         "end": 175.673
+        },
+        {
+         "w": "book?",
+         "start": 175.673,
+         "end": 175.953
+        }
+       ]
+      },
+      {
+       "text": "Is it A, under her bed?",
+       "start": 176.293,
+       "end": 177.982,
+       "words": [
+        {
+         "w": "Is",
+         "start": 176.333,
+         "end": 176.548
+        },
+        {
+         "w": "it",
+         "start": 176.548,
+         "end": 176.762
+        },
+        {
+         "w": "A,",
+         "start": 176.762,
+         "end": 177.119
+        },
+        {
+         "w": "under",
+         "start": 177.119,
+         "end": 177.493
+        },
+        {
+         "w": "her",
+         "start": 177.493,
+         "end": 177.707
+        },
+        {
+         "w": "bed?",
+         "start": 177.707,
+         "end": 177.922
+        }
+       ]
+      },
+      {
+       "text": "B, in her backpack?",
+       "start": 178.262,
+       "end": 179.722,
+       "words": [
+        {
+         "w": "B,",
+         "start": 178.302,
+         "end": 178.721
+        },
+        {
+         "w": "in",
+         "start": 178.721,
+         "end": 178.972
+        },
+        {
+         "w": "her",
+         "start": 178.972,
+         "end": 179.224
+        },
+        {
+         "w": "backpack?",
+         "start": 179.224,
+         "end": 179.662
+        }
+       ]
+      },
+      {
+       "text": "C, on the porch swing?",
+       "start": 180.002,
+       "end": 181.575,
+       "words": [
+        {
+         "w": "C,",
+         "start": 180.042,
+         "end": 180.475
+        },
+        {
+         "w": "on",
+         "start": 180.475,
+         "end": 180.735
+        },
+        {
+         "w": "the",
+         "start": 180.735,
+         "end": 180.995
+        },
+        {
+         "w": "porch",
+         "start": 180.995,
+         "end": 181.255
+        },
+        {
+         "w": "swing?",
+         "start": 181.255,
+         "end": 181.515
+        }
+       ]
+      },
+      {
+       "text": "Or D, at the library?",
+       "start": 181.855,
+       "end": 183.668,
+       "words": [
+        {
+         "w": "Or",
+         "start": 181.895,
+         "end": 182.135
+        },
+        {
+         "w": "D,",
+         "start": 182.135,
+         "end": 182.534
+        },
+        {
+         "w": "at",
+         "start": 182.534,
+         "end": 182.774
+        },
+        {
+         "w": "the",
+         "start": 182.774,
+         "end": 183.013
+        },
+        {
+         "w": "library?",
+         "start": 183.013,
+         "end": 183.608
+        }
+       ]
+      }
+     ],
+     "speech_end": 183.948,
+     "end": 189.498
+    },
+    {
+     "start": 189.498,
+     "text": "The answer is C. Rosa finds the book on the porch swing, tucked between two cushions. She found it by thinking back to where she read it last.",
+     "paragraph": null,
+     "highlight": {
+      "choice": "C"
+     },
+     "timer": false,
+     "sentences": [
+      {
+       "text": "The answer is C.",
+       "start": 189.498,
+       "end": 190.873,
+       "words": [
+        {
+         "w": "The",
+         "start": 189.538,
+         "end": 189.807
+        },
+        {
+         "w": "answer",
+         "start": 189.807,
+         "end": 190.275
+        },
+        {
+         "w": "is",
+         "start": 190.275,
+         "end": 190.544
+        },
+        {
+         "w": "C.",
+         "start": 190.544,
+         "end": 190.813
+        }
+       ]
+      },
+      {
+       "text": "Rosa finds the book on the porch swing, tucked between two cushions.",
+       "start": 191.153,
+       "end": 195.904,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 191.193,
+         "end": 191.711
+        },
+        {
+         "w": "finds",
+         "start": 191.711,
+         "end": 192.009
+        },
+        {
+         "w": "the",
+         "start": 192.009,
+         "end": 192.306
+        },
+        {
+         "w": "book",
+         "start": 192.306,
+         "end": 192.604
+        },
+        {
+         "w": "on",
+         "start": 192.604,
+         "end": 192.901
+        },
+        {
+         "w": "the",
+         "start": 192.901,
+         "end": 193.199
+        },
+        {
+         "w": "porch",
+         "start": 193.199,
+         "end": 193.497
+        },
+        {
+         "w": "swing,",
+         "start": 193.497,
+         "end": 193.993
+        },
+        {
+         "w": "tucked",
+         "start": 193.993,
+         "end": 194.511
+        },
+        {
+         "w": "between",
+         "start": 194.511,
+         "end": 195.029
+        },
+        {
+         "w": "two",
+         "start": 195.029,
+         "end": 195.326
+        },
+        {
+         "w": "cushions.",
+         "start": 195.326,
+         "end": 195.844
+        }
+       ]
+      },
+      {
+       "text": "She found it by thinking back to where she read it last.",
+       "start": 196.184,
+       "end": 199.365,
+       "words": [
+        {
+         "w": "She",
+         "start": 196.224,
+         "end": 196.466
+        },
+        {
+         "w": "found",
+         "start": 196.466,
+         "end": 196.708
+        },
+        {
+         "w": "it",
+         "start": 196.708,
+         "end": 196.95
+        },
+        {
+         "w": "by",
+         "start": 196.95,
+         "end": 197.191
+        },
+        {
+         "w": "thinking",
+         "start": 197.191,
+         "end": 197.612
+        },
+        {
+         "w": "back",
+         "start": 197.612,
+         "end": 197.854
+        },
+        {
+         "w": "to",
+         "start": 197.854,
+         "end": 198.096
+        },
+        {
+         "w": "where",
+         "start": 198.096,
+         "end": 198.338
+        },
+        {
+         "w": "she",
+         "start": 198.338,
+         "end": 198.58
+        },
+        {
+         "w": "read",
+         "start": 198.58,
+         "end": 198.822
+        },
+        {
+         "w": "it",
+         "start": 198.822,
+         "end": 199.063
+        },
+        {
+         "w": "last.",
+         "start": 199.063,
+         "end": 199.305
+        }
+       ]
+      }
+     ],
+     "speech_end": 199.645,
+     "end": 200.195
+    }
+   ],
+   "end": 200.615
+  },
+  {
+   "id": "S7",
+   "phase": "Recap",
+   "start": 200.615,
+   "segments": [
+    {
+     "start": 201.315,
+     "text": "Great work today! A plot has a beginning, a problem, a solution, and an end.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Great work today!",
+       "start": 201.315,
+       "end": 202.725,
+       "words": [
+        {
+         "w": "Great",
+         "start": 201.355,
+         "end": 201.705
+        },
+        {
+         "w": "work",
+         "start": 201.705,
+         "end": 202.055
+        },
+        {
+         "w": "today!",
+         "start": 202.055,
+         "end": 202.665
+        }
+       ]
+      },
+      {
+       "text": "A plot has a beginning, a problem, a solution, and an end.",
+       "start": 203.005,
+       "end": 207.202,
+       "words": [
+        {
+         "w": "A",
+         "start": 203.045,
+         "end": 203.276
+        },
+        {
+         "w": "plot",
+         "start": 203.276,
+         "end": 203.507
+        },
+        {
+         "w": "has",
+         "start": 203.507,
+         "end": 203.739
+        },
+        {
+         "w": "a",
+         "start": 203.739,
+         "end": 203.97
+        },
+        {
+         "w": "beginning,",
+         "start": 203.97,
+         "end": 204.699
+        },
+        {
+         "w": "a",
+         "start": 204.699,
+         "end": 204.93
+        },
+        {
+         "w": "problem,",
+         "start": 204.93,
+         "end": 205.488
+        },
+        {
+         "w": "a",
+         "start": 205.488,
+         "end": 205.719
+        },
+        {
+         "w": "solution,",
+         "start": 205.719,
+         "end": 206.448
+        },
+        {
+         "w": "and",
+         "start": 206.448,
+         "end": 206.679
+        },
+        {
+         "w": "an",
+         "start": 206.679,
+         "end": 206.911
+        },
+        {
+         "w": "end.",
+         "start": 206.911,
+         "end": 207.142
+        }
+       ]
+      }
+     ],
+     "speech_end": 207.482,
+     "end": 208.032
+    },
+    {
+     "start": 208.032,
+     "text": "Rosa checked out a book. The book went missing. She thought back and found it. Then she told the librarian.",
+     "paragraph": null,
+     "highlight": "steps-in-turn",
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Rosa checked out a book.",
+       "start": 208.032,
+       "end": 209.787,
+       "words": [
+        {
+         "w": "Rosa",
+         "start": 208.072,
+         "end": 208.516
+        },
+        {
+         "w": "checked",
+         "start": 208.516,
+         "end": 208.961
+        },
+        {
+         "w": "out",
+         "start": 208.961,
+         "end": 209.216
+        },
+        {
+         "w": "a",
+         "start": 209.216,
+         "end": 209.471
+        },
+        {
+         "w": "book.",
+         "start": 209.471,
+         "end": 209.727
+        }
+       ]
+      },
+      {
+       "text": "The book went missing.",
+       "start": 210.067,
+       "end": 211.489,
+       "words": [
+        {
+         "w": "The",
+         "start": 210.107,
+         "end": 210.386
+        },
+        {
+         "w": "book",
+         "start": 210.386,
+         "end": 210.664
+        },
+        {
+         "w": "went",
+         "start": 210.664,
+         "end": 210.943
+        },
+        {
+         "w": "missing.",
+         "start": 210.943,
+         "end": 211.429
+        }
+       ]
+      },
+      {
+       "text": "She thought back and found it.",
+       "start": 211.769,
+       "end": 213.578,
+       "words": [
+        {
+         "w": "She",
+         "start": 211.809,
+         "end": 212.094
+        },
+        {
+         "w": "thought",
+         "start": 212.094,
+         "end": 212.378
+        },
+        {
+         "w": "back",
+         "start": 212.378,
+         "end": 212.663
+        },
+        {
+         "w": "and",
+         "start": 212.663,
+         "end": 212.948
+        },
+        {
+         "w": "found",
+         "start": 212.948,
+         "end": 213.233
+        },
+        {
+         "w": "it.",
+         "start": 213.233,
+         "end": 213.518
+        }
+       ]
+      },
+      {
+       "text": "Then she told the librarian.",
+       "start": 213.858,
+       "end": 215.748,
+       "words": [
+        {
+         "w": "Then",
+         "start": 213.898,
+         "end": 214.174
+        },
+        {
+         "w": "she",
+         "start": 214.174,
+         "end": 214.45
+        },
+        {
+         "w": "told",
+         "start": 214.45,
+         "end": 214.726
+        },
+        {
+         "w": "the",
+         "start": 214.726,
+         "end": 215.002
+        },
+        {
+         "w": "librarian.",
+         "start": 215.002,
+         "end": 215.688
+        }
+       ]
+      }
+     ],
+     "speech_end": 216.028,
+     "end": 216.578
+    },
+    {
+     "start": 216.578,
+     "text": "Next time you read a story, look for the problem, and how it gets solved.",
+     "paragraph": null,
+     "highlight": null,
+     "timer": false,
+     "sentences": [
+      {
+       "text": "Next time you read a story, look for the problem, and how it gets solved.",
+       "start": 216.578,
+       "end": 221.329,
+       "words": [
+        {
+         "w": "Next",
+         "start": 216.618,
+         "end": 216.868
+        },
+        {
+         "w": "time",
+         "start": 216.868,
+         "end": 217.119
+        },
+        {
+         "w": "you",
+         "start": 217.119,
+         "end": 217.369
+        },
+        {
+         "w": "read",
+         "start": 217.369,
+         "end": 217.62
+        },
+        {
+         "w": "a",
+         "start": 217.62,
+         "end": 217.871
+        },
+        {
+         "w": "story,",
+         "start": 217.871,
+         "end": 218.474
+        },
+        {
+         "w": "look",
+         "start": 218.474,
+         "end": 218.725
+        },
+        {
+         "w": "for",
+         "start": 218.725,
+         "end": 218.976
+        },
+        {
+         "w": "the",
+         "start": 218.976,
+         "end": 219.226
+        },
+        {
+         "w": "problem,",
+         "start": 219.226,
+         "end": 219.83
+        },
+        {
+         "w": "and",
+         "start": 219.83,
+         "end": 220.08
+        },
+        {
+         "w": "how",
+         "start": 220.08,
+         "end": 220.331
+        },
+        {
+         "w": "it",
+         "start": 220.331,
+         "end": 220.582
+        },
+        {
+         "w": "gets",
+         "start": 220.582,
+         "end": 220.832
+        },
+        {
+         "w": "solved.",
+         "start": 220.832,
+         "end": 221.269
+        }
+       ]
+      }
+     ],
+     "speech_end": 221.609,
+     "end": 222.159
+    }
+   ],
+   "end": 222.579
+  }
+ ],
+ "duration": 222.579
+}

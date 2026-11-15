@@ -1,0 +1,33 @@
+{
+  "title": "The Lunchroom Noise Problem",
+  "passage_text": "At Pecan Grove Elementary, the lunchroom used to be very loud. Two hundred students ate there at the same time. Kids had to shout to hear their friends. It was hard to think, too. Some students said the noise gave them headaches.\n\nThe fourth graders decided to solve the problem. First, they used a sound meter to measure the noise. A sound meter is a tool that shows how loud a room is. The meter showed that the room was loudest when trays banged on the tables.\n\nThe students came up with three ideas. They put soft felt pads under every tray. They hung cloth banners on the bare walls, because cloth soaks up sound. They also made a hand signal that means \"use quiet voices.\" Each idea cost very little money.\n\nAfter two weeks, they measured again. The room was much quieter. The noise meter showed the sound had dropped by almost half. Now friends can talk without shouting, and lunch feels calm again.",
+  "skill_instances": [
+    {
+      "quote": "Kids had to shout to hear their friends.",
+      "explanation": "This shows the problem: the room was too loud."
+    },
+    {
+      "quote": "They put soft felt pads under every tray.",
+      "explanation": "This is one solution to the banging trays."
+    },
+    {
+      "quote": "They hung cloth banners on the bare walls, because cloth soaks up sound.",
+      "explanation": "This is a second solution, and it tells why it works."
+    },
+    {
+      "quote": "The room was much quieter.",
+      "explanation": "This shows the solutions worked."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text about a group of fourth graders"
+  },
+  "setting": "an elementary school lunchroom in Texas",
+  "lesson_hooks": {
+    "hook_question": "What makes a room too loud?",
+    "i_do": "Model the problem sentence: 'Kids had to shout to hear their friends.'",
+    "we_do": "Students find one solution in the third paragraph.",
+    "you_do_question": "What did the students use to measure the noise?"
+  }
+}

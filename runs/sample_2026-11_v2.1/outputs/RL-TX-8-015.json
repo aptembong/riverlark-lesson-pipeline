@@ -1,0 +1,37 @@
+{
+  "title": "Fixed Fast",
+  "passage_text": "The gym at Harlingen High smelled like floor wax and nervous sweat as Jalen set his team's robot on the practice table. In twenty minutes, the Rio Valley Regional finals would begin, and the robot would have to stack six blocks in under a minute. Jalen ran his thumb along the arm one last time and felt a wire shift slightly under the tape. He told himself it was nothing, but the tiny wobble stayed in the back of his mind.\n\nThree years earlier, Jalen had sat on an overturned bucket in his grandfather's garage, watching him repair a broken radio. The workbench was covered with screws, solder, and parts from machines that no longer worked. \"Anything you build will fail sometime,\" his grandfather said, tapping the radio's case with a screwdriver. \"What matters is whether you know it well enough to fix it fast,\" he added. Jalen had been eleven and more interested in the snacks on the shelf, but he had remembered every word.\n\nBack in the gym, the announcer called Team 14 to the arena. Jalen and his partner, Priya, carried the robot to the starting square while the crowd clapped from the bleachers. When the buzzer sounded, the robot rolled forward smoothly and lifted the first block, then the second and the third. On the fourth block, the arm jerked sideways and froze in midair, exactly where the loose wire was hidden.\n\nThe rules allowed one thirty-second repair, and Priya looked at Jalen with wide eyes. He did not panic, because he had built that arm himself and knew every connection inside it. In a few quick moves he peeled back the tape, pressed the wire firmly into its socket, and wrapped it again. The arm twitched, rose, and set the fourth block in place with twenty seconds left on the clock.\n\nThey finished with five blocks instead of six, which was enough for second place. On the bus ride home, Jalen texted his grandfather a photo of the silver medal. The reply came back a minute later, just two words long, but Jalen grinned at it the whole way down the highway: \"Fixed fast.\"",
+  "skill_instances": [
+    {
+      "quote": "Jalen ran his thumb along the arm one last time and felt a wire shift slightly under the tape.",
+      "explanation": "Foreshadowing: this hints at the problem that comes later."
+    },
+    {
+      "quote": "He told himself it was nothing, but the tiny wobble stayed in the back of his mind.",
+      "explanation": "Foreshadowing: the author signals that the wire will matter."
+    },
+    {
+      "quote": "Three years earlier, Jalen had sat on an overturned bucket in his grandfather's garage, watching him repair a broken radio.",
+      "explanation": "Flashback: the story jumps back in time."
+    },
+    {
+      "quote": "\"Anything you build will fail sometime,\" his grandfather said, tapping the radio's case with a screwdriver.",
+      "explanation": "The flashback gives advice that foreshadows how Jalen will act."
+    },
+    {
+      "quote": "Back in the gym, the announcer called Team 14 to the arena.",
+      "explanation": "This returns the plot from the flashback to the present."
+    }
+  ],
+  "protagonist": {
+    "name": "Jalen",
+    "notes": "eighth-grade robotics team member"
+  },
+  "setting": "a regional robotics competition in Harlingen, Texas, and his grandfather's garage",
+  "lesson_hooks": {
+    "hook_question": "Why might an author tell part of a story out of order?",
+    "i_do": "Model the foreshadowing in the loose-wire sentence, since it is the first hint of trouble.",
+    "we_do": "Students find where the flashback begins and where it ends.",
+    "you_do_question": "What words signal that the story is jumping back in time?"
+  }
+}

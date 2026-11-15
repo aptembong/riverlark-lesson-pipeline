@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Riverlark Reviewer Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Riverlark enablement pages: same tokens as the case study, Studio and video stage. One page per audience; a sub-nav joins the four. */
+
+:root{--river:#0E4D64;--sky:#5CC6D8;--coral:#F2765A;--mist:#F4F8FA;--ink:#12313D;--muted:#4E6873;--line:#D5E3E9;--card:#fff;
+--sky-soft:#E3F5F8;--coral-soft:#FDECE7;--green:#2E7D4F;--green-soft:#E3F2E8;--yellow:#9A6B00;--yellow-soft:#FBF1D6;--red:#B3261E;--red-soft:#FBE4E2;
+--font:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+body{margin:0;background:var(--mist);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.55}
+a{color:var(--river)}
+h1,h2,h3,h4{margin:0;line-height:1.2;text-wrap:balance}
+h1{font-size:clamp(1.9rem,4vw,2.6rem);font-weight:800;letter-spacing:-.02em;color:var(--river)}
+h2{font-size:1.5rem;font-weight:800;color:var(--river)}
+h3{font-size:1.08rem;font-weight:700}
+h4{font-size:.98rem;font-weight:700}
+p{margin:0}
+:focus-visible{outline:3px solid var(--coral);outline-offset:2px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{background:var(--river);color:#fff}
+.bar{display:flex;align-items:center;gap:14px;padding:14px 0 8px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.brand svg{width:36px;height:36px}
+.wordmark{font-weight:700;font-size:1.05rem}.wordmark span{font-weight:500;opacity:.85}
+.tool{font-weight:700;padding-left:14px;border-left:1px solid rgba(255,255,255,.35)}
+.back{margin-left:auto;color:#fff;font-weight:600;font-size:.9rem}
+nav.sub{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding-top:4px}
+nav.sub::-webkit-scrollbar{display:none}
+nav.sub a{color:#D6EEF3;text-decoration:none;font-weight:600;font-size:.9rem;padding:9px 14px;border-radius:10px 10px 0 0;white-space:nowrap}
+nav.sub a:hover{color:#fff;background:rgba(255,255,255,.08)}
+nav.sub a[aria-current="page"]{background:var(--mist);color:var(--river)}
+main.wrap{padding:34px 20px 64px}
+section.blk{margin-top:44px;display:flex;flex-direction:column;gap:16px}
+.hero{display:flex;flex-direction:column;gap:12px}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted);font-size:1.08rem;max-width:72ch}
+.muted{color:var(--muted)}.small{font-size:.86rem}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.stack{display:flex;flex-direction:column;gap:12px}
+.pill{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;font-weight:700;padding:3px 10px;border-radius:999px;white-space:nowrap}
+.pill.green{background:var(--green-soft);color:var(--green)}.pill.yellow{background:var(--yellow-soft);color:var(--yellow)}.pill.red{background:var(--red-soft);color:var(--red)}
+.pill.info{background:var(--sky-soft);color:var(--river)}.pill.real{background:var(--coral-soft);color:#9C3A21}.pill.illus{background:#EEF1F3;color:#4E5A61}
+.dot{width:8px;height:8px;border-radius:50%;background:currentColor;display:inline-block}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.stack>.pill,.lane>.pill,.st>.pill{align-self:flex-start}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+@media (max-width:900px){.grid3,.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:640px){.grid2,.grid3,.grid4{grid-template-columns:1fr}}
+.lane{border-radius:16px;padding:18px;border:1px solid var(--line);background:#fff;display:flex;flex-direction:column;gap:8px;border-top:6px solid var(--line)}
+.lane.green{border-top-color:var(--green)}.lane.yellow{border-top-color:#D9A400}.lane.red{border-top-color:var(--red)}.lane.info{border-top-color:var(--sky)}
+.lane .time{font-size:.84rem;font-weight:700;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:16px}
+table{border-collapse:collapse;width:100%;font-size:.94rem}
+th,td{text-align:left;vertical-align:top;padding:12px 14px;border-bottom:1px solid var(--line)}
+th{font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);background:#FAFCFD}
+tr:last-child td{border-bottom:0}
+td b{white-space:nowrap}
+ul.plain,ol.plain{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:.95rem;padding:10px 20px;border-radius:999px;text-decoration:none;border:2px solid transparent;cursor:pointer;font-family:var(--font);background:none}
+.btn.primary{background:var(--coral);color:var(--ink)}.btn.ghost{color:var(--river);border-color:var(--river)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.callout{border-left:4px solid var(--sky);background:var(--sky-soft);border-radius:0 12px 12px 0;padding:14px 16px}
+.callout.coral{border-left-color:var(--coral);background:var(--coral-soft)}
+.example{background:#FAFCFD;border:1px dashed var(--line);border-radius:12px;padding:12px 14px;font-size:.94rem}
+.example b{display:block;font-size:.78rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:4px}
+.field{display:flex;flex-direction:column;gap:4px}
+.field label{font-weight:600;font-size:.88rem}
+input[type=text],input[type=number],input[type=date],select,textarea{font:inherit;font-size:.94rem;padding:9px 12px;border:1px solid #B9CCD4;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+textarea{min-height:76px;resize:vertical}
+pre{margin:0;background:#0F2E3A;color:#DDEFF4;border-radius:14px;padding:16px;overflow:auto;font-size:.8rem;line-height:1.5;max-height:480px;white-space:pre-wrap}
+code{font-size:.88em;background:#EAF2F5;padding:1px 5px;border-radius:5px}
+pre code{background:none;padding:0}
+.view{display:none}.view.active{display:block}
+.viewtabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.viewtabs a{font-weight:700;font-size:.92rem;padding:8px 16px;border-radius:999px;text-decoration:none;border:2px solid var(--river);color:var(--river)}
+.viewtabs a[aria-current="page"]{background:var(--river);color:#fff}
+.num{font-variant-numeric:tabular-nums}
+footer.pg{border-top:1px solid var(--line);margin-top:56px;padding-top:22px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.next-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%}
+@media (max-width:760px){.next-grid{grid-template-columns:1fr}}
+.next-grid a{display:block;background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.next-grid a span{display:block;font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.next-grid a b{color:var(--river)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+
+.desk{max-width:860px;margin:0 auto;background:#fff;border:2px solid var(--river);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:16px}
+.desk h2{font-size:1.25rem}
+.desk .row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media (max-width:640px){.desk .row{grid-template-columns:1fr}}
+.desk .cell{border-radius:12px;padding:10px 12px;font-size:.9rem}
+.desk .cell b{display:block;margin-bottom:2px}
+.cell.green{background:var(--green-soft)}.cell.yellow{background:var(--yellow-soft)}.cell.red{background:var(--red-soft)}
+.desk table{font-size:.88rem}.desk th,.desk td{padding:7px 10px}
+.desk ol{margin:0;padding-left:20px;font-size:.9rem;columns:2;column-gap:28px}
+@media (max-width:640px){.desk ol{columns:1}}
+.rubric{counter-reset:r;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.rubric{grid-template-columns:1fr}}
+.rubric div{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;gap:10px}
+.rubric div::before{counter-increment:r;content:counter(r);flex:none;width:26px;height:26px;border-radius:50%;background:var(--sky-soft);color:var(--river);font-weight:800;display:grid;place-items:center;font-size:.85rem}
+.rubric div.rep::before{background:var(--green-soft);color:var(--green)}
+.formula{display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-weight:700}
+.formula span{background:var(--sky-soft);color:var(--river);padding:6px 12px;border-radius:999px}
+@media print{header.top,footer.pg,.viewtabs,.noprint{display:none!important}body{background:#fff}.desk{border:1px solid #999}}
+
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="bar">
+    <a class="brand" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1" aria-label="Riverlark case study"><svg viewBox="0 0 48 48" aria-hidden="true"><rect width="48" height="48" rx="12" fill="#FFFFFF"/><path d="M9 34c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#5CC6D8" stroke-width="3" stroke-linecap="round"/><path d="M9 40c4-3 7-3 10 0s7 3 10 0 7-3 10 0" fill="none" stroke="#0E4D64" stroke-width="3" stroke-linecap="round"/><path d="M12 21c5-1 9 1 12 4 2-5 6-9 13-10-3 2-4 4-5 7 3 0 5 1 6 2-3 0-6 1-8 3-4 4-11 5-18-6z" fill="#0E4D64"/><circle cx="33.6" cy="18.6" r="1.1" fill="#FFFFFF"/><path d="M36.8 17.5l4-1.2-3.6 2.4z" fill="#F2765A"/></svg><span class="wordmark">riverlark <span>learning</span></span></a>
+    <span class="tool">Enablement</span>
+    <a class="back" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">← Back to case study</a>
+  </div>
+  <nav class="sub" aria-label="Enablement pages"><a href="https://claude.ai/artifact/V1DJfDBApRZKYR5bEmw3gi" aria-current="page">Reviewer guide</a><a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw">Onboarding + practice</a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV">Rollout plan</a><a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc">Prompt change process</a></nav>
+</div></header>
+
+<main class="wrap">
+  <div class="hero">
+    <span class="eyebrow">Enablement · For editors</span>
+    <h1>Reviewer guide</h1>
+    <p class="lede">How to work the review queue: what each lane means, how to read the automated results, which decision to choose, and when to overrule the lane. The desk card fits beside the queue on one screen.</p>
+    <div class="pills"><span class="pill real">Rules match pipeline/validate.py and Lesson Studio</span><span class="pill illus">Times are planning estimates</span></div>
+    <nav class="viewtabs" aria-label="Views"><a href="#guide">Full guide</a><a href="#desk-card">Desk card</a></nav>
+  </div>
+  
+<div class="view" id="guide">
+  <section class="blk" aria-labelledby="h-queue" style="margin-top:28px">
+    <h2 id="h-queue">Your queue at a glance</h2>
+    <p class="lede">The automated checks sort every passage before you see it. The lane tells you how closely to read. It never makes the decision for you.</p>
+    <div class="grid4">
+      <div class="lane green"><span class="pill green"><span class="dot"></span>Green</span><h3>Spot-check</h3><span class="time">About 30 seconds · 10% random sample</span><p>Every check passed. A random 10% of greens come to you. Skim the passage, read the highlighted examples, and run the rubric. If anything feels off, pull it into a full review.</p></div>
+      <div class="lane yellow"><span class="pill yellow"><span class="dot"></span>Yellow</span><h3>Full review</h3><span class="time">About 3 minutes · every yellow</span><p>A fit issue, or one or two yellow-list words. Read the whole passage, the check results and the full rubric, then choose a decision.</p></div>
+      <div class="lane red"><span class="pill red"><span class="dot"></span>Red</span><h3>Not in your queue</h3><span class="time">Redrafted automatically</span><p>A red-list word, three or more yellow-list words, a broken schema, or a misquoted example. It's redrafted and checked again. You see reds only in the weekly send-back review.</p></div>
+      <div class="lane info"><span class="pill info">Script</span><h3>Lesson script review</h3><span class="time">About 5 minutes · every lesson</span><p>After a passage is approved, you review its lesson script before video. See the <a href="https://claude.ai/artifact/Jrp5Xyh2dTitcADGnRmvjT">video stage</a> for what a finished script looks like.</p></div>
+    </div>
+    <p class="muted small">Times are planning estimates from the quality plan, used in the case study's editor-hours calculator.</p>
+  </section>
+
+  <section class="blk" aria-labelledby="h-week">
+    <h2 id="h-week">How the week runs</h2>
+    <div class="grid3">
+      <div class="card stack"><h3>Work oldest yellow first</h3><p class="muted">Yellows hold up a batch. Clear them before spot-checks, oldest first, so no lesson waits more than two working days.</p></div>
+      <div class="card stack"><h3>Stop at the time cap</h3><p class="muted">About 12 editor hours a week across three editors during production. When you reach your share, stop and tell the Managing Editor what's left. Tired reading misses things.</p></div>
+      <div class="card stack"><h3>Calibrate before production</h3><p class="muted">All three editors decide the same 10 sample passages on their own, then compare. Talk through every disagreement before the first batch. Repeat when the prompt changes.</p></div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-checks">
+    <h2 id="h-checks">Reading the automated results</h2>
+    <p class="lede">Each passage arrives with six check results. Here's what each one measures and what to do when it misses. The rules match <code>pipeline/validate.py</code> and are fixed before a batch runs.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col">Check</th><th scope="col">What it measures</th><th scope="col">What a miss usually means</th><th scope="col">What you do</th></tr></thead>
+      <tbody><tr><td><b>Schema</b></td><td>Every field the lesson needs is there, including the four lesson hooks.</td><td>The draft is broken. It goes red and is redrafted, so you won't see it.</td><td>Nothing. If one ever reaches you, report a wrong lane.</td></tr><tr><td><b>Length</b></td><td>Word count, against the grade's target range plus or minus 10 words.</td><td>The passage is too thin to carry the skill, or too long for the grade.</td><td>Close to range and still teaching well: approve with notes. Far off: regenerate.</td></tr><tr><td><b>Average sentence</b></td><td>Words per sentence, against the grade's range plus or minus 2. Not checked for poems.</td><td>Sentences are too long for the grade, which makes the text harder than its words.</td><td>Name the paragraphs with the longest sentences in your note. Regenerate if most of it runs long.</td></tr><tr><td><b>Skill evidence</b></td><td>How many skill examples the passage carries, and whether each one is quoted exactly.</td><td>Too few examples (yellow), or a quote that isn't in the passage word for word (red).</td><td>The script counts examples. You decide whether each one actually shows the skill.</td></tr><tr><td><b>Readability estimate</b></td><td>A free Flesch-Kincaid grade estimate, against the grade's expected range.</td><td>Words or sentences sit above or below the grade. It's an estimate and only routes the passage.</td><td>Run the licensed Lexile check. Lexile decides. If they disagree, log it.</td></tr><tr><td><b>Representation flags</b></td><td>Words on the red and yellow lists (deficit framing, stereotypes, ableist language, savior stories).</td><td>A word that often signals a problem. Red-list words, or three or more yellow-list words, send it red.</td><td>Read the whole sentence. A list can only match words. Whether the story treats people well is your call.</td></tr></tbody>
+    </table></div>
+    <div class="callout"><b>Lexile decides readability.</b> The Flesch-Kincaid number only routes passages. Riverlark's licensed Lexile analyzer runs before you approve, against the brief's Lexile range. If the estimate and Lexile disagree, Lexile wins, and you log the gap so the team can track it by grade band.</div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-rubric">
+    <h2 id="h-rubric">The rubric</h2>
+    <p class="lede">Seven checks for every passage you open. On a full review, also score teaching quality from 1 to 5. Checks 4 to 7 come from the representation framework and need a person every time.</p>
+    <div class="rubric"><div>The skill is taught, not just mentioned</div><div>Clear enough for the grade</div><div>Fits the grade's length and reading level</div><div class="rep">The main character solves their own problem</div><div class="rep">Culture, family and place read as everyday life</div><div class="rep">No stereotypes or deficit language</div><div class="rep">Disability, if present, uses person-first or neutral words</div></div>
+    <div class="grid2">
+      <div class="example"><b>Teaching quality, 1 to 5</b>5 means a teacher could use it tomorrow as is. 3 means it teaches the skill but needs your notes. 1 means it doesn't teach the skill.</div>
+      <div class="example"><b>Where these come from</b>The representation framework on the case study's <a href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#quality">Quality and governance</a> tab. The same rules are written into the prompt.</div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-decide">
+    <h2 id="h-decide">Choosing a decision</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col">Decision</th><th scope="col">Use it when</th><th scope="col">Note</th><th scope="col">What happens next</th></tr></thead>
+      <tbody><tr><td><b>Approve</b></td><td>Meets the rubric and the Lexile check is in range.</td><td>Optional</td><td>Moves to the lesson script (Stage 5).</td></tr><tr><td><b>Approve with notes</b></td><td>Good passage, small fixes: a few word choices, one long sentence, a clearer example.</td><td>Required: what to change and where</td><td>A writer makes the fix, the checks run again, then it moves to the script.</td></tr><tr><td><b>Regenerate</b></td><td>A redraft can fix it: too short, sentences too long, a skill named but not taught.</td><td>Required: what the next draft must fix</td><td>Goes back to Claude with your note, then through the checks again.</td></tr><tr><td><b>Reject</b></td><td>A redraft won't fix it: the brief is wrong, the approach doesn't fit the standard, or you have an originality concern.</td><td>Required: why it can't be redrafted</td><td>Stops. The Managing Editor sees every reject in the weekly send-back review.</td></tr></tbody>
+    </table></div>
+    <div class="card stack">
+      <h3>Writing a note the writer can act on</h3>
+      <div class="formula"><span>What to change</span>+<span>Where</span>+<span>Why</span></div>
+      <div class="grid2">
+        <div class="example"><b>Hard to act on</b>Too easy. Fix the reading level.</div>
+        <div class="example"><b>Easy to act on (illustrative, RL-TX-E1-016)</b>Strong theme and setting work, and Teresa makes her own choice. Readability estimate is just under the grade 9 floor, so raise a few word choices to grade level in paragraphs 1 and 2, then confirm with the licensed Lexile check before video.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-overrule">
+    <h2 id="h-overrule">When to overrule the lane</h2>
+    <p class="lede">You always can. A lane is the checks' best guess. When yours is different, make your call and log the wrong lane, so the rules get better instead of you working around them.</p>
+    <div class="grid3">
+      <div class="card stack"><span class="pill green"><span class="dot"></span>Green, but…</span><h3>Pull it into a full review</h3><p class="muted">Every check passed, but an example is quoted exactly and still doesn't show the skill, or the character is rescued by someone else. Checks can't see either one.</p></div>
+      <div class="card stack"><span class="pill yellow"><span class="dot"></span>Yellow, but fine</span><h3>Approve it</h3><p class="muted">The estimate missed but Lexile is in range, or the passage is a few words over and reads well. Approve and log that the check disagreed with you.</p></div>
+      <div class="card stack"><span class="pill info">Flag, but fair</span><h3>Approve and report the list</h3><p class="muted">A flagged word is used fairly in context. This happened for real: an early validator flagged “authentic” near “culture,” the exact language the framework asks for, so the pattern was removed and the reason recorded in the code.</p></div>
+    </div>
+    <div class="callout coral"><b>Never change a check yourself.</b> Validator rules change only through the Managing Editor, and only between batches, so a rule is never tuned to the batch it scores. Your wrong-lane reports are the evidence for the next change.</div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-report">
+    <h2 id="h-report">Report a wrong lane</h2>
+    <p class="lede">Fill this in, copy the line, and paste it into the review log. It takes under a minute. The AI Workflow team reads the log every week.</p>
+    <div class="card stack">
+      <div class="grid3">
+        <div class="field"><label for="w-id">Lesson ID</label><input id="w-id" type="text" placeholder="RL-TX-6-012"></div>
+        <div class="field"><label for="w-got">Lane it got</label><select id="w-got"><option>Green</option><option selected>Yellow</option><option>Red</option></select></div>
+        <div class="field"><label for="w-should">Lane it should have been</label><select id="w-should"><option selected>Green</option><option>Yellow</option><option>Red</option></select></div>
+        <div class="field"><label for="w-check">Which check</label><select id="w-check"><option>Schema</option><option>Length</option><option>Average sentence</option><option>Skill evidence</option><option selected>Readability estimate</option><option>Representation flags</option><option>None (checks passed, judgment didn't)</option></select></div>
+        <div class="field"><label for="w-dec">Your decision</label><select id="w-dec"><option>Approve</option><option>Approve with notes</option><option>Regenerate</option><option>Reject</option></select></div>
+        <div class="field"><label for="w-lex">Lexile result, if run</label><input id="w-lex" type="text" placeholder="e.g. 820L, in range"></div>
+      </div>
+      <div class="field"><label for="w-what">What happened, in one sentence</label><input id="w-what" type="text" placeholder="Estimate said too easy, but Lexile is in range and it reads at grade level."></div>
+      <pre id="w-out" aria-live="polite"></pre>
+      <div class="btnrow"><button class="btn primary" type="button" id="w-copy">Copy log line</button><span class="small muted" id="w-msg"></span></div>
+    </div>
+  </section>
+
+  <section class="blk" aria-labelledby="h-esc">
+    <h2 id="h-esc">Who to bring in</h2>
+    <div class="tablewrap"><table>
+      <thead><tr><th scope="col">If you see</th><th scope="col">Bring in</th><th scope="col">Meanwhile</th></tr></thead>
+      <tbody>
+        <tr><td>A representation question you're not sure about</td><td>The representation consultant</td><td>Hold the passage. Don't approve it to keep the batch moving.</td></tr>
+        <tr><td>Fewer than 90% of the passages you review in a batch get approved</td><td>Managing Editor. Generation pauses for a prompt change</td><td>Finish the passages already in your queue.</td></tr>
+        <tr><td>The same send-back reason three or more times in a week</td><td>Managing Editor and AI Workflow, as a <a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc">prompt change request</a></td><td>Keep deciding each passage on its own.</td></tr>
+        <tr><td>A passage that might not be original</td><td>Managing Editor</td><td>Reject with the reason. Don't regenerate it.</td></tr>
+        <tr><td>A check that looks broken (a schema error reaching you, a quote marked missing that's there)</td><td>AI Workflow</td><td>Decide the passage on its merits and log the wrong lane.</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+</div>
+
+  
+<div class="view" id="desk-card">
+  <div class="desk" style="margin-top:24px" id="desk">
+    <div style="display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap"><h2>Riverlark review desk card</h2><span class="muted small">Keep beside the queue</span></div>
+    <div class="row">
+      <div class="cell green"><b>Green · 30 s · 10% sample</b>Skim, read the examples, run the rubric. Anything off? Full review.</div>
+      <div class="cell yellow"><b>Yellow · 3 min · every one</b>Whole passage, check results, full rubric, score 1 to 5.</div>
+      <div class="cell red"><b>Red · not yours</b>Redrafted automatically. Seen only in the weekly send-back review.</div>
+    </div>
+    <div><h3 style="margin-bottom:6px">Rubric</h3><ol><li>The skill is taught, not just mentioned</li><li>Clear enough for the grade</li><li>Fits the grade's length and reading level</li><li>The main character solves their own problem</li><li>Culture, family and place read as everyday life</li><li>No stereotypes or deficit language</li><li>Disability, if present, uses person-first or neutral words</li></ol></div>
+    <div class="tablewrap" style="border-radius:12px"><table><thead><tr><th>Decision</th><th>When</th><th>Note</th></tr></thead><tbody><tr><td><b>Approve</b></td><td>Meets the rubric and the Lexile check is in range.</td><td>Optional</td></tr><tr><td><b>Approve with notes</b></td><td>Good passage, small fixes: a few word choices, one long sentence, a clearer example.</td><td>Required</td></tr><tr><td><b>Regenerate</b></td><td>A redraft can fix it: too short, sentences too long, a skill named but not taught.</td><td>Required</td></tr><tr><td><b>Reject</b></td><td>A redraft won't fix it: the brief is wrong, the approach doesn't fit the standard, or you have an originality concern.</td><td>Required</td></tr></tbody></table></div>
+    <div class="row">
+      <div class="cell" style="background:var(--sky-soft)"><b>Good note</b>What to change + where + why.</div>
+      <div class="cell" style="background:var(--sky-soft)"><b>Lexile decides</b>The estimate only routes. Run Lexile before you approve.</div>
+      <div class="cell" style="background:var(--coral-soft)"><b>Disagree with a lane?</b>Make your call, then log the wrong lane. Never change a check.</div>
+    </div>
+    <p class="small muted">Representation doubt: hold and ask the consultant. Same send-back reason 3+ times a week: tell the Managing Editor.</p>
+  </div>
+  <div class="btnrow noprint" style="justify-content:center;margin-top:16px"><button class="btn primary" type="button" id="d-copy">Copy as text</button><a class="btn ghost" href="#guide">Read the full guide</a><span class="small muted" id="d-msg"></span></div>
+</div>
+
+  <p class="small muted" style="margin-top:28px">Want to try it first? Practice on real sample passages in <a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw#practice">onboarding and practice</a>, or review a live draft in <a href="https://claude.ai/artifact/7xML8iRSihrrK4vWzbYCqT">Lesson Studio</a>.</p>
+  <footer class="pg">
+  <div class="next-grid"><a href="https://claude.ai/artifact/DzSj4RyCXu1dxATcL7Rxhw"><span>Enablement</span><b>Onboarding + practice →</b></a><a href="https://claude.ai/artifact/Mn54UsCdavDtKLtTaEXMZV"><span>Enablement</span><b>Rollout plan →</b></a><a href="https://claude.ai/artifact/3yNSRnMCGus3tdPtg9aPNc"><span>Enablement</span><b>Prompt change process →</b></a></div>
+  <div class="btnrow" style="width:100%">
+    <a class="btn primary" href="https://claude.ai/artifact/8cQtYZuDdt3jodLvn8Akp1#enablement">Back to the case study</a>
+    <a class="btn ghost" href="https://claude.ai/artifact/7xML8iRSihrrK4vWzbYCqT">Open Lesson Studio</a>
+    <span class="muted small">Riverlark Learning is a fictional publisher. Texas, TEKS and STAAR are real. People and decisions marked illustrative are written to show how the process works.</span>
+  </div>
+</footer>
+
+</main>
+<script>
+/* hash views: show the view named in location.hash, else the first */
+(function(){
+  const views=[...document.querySelectorAll('.view')], tabs=[...document.querySelectorAll('.viewtabs a')];
+  if(!views.length) return;
+  function show(){
+    const h=(location.hash||'').slice(1); const v=views.find(x=>x.id===h)||views[0];
+    views.forEach(x=>x.classList.toggle('active',x===v));
+    tabs.forEach(a=>{ if(a.getAttribute('href')==='#'+v.id) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  }
+  window.addEventListener('hashchange',()=>{show();window.scrollTo(0,0)}); show();
+})();
+async function copyText(text, msgEl){
+  try{ await navigator.clipboard.writeText(text); if(msgEl) msgEl.textContent='Copied.'; }
+  catch(e){ if(msgEl) msgEl.textContent='Your browser blocked copying. Select the text in the box and copy it.'; }
+}
+function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+
+const W=['w-id','w-got','w-should','w-check','w-dec','w-lex','w-what'].map(id=>document.getElementById(id));
+function wline(){
+  const [id,got,sh,ck,dec,lex,what]=W.map(e=>e.value.trim());
+  const d=new Date().toISOString().slice(0,10);
+  return `${d} | ${id||'(lesson ID)'} | wrong lane: ${got} -> should be ${sh} | check: ${ck} | decision: ${dec}${lex?` | Lexile: ${lex}`:''} | ${what||'(what happened)'}`;
+}
+function wrender(){document.getElementById('w-out').textContent=wline();}
+W.forEach(e=>e.addEventListener('input',wrender)); wrender();
+document.getElementById('w-copy').addEventListener('click',()=>copyText(wline(),document.getElementById('w-msg')));
+document.getElementById('d-copy').addEventListener('click',()=>{
+  const t=document.getElementById('desk').innerText.replace(/\n{3,}/g,'\n\n');
+  copyText(t,document.getElementById('d-msg'));
+});
+</script>
+</body>
+</html>

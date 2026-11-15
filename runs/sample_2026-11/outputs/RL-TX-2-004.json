@@ -1,0 +1,37 @@
+{
+  "title": "Why Bluebonnets Bloom in Spring",
+  "passage_text": "Every spring, the roadsides in Texas turn bright blue. This happens because bluebonnet seeds wait in the ground all winter long. When the cool fall rains soak the soil, the seeds start to sprout.\n\nBecause the plants grow slowly through the winter, their roots get deep and strong. When spring brings warm sunny days, the plants finally bloom. Bees visit the flowers, so pollen moves from bloom to bloom.\n\nAs a result, the plants make new seeds in their fuzzy pods. The pods dry out and pop open in early summer. That is why new bluebonnets appear in the same spots the next year.",
+  "skill_instances": [
+    {
+      "quote": "This happens because bluebonnet seeds wait in the ground all winter long.",
+      "explanation": "Because tells the cause of the blue roadsides."
+    },
+    {
+      "quote": "When the cool fall rains soak the soil, the seeds start to sprout.",
+      "explanation": "Rain is the cause; sprouting is the effect."
+    },
+    {
+      "quote": "Because the plants grow slowly through the winter, their roots get deep and strong.",
+      "explanation": "Slow growth causes strong roots."
+    },
+    {
+      "quote": "Bees visit the flowers, so pollen moves from bloom to bloom.",
+      "explanation": "So shows the effect of bees visiting."
+    },
+    {
+      "quote": "As a result, the plants make new seeds in their fuzzy pods.",
+      "explanation": "As a result shows an effect."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "Texas roadsides in spring",
+  "lesson_hooks": {
+    "hook_question": "Have you seen fields of blue flowers in spring?",
+    "i_do": "Model the cause-and-effect signal word because.",
+    "we_do": "Find the sentence that uses so.",
+    "you_do_question": "What causes the seeds to sprout?"
+  }
+}

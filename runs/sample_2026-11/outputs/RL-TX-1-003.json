@@ -1,0 +1,37 @@
+{
+  "title": "How a Bean Plant Grows",
+  "passage_text": "A bean plant grows in steps. First, a farmer puts a bean seed in the soil. Next, the seed drinks up the rain water. Then a tiny root pushes down into the dirt.\n\nAfter that, a green shoot pokes up into the sun. Soon the shoot grows big leaves. Last, the plant makes new pods with beans inside. Each pod holds seeds for next year. The steps happen again and again.",
+  "skill_instances": [
+    {
+      "quote": "First, a farmer puts a bean seed in the soil.",
+      "explanation": "First tells us the first step."
+    },
+    {
+      "quote": "Next, the seed drinks up the rain water.",
+      "explanation": "Next tells us what happens second."
+    },
+    {
+      "quote": "Then a tiny root pushes down into the dirt.",
+      "explanation": "Then shows the next step in order."
+    },
+    {
+      "quote": "After that, a green shoot pokes up into the sun.",
+      "explanation": "After that moves us forward in time."
+    },
+    {
+      "quote": "Last, the plant makes new pods with beans inside.",
+      "explanation": "Last tells us the final step."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "a farm field",
+  "lesson_hooks": {
+    "hook_question": "How does a seed become a plant?",
+    "i_do": "Model the signal word First.",
+    "we_do": "Find the step that comes after the root grows.",
+    "you_do_question": "What happens last?"
+  }
+}

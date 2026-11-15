@@ -1,0 +1,37 @@
+{
+  "title": "The Ice Storm Project",
+  "passage_text": "In February, an ice storm hit our town near Waco. Ice covered every road, and the power lines sagged under the weight. On the second morning, our lights flickered and went dark.\n\nWithout power, our heater stopped working. The house grew colder every hour, and I could see my breath in the kitchen. We wore our coats inside and drank warm soup from a thermos. My plan to finish my science project on the computer was ruined, and it was due on Monday.\n\nI had to think differently. I gathered my notes, a flashlight, and a box of colored pencils. Then I sat near the window, where the gray light was brightest. I drew my diagram of the water cycle by hand instead of printing it. It took me most of Saturday. My little sister held the flashlight when the afternoon got dark.\n\nBy Sunday night, the ice began to melt, and the power came back on. My poster was finished. On Monday, my teacher said the hand-drawn diagram was the clearest one in the class. The storm had changed my plan, but it did not stop me.",
+  "skill_instances": [
+    {
+      "quote": "Ice covered every road, and the power lines sagged under the weight.",
+      "explanation": "The icy setting sets up the problem that comes next."
+    },
+    {
+      "quote": "Without power, our heater stopped working.",
+      "explanation": "The setting causes a new problem in the plot."
+    },
+    {
+      "quote": "My plan to finish my science project on the computer was ruined, and it was due on Monday.",
+      "explanation": "The storm changes the narrator's plan."
+    },
+    {
+      "quote": "Then I sat near the window, where the gray light was brightest.",
+      "explanation": "The narrator acts because of the dark setting."
+    },
+    {
+      "quote": "The storm had changed my plan, but it did not stop me.",
+      "explanation": "The narrator sums up how the setting shaped the story."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "fourth-grade narrator, unnamed, with a little sister"
+  },
+  "setting": "a home near Waco, Texas, during a February ice storm",
+  "lesson_hooks": {
+    "hook_question": "How can the weather change your plans?",
+    "i_do": "Model how 'Without power, our heater stopped working.' links the setting to the plot.",
+    "we_do": "Students explain how the setting changes the science project plan.",
+    "you_do_question": "Why did the narrator draw the diagram by hand?"
+  }
+}

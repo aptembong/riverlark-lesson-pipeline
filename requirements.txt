@@ -1,0 +1,9 @@
+# Stage 3 checks (pipeline/validate.py). Pinned so re-running reproduces the saved reports exactly.
+textstat==0.7.3
+pyphen==0.18.1
+
+# Only needed to rebuild the sample video (video/). Also needs ffmpeg and the Inter font.
+# kokoro-onnx
+# soundfile
+# numpy
+# Pillow

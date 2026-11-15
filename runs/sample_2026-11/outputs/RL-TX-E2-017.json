@@ -1,0 +1,37 @@
+{
+  "title": "A Semester That Pays for Itself",
+  "passage_text": "By the time most Texas students graduate from high school, they are only months away from signing a lease, opening a credit card, or taking out a student loan, yet many have never been taught how interest works or how to build a simple budget. Every high school in the state should require one semester of personal finance, because financial skills affect nearly every adult decision students will face.\n\nThe case begins with the stakes. Young adults who misunderstand credit can damage their scores for years, which raises the cost of car loans, apartment deposits, and even some job applications that include credit checks. A required course would give every student, not only those whose families discuss money at home, the same foundation before those consequences arrive.\n\nCritics argue that the school day is already crowded and that adding a required course would push out electives such as art, music, or career and technical classes. This concern deserves to be taken seriously; electives keep many students engaged in school, and no one wants to lose them. However, a single semester can be scheduled during the senior year, when many students have lighter course loads, or blended into existing economics classes that most districts already require.\n\nOthers contend that personal finance is the responsibility of families, not schools. It is true that parents play an essential role in teaching children about money, and the best programs invite families into the conversation. Yet not every family has the time, confidence, or experience to explain topics like compound interest or tax withholding, and leaving the subject entirely to chance widens the gap between students who learn these skills at home and those who do not.\n\nA third objection holds that a classroom course cannot change real behavior once students face real temptations. Admittedly, knowing the right answer on a test does not guarantee wise spending. Still, courses built around practical projects, such as comparing actual loan offers or planning a first monthly budget, give students practice with decisions before the stakes become real, much as driver's education does before a student takes the wheel alone.\n\nNo single class will solve every financial problem young people face. A semester of personal finance would not replace family guidance or eliminate every mistake, but it would ensure that every graduate leaves high school with the basic tools to make informed choices. State lawmakers and local school boards should make this course a graduation requirement, and they should design it around the practical skills students will use the moment they receive their first paycheck.",
+  "skill_instances": [
+    {
+      "quote": "Critics argue that the school day is already crowded",
+      "explanation": "The writer introduces a counterargument."
+    },
+    {
+      "quote": "This concern deserves to be taken seriously",
+      "explanation": "A concession: the writer admits the concern has merit."
+    },
+    {
+      "quote": "However, a single semester can be scheduled during the senior year",
+      "explanation": "A rebuttal that answers the counterargument."
+    },
+    {
+      "quote": "It is true that parents play an essential role in teaching children about money",
+      "explanation": "A concession to the second objection."
+    },
+    {
+      "quote": "Admittedly, knowing the right answer on a test does not guarantee wise spending.",
+      "explanation": "A concession before the final rebuttal."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "student or community writer, no named narrator"
+  },
+  "setting": "Texas high schools",
+  "lesson_hooks": {
+    "hook_question": "Who taught you what you know about money?",
+    "i_do": "Model the first counterargument and the concession that follows it.",
+    "we_do": "Find the rebuttal to the claim that finance belongs at home.",
+    "you_do_question": "Which word signals a rebuttal in paragraph three?"
+  }
+}

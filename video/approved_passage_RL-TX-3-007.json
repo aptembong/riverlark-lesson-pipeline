@@ -1,0 +1,37 @@
+{
+ "title": "The Missing Library Book",
+ "passage_text": "On Monday, Rosa checked out a book about sea turtles. It had bright pictures of baby turtles racing to the ocean. She read it every night that week. On Friday, the book was due back at the library.\n\nFriday morning, Rosa looked in her backpack. The book was not there. She checked under her bed and behind the couch. Her heart beat fast. She did not want to tell the librarian that she had lost it.\n\nRosa sat down and thought hard. Where had she read the book last? She remembered reading on the porch swing after dinner, so she ran outside to look.\n\nThere was the book, tucked between two cushions. The cover was a little damp from the morning dew, but it was fine. Rosa let out a long, happy breath. Rosa dried it with a towel and put it in her backpack.\n\nAt school, she told the librarian what had happened. The librarian smiled and said that thinking back was a smart plan. Rosa checked out a new book that day.",
+ "skill_instances": [
+  {
+   "quote": "On Monday, Rosa checked out a book about sea turtles.",
+   "explanation": "This is the first event in the sequence."
+  },
+  {
+   "quote": "The book was not there.",
+   "explanation": "This is the conflict: Rosa's book is missing."
+  },
+  {
+   "quote": "She did not want to tell the librarian that she had lost it.",
+   "explanation": "This shows why the conflict matters to Rosa."
+  },
+  {
+   "quote": "There was the book, tucked between two cushions.",
+   "explanation": "This is the resolution: Rosa finds the book."
+  },
+  {
+   "quote": "At school, she told the librarian what had happened.",
+   "explanation": "This is one of the last events in the sequence."
+  }
+ ],
+ "protagonist": {
+  "name": "Rosa",
+  "notes": "third grader who loves animal books"
+ },
+ "setting": "Rosa's home and school library",
+ "lesson_hooks": {
+  "hook_question": "Have you ever lost something you needed?",
+  "i_do": "Model the conflict: 'The book was not there.' This is where the problem starts.",
+  "we_do": "Students find the sentence where the conflict is resolved.",
+  "you_do_question": "Where does Rosa find the book?"
+ }
+}

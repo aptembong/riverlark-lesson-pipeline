@@ -1,0 +1,37 @@
+{
+  "title": "Our Town Should Plant More Shade Trees",
+  "passage_text": "Summer in our town is hot, and last July the temperature topped 100 degrees on twelve days. Our playground has almost no shade, so recess is often moved inside. I believe our town should plant shade trees at every school.\n\nFacts support this idea, and some of them are easy to measure. On a sunny day, the ground under a tree can be about 20 degrees cooler than bare blacktop. Trees also soak up rain, which helps stop flooding on our street. A city report says one young tree costs about $150 to plant.\n\nSome people argue against the plan because trees need water, and our town has had dry years. That fact is true and important, and I do not want to ignore it. But many native trees, like live oaks and cedar elms, need little water once they grow roots.\n\nOther people say the trees will take years to grow. That is also a fact, and it is a fair point. Still, a tree planted this fall will give shade to students who start kindergarten next year, and waiting will only push that day back.\n\nThe facts on both sides matter, so I tried to weigh them carefully. When I put them side by side, the reasons to plant trees are stronger. Let's ask the school board to plant ten trees this fall.",
+  "skill_instances": [
+    {
+      "quote": "On a sunny day, the ground under a tree can be about 20 degrees cooler than bare blacktop.",
+      "explanation": "The author uses this fact for the argument: trees cool the playground."
+    },
+    {
+      "quote": "Trees also soak up rain, which helps stop flooding on our street.",
+      "explanation": "This fact supports the argument with a second benefit."
+    },
+    {
+      "quote": "Some people argue against the plan because trees need water, and our town has had dry years.",
+      "explanation": "This fact is used against the argument."
+    },
+    {
+      "quote": "Other people say the trees will take years to grow.",
+      "explanation": "This is another fact used against the plan."
+    },
+    {
+      "quote": "A city report says one young tree costs about $150 to plant.",
+      "explanation": "The author gives a cost fact so readers can judge the plan."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "fifth-grade student writer"
+  },
+  "setting": "a hot Texas town and its school playground",
+  "lesson_hooks": {
+    "hook_question": "Why do people use facts when they want to change someone's mind?",
+    "i_do": "Model the fact about the ground being 20 degrees cooler, since it clearly supports the argument.",
+    "we_do": "Students find one fact the author uses against the argument.",
+    "you_do_question": "What fact does the author give about the cost of a tree?"
+  }
+}

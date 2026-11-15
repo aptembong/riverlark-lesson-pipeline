@@ -1,0 +1,37 @@
+{
+  "title": "Let's Keep Our Class Fish",
+  "passage_text": "Our class has a goldfish named Bubbles. Some people want to give him away. I think we should keep him.\n\nHere are some facts. Bubbles lives in a tank by the window. Bubbles is three years old. He eats one pinch of food each morning. Taking care of him takes about five minutes a day. Our class made a chart, and every student gets a turn.\n\nNow here is my opinion. Bubbles is the best part of our room. Watching him swim makes me feel calm. I think caring for him teaches us to be kind and careful.\n\nSome people say a fish is too much work. But the facts show it is only a few minutes. Please vote to keep Bubbles!",
+  "skill_instances": [
+    {
+      "quote": "He eats one pinch of food each morning.",
+      "explanation": "This is a fact. You can check it."
+    },
+    {
+      "quote": "Taking care of him takes about five minutes a day.",
+      "explanation": "This is a fact. You can time it."
+    },
+    {
+      "quote": "Bubbles is the best part of our room.",
+      "explanation": "This is an opinion. Not everyone may agree."
+    },
+    {
+      "quote": "Watching him swim makes me feel calm.",
+      "explanation": "This is an opinion about a feeling."
+    },
+    {
+      "quote": "I think caring for him teaches us to be kind and careful.",
+      "explanation": "I think tells us this is an opinion."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "second-grade student speaker"
+  },
+  "setting": "a second-grade classroom",
+  "lesson_hooks": {
+    "hook_question": "How can you tell a fact from an opinion?",
+    "i_do": "Model a fact first: 'He eats one pinch of food each morning.' It can be checked.",
+    "we_do": "Students sort 'Bubbles is the best part of our room.' as fact or opinion.",
+    "you_do_question": "Which sentence is a fact: 'Bubbles is three years old' or 'Bubbles is the best part of our room'?"
+  }
+}

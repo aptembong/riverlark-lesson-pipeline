@@ -1,0 +1,37 @@
+{
+  "title": "Keep the Doors Open",
+  "passage_text": "Every city budget is a statement of values, and when money is tight, public libraries are often among the first services to lose hours, staff, and funding. Our city council is now considering a proposal to close the Eastside branch library on weekends and reduce its book budget by a third. I believe that decision would be a serious mistake, one that the council would come to regret. Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.\n\nI speak from experience, not only from principle, because this branch has been part of my life for years. For the past two years, I have volunteered at the Eastside branch every Saturday, shelving books, helping younger students with homework, and teaching older patrons how to fill out job applications online. In that time, I have learned more about my neighbors than any survey or spreadsheet could tell me. Above all, I have learned that the library quietly holds together much of the daily life of this side of town.\n\nConsider who actually uses the branch on a typical Saturday, when the parking lot is full before the doors even open. Students line up early, because many of them do not have reliable internet at home, and the library's computers are the only place they can complete assignments that teachers increasingly post online. Parents bring toddlers to story time, retirees read the newspapers and magazines the branch subscribes to, and adults searching for work use the printers to produce resumes and cover letters.\n\nThe logical case is just as strong as the personal one, and it begins with a simple question about who pays. Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them. Those families would have to travel across town by bus to reach the central library, often with small children in tow. A student who cannot finish homework falls behind, and a job seeker who cannot submit an application stays unemployed longer. Over time, those losses cost the city far more in earnings and potential than the council could ever save by cutting hours.\n\nThere is also a moral dimension that numbers alone cannot capture, and it may matter most of all. A public library is one of the few places left where anyone may enter, stay as long as they wish, and leave with something valuable without being asked to pay. When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.\n\nSupporters of the proposal argue that the city faces a genuine shortfall and that every department must share the burden. That point deserves respect, and I do not pretend that the budget is easy to balance or that the council's choices are simple. However, the Eastside branch already operates with fewer staff and shorter hours than the central library. Asking it to absorb a deeper cut would place an unequal share of the burden on the neighborhood that depends on it most.\n\nA fairer approach would spread any necessary reductions across all departments, protect weekend hours at every branch, and invite residents to propose savings before the final vote. Cities across Texas have found creative ways to support their libraries, from partnerships with local businesses to volunteer programs that extend hours without adding expense, and our city can learn from their example.\n\nThe council will hold a public hearing on the budget next Tuesday evening at City Hall, and residents are allowed to speak for three minutes each. I urge every student, parent, and neighbor who has ever borrowed a book, used a computer, or found a quiet place to think at the Eastside branch to attend. Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future.",
+  "skill_instances": [
+    {
+      "quote": "Libraries are not luxuries that a community can trim without consequence; they are essential infrastructure, as important to our civic life as roads, water lines, and parks.",
+      "explanation": "This is the arguable thesis. A reasonable person could disagree."
+    },
+    {
+      "quote": "I speak from experience, not only from principle, because this branch has been part of my life for years.",
+      "explanation": "Ethos: the writer builds credibility through personal experience."
+    },
+    {
+      "quote": "Closing the branch on weekends would save the city a modest sum, but the costs would simply shift to the families least able to absorb them.",
+      "explanation": "Logos: the writer reasons about who really pays."
+    },
+    {
+      "quote": "When we close its doors on the very days that working families are free to visit, we send a message about whose time and whose curiosity our city considers worth supporting.",
+      "explanation": "Pathos: the writer appeals to the reader's sense of fairness."
+    },
+    {
+      "quote": "Sign up to speak, and remind our leaders that a library is not an expense to be minimized but an investment in everyone's future.",
+      "explanation": "The call to action tells readers exactly what to do."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "high school senior who volunteers at the branch library"
+  },
+  "setting": "a Texas city facing a library budget cut",
+  "lesson_hooks": {
+    "hook_question": "What public place in your community would you fight to keep open?",
+    "i_do": "Model the ethos appeal in paragraph two, since the writer names her own experience.",
+    "we_do": "Students label the appeal used in the 'whose time and whose curiosity' sentence.",
+    "you_do_question": "What specific action does the writer ask readers to take?"
+  }
+}

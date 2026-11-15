@@ -1,0 +1,37 @@
+{
+  "title": "Salt Grass",
+  "passage_text": "The salt marsh behind Nana Ruth's house on the Bolivar Peninsula seemed limitless in the early morning. It was a gray-green sheet that ran all the way to the edge of the bay. Teresa had spent every summer of her childhood on that porch, shelling peas and counting pelicans as they skimmed the water in long, tidy lines. This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.\n\nHalf the houses on her grandmother's road had vanished, and the ones that remained stood on new stilts like anxious herons. Teresa's parents wanted Nana Ruth to move inland to Houston, where the apartment had air conditioning, an elevator, and no flood insurance to worry about. They had driven down from the city to help her relocate, and Teresa had come along anticipating a final goodbye.\n\nNana Ruth, however, was not packing. She was on her knees in the mud beside the porch steps, pressing seedlings of salt grass into the soft ground with her bare hands. \"The marsh is what saved the house,\" she said without looking up. \"It slowed the water enough that we lost the furniture instead of the walls.\"\n\nTeresa knelt beside her and took a handful of seedlings without being instructed. For the next hour, they worked in silence except for the cry of gulls and the slap of small waves against the reeds. Teresa observed how the new grass held the mud in place, and how fiddler crabs had already begun excavating tunnels between the roots. The land had been torn apart, yet it was patiently reassembling itself.\n\nThat evening, her parents laid out the apartment brochures on the kitchen table. Teresa watched her grandmother examine the glossy photographs of carpeted hallways and parking garages. Nana Ruth listened respectfully to every argument about safety and expense, because she knew they came from genuine affection. Then she folded the brochures neatly and set them aside. She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.\n\nTeresa did not know yet whether her grandmother was being courageous or merely stubborn. But as she fell asleep to the sound of the marsh breathing outside her window, she understood that some places are not just where people live. They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again. In the morning, Teresa asked if she could stay for the rest of the summer and help.",
+  "skill_instances": [
+    {
+      "quote": "This summer felt different, because it was the first one since the hurricane had pushed six feet of water through the town.",
+      "explanation": "The setting after the hurricane frames the story's central question about home."
+    },
+    {
+      "quote": "\"The marsh is what saved the house,\" she said without looking up.",
+      "explanation": "Nana Ruth sees the marsh as protection, which begins to shape the theme."
+    },
+    {
+      "quote": "The land had been torn apart, yet it was patiently reassembling itself.",
+      "explanation": "The recovering marsh mirrors the theme of rebuilding after loss."
+    },
+    {
+      "quote": "She said she would rather rebuild a home that the water could visit than live in one that had never known the tide.",
+      "explanation": "Nana Ruth's choice connects her identity to the coastal setting."
+    },
+    {
+      "quote": "They are part of who people are, shaped by every storm they endure and every patch of ground they choose to plant again.",
+      "explanation": "Teresa states the theme the setting has been building toward."
+    }
+  ],
+  "protagonist": {
+    "name": "Teresa",
+    "notes": "teenager visiting her grandmother after a hurricane"
+  },
+  "setting": "the Bolivar Peninsula on the Texas Gulf Coast, the summer after a hurricane",
+  "lesson_hooks": {
+    "hook_question": "Can a place become part of who you are?",
+    "i_do": "Model how the marsh reassembling itself mirrors the theme of rebuilding.",
+    "we_do": "Students explain how Nana Ruth's final choice ties her identity to the setting.",
+    "you_do_question": "Which sentence states the theme most directly?"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Storm Day at the Harbor Bakery",
+  "passage_text": "Every summer, Dev spent his mornings at his aunt's bakery in Port Alder, a fishing town on the Texas Gulf Coast where the air always smelled of salt and warm bread. He liked the quiet hour before sunrise, when the ovens glowed orange and the only sound outside was the slap of waves against the pier.\n\nThis year, however, the radio interrupted that quiet with an urgent warning. A tropical storm was moving toward the coast, and officials expected high winds and flooding by the next evening. Aunt Meera frowned at the forecast and began counting the trays of rolls she had promised to the shelter at the high school.\n\nDev had always been shy around customers, but the storm changed the rhythm of the whole town. Fishermen tied down their boats, neighbors nailed plywood over windows, and nobody had time to wait in long lines. Aunt Meera asked Dev to run the front counter while she baked as fast as she could.\n\nAt first his voice shook when he greeted people, but the line kept moving, and soon he was calling out orders with confidence. He packed bread for the shelter, gave directions to a family evacuating from the island, and remembered which customers needed gluten-free loaves.\n\nBy the time the first heavy bands of rain reached Port Alder, the bakery shelves were empty and the shelter had enough food for three days. Dev locked the door, listened to the wind howl down the narrow street, and realized that the storm had shown him he could lead when his town needed help.",
+  "skill_instances": [
+    {
+      "quote": "a fishing town on the Texas Gulf Coast where the air always smelled of salt and warm bread",
+      "explanation": "The setting is introduced with sensory details."
+    },
+    {
+      "quote": "A tropical storm was moving toward the coast, and officials expected high winds and flooding by the next evening.",
+      "explanation": "The coastal setting brings the storm that drives the plot."
+    },
+    {
+      "quote": "Dev had always been shy around customers, but the storm changed the rhythm of the whole town.",
+      "explanation": "The setting begins to change the character."
+    },
+    {
+      "quote": "Fishermen tied down their boats, neighbors nailed plywood over windows, and nobody had time to wait in long lines.",
+      "explanation": "The town's response to the storm creates pressure on Dev."
+    },
+    {
+      "quote": "the storm had shown him he could lead when his town needed help",
+      "explanation": "The setting shapes who Dev becomes."
+    }
+  ],
+  "protagonist": {
+    "name": "Dev",
+    "notes": "shy middle schooler who grows into a leader"
+  },
+  "setting": "a Gulf Coast fishing town before a tropical storm",
+  "lesson_hooks": {
+    "hook_question": "How can a place change the way a person acts?",
+    "i_do": "Model how the storm warning changes the plot.",
+    "we_do": "Find a sentence that shows the setting changing Dev.",
+    "you_do_question": "How is Dev different at the end than at the beginning?"
+  }
+}

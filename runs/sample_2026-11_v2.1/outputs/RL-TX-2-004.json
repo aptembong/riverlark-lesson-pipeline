@@ -1,0 +1,33 @@
+{
+  "title": "Why Puddles Disappear",
+  "passage_text": "After a rain, our playground is full of puddles. By lunch, many of them are gone. Where does the water go? It does not just sink into the ground.\n\nThe sun warms the puddle. Because the water gets warm, tiny bits of it rise into the air. This is called evaporation. You cannot see it happen, but it is always going on.\n\nWind helps too. When the wind blows across a puddle, the water dries faster. That is why puddles shrink quickly on windy days.\n\nShade does the opposite. A puddle under a tree stays cool, so it lasts much longer. Next time it rains, watch two puddles. One in the sun and one in the shade will dry at different speeds.",
+  "skill_instances": [
+    {
+      "quote": "Because the water gets warm, tiny bits of it rise into the air.",
+      "explanation": "Because tells the cause: warm water rises into the air."
+    },
+    {
+      "quote": "When the wind blows across a puddle, the water dries faster.",
+      "explanation": "The wind is the cause. Drying faster is the effect."
+    },
+    {
+      "quote": "That is why puddles shrink quickly on windy days.",
+      "explanation": "That is why points to an effect."
+    },
+    {
+      "quote": "A puddle under a tree stays cool, so it lasts much longer.",
+      "explanation": "So tells the effect of staying cool."
+    }
+  ],
+  "protagonist": {
+    "name": null,
+    "notes": "informational text, no protagonist"
+  },
+  "setting": "a school playground after rain",
+  "lesson_hooks": {
+    "hook_question": "Where do puddles go after it rains?",
+    "i_do": "Model the signal word because in the sun sentence, since it names the cause.",
+    "we_do": "Students find the cause and effect in the wind sentence.",
+    "you_do_question": "Why does a puddle in the shade last longer?"
+  }
+}
